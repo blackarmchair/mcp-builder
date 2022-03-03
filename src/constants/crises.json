@@ -1,0 +1,243 @@
+[
+	{
+		"name": "MUTANT EXTREMISTS TARGET U.S. SENATORS!",
+		"type": "Extraction",
+		"threat": 14,
+		"setup": "Randomly place three Safe Houses (Target of Opportunity) face down as shown on map C.",
+		"scoring": "Players score 2 VPs if a character they control is holding the Senator during the Cleanup Phase.",
+		"details": "Interact (Safe House): Flip over the Safe House token. If it is empty, remove the token from the game. If it shows the Senator (Civilian), this character picks up the Senator (Civilian) token.\nInteract (Senator): Pick up the Senator.\nThe Speed of the character holding the Senator becomes {S} and it rolls one less dice on defense and dodge rolls.",
+		"banned": false,
+		"id": "f1a71e83-1297-4528-be07-189a173e270e"
+	},
+	{
+		"name": "MYSTIC WAKANDAN HERBS: FACT OR FICTION?",
+		"type": "Extraction",
+		"threat": 15,
+		"setup": "Place two Herb (Asset) onto the central points on map A. Place two Vessels (Target of Opportunity) on the other two points.",
+		"scoring": "Players score 4 VPs if an allied character is holding their Herb while contesting their Vessel during the Cleanup Phase.",
+		"details": "Interact (Herb): Pick up your Herb.\nA character holding an Herb cannot perform more than one move action per turn, and adds one die to {PHYS} attack rolls, and has the {INNATE} Immunity [Slow, Stagger] superpower.\nHerbs placed farthest from a player's board edge and Vessels placed closest to a player's board edge are their Herbs and Vessels.",
+		"banned": false,
+		"id": "c60e4d20-bf2e-441b-8603-bd8163553572"
+	},
+	{
+		"name": "RESEARCH STATION ATTACKED!",
+		"type": "Extraction",
+		"threat": 16,
+		"setup": "Place one Researcher (Civilian) onto the central point on map E. Place two Evac Points (Target of Opportunity) on the other two points.",
+		"scoring": "A player scores 2 VPs if they are securing the Researcher during the Cleanup Phase. Then, a player scores 2 VPs if the Researcher is within {RNG} 1 of their Evac Point during the Cleanup Phase.",
+		"details": "During the Power Phase, the Researcher may move. If a player is securing the Researcher, they may place it within {RNG} 2 of its current position.\nThe Evac Point farthest from a player's battlefield edge is their Evac Point.",
+		"banned": false,
+		"id": "1d6914bd-67bd-4792-9786-cc7b8e24ed1e"
+	},
+	{
+		"name": "SKRULLS INFILTRATE WORLD LEADERSHIP",
+		"type": "Extraction",
+		"threat": 17,
+		"setup": "Place three Decoys (Civilians) as shown on map C.",
+		"scoring": "Players score 2 VPs if a character they control is holding the Skrull Agent during the Cleanup Phase.",
+		"details": "Interact (Decoy): Roll two dice. If either die is a {CRIT}, that character picks up the Skrull Agent (Civilian) and removes all Decoy tokens from the battlefield.\nInteract (Skrull Agent): Pick up the Skrull Agent.\nThe Speed of the character holding the Skrull Agent becomes {S}.",
+		"banned": false,
+		"id": "7210e5c5-0155-4423-957f-abbcfdf30005"
+	},
+	{
+		"name": "SPIDER INFECTED INVADE MANHATTAN",
+		"type": "Extraction",
+		"threat": 17,
+		"setup": "Place five Spider Virus Infected (Civilians) as shown on map F.",
+		"scoring": "Players score 1 VP for each Infected held by a character they control during the Cleanup Phase.",
+		"details": "Interact (Spider Virus Infected): Pick up an Infected. A character cannot hold more than one Infected.\nDuring the Power Phase, starting with the player with priority, players roll a die for each character they control holding an Infected. If the result is a {CRIT}, {WILD}, or {HIT}, that character advances {S} before rolling for the next character. The opposing player resolves this advance.",
+		"banned": false,
+		"id": "aa6e36a5-d516-48e7-99b8-92fd873b571e"
+	},
+	{
+		"name": "STRUGGLE FOR THE CUBE CONTINUES",
+		"type": "Extraction",
+		"threat": 17,
+		"setup": "Place five Cosmic Cube Fragments (Assets) as shown on map F.",
+		"scoring": "Players score 1 VP for each Fragment held by a character they control during the Cleanup Phase.",
+		"details": "Interact (Cosmic Cube Fragment): Pick up a Cosmic Cube Fragment.\nDuring the Power Phase, each character suffers 1 {DMG} for each Cosmic Cube Fragment it holds. Characters gain {PWR} equal to the {DMG} they suffered this way.",
+		"banned": false,
+		"id": "c7edcff3-6871-4f00-b911-4e5ced2ef64c"
+	},
+	{
+		"name": "THE MONTESI FORMULA FOUND",
+		"type": "Extraction",
+		"threat": 17,
+		"setup": "Place three Spellbooks (Asset) as indicated on map E.",
+		"scoring": "Players score 1 VP for each Spellbook held by a character they control during the Cleanup Phase.",
+		"details": "Interact (Spellbook): Pick up a Spellbook.\nA character cannot hold more than one Spellbook. A character holding a Spellbook can use the following attack once per turn:\n{ENRG} MYSTIC BEAM {RNG} B3 {STR} 6 {COST} 0",
+		"banned": false,
+		"id": "19e000dd-ff90-457d-a4c2-88298e3b0250"
+	},
+	{
+		"name": "FEAR GRIPS WORLD AS \"WORTHY\" TERRORIZE CITIES",
+		"type": "Extraction",
+		"threat": 18,
+		"setup": "Place four Celestial Hammers (Asset) as shown on map D.",
+		"scoring": "Players score 1 VP for each Celestial Hammer held by a character they control during the Cleanup Phase.",
+		"details": "Interact (Celestial Hammer): Pick up a Celestial Hammer.\nCharacters add one die to their attack rolls for each Celestial Hammer they are holding. When a character plays a Team Tactic card, they must pay 1 additional {PWR} for each Celestial Hammer they are holding.",
+		"banned": false,
+		"id": "1308c7cc-0e69-4281-9b90-ccd37b02cfab"
+	},
+	{
+		"name": "DEADLY LEGACY VIRUS CURED?",
+		"type": "Extraction",
+		"threat": 19,
+		"setup": "Place three Legacy Cures (Asset) as shown on map C.",
+		"scoring": "A player scores 1 VP for each Legacy Cure held by a character they control during the Cleanup Phase.",
+		"details": "Interact (Legacy Cure): Pick up a Legacy Cure. A character must spend 1 {PWR} for each Legacy Cure it is holding before using this Interact.\nAt the end of a character's activation, if it is holding one or more Legacy Cures, it may remove one special condition from itself.\nIf at any time a character is holding all three Legacy Cures, the character is immediately KO'd and its controlling player scores 8 VPs. Remove all of the Legacy Cures from the game.",
+		"banned": false,
+		"id": "f14b3cae-21b9-4535-8f69-d5871a9adc51"
+	},
+	{
+		"name": "PANIC GRIPS CITY AS EVACUATION EFFORTS CONTINUE!",
+		"type": "Extraction",
+		"threat": 19,
+		"setup": "Place four Citizens (Civilian tokens) as indicated on map B.",
+		"scoring": "Players score 1 VP for each Citizen held by a character they control during the Cleanup Phase.",
+		"details": "Interact (Citizen): Pick up a Citizen.\nA character cannot hold more than one Citizen.\nDuring its activation, a character holding a Citizen may evacuate the Citizen by spending 6 {PWR}. The character's controlling player immediately scores 2 VPs and removes the Citizen held by that character from the game.",
+		"banned": true,
+		"id": "c3f6e76e-7be2-42d2-ac1c-7d6e3b889180"
+	},
+	{
+		"name": "ALIEN SHIP CRASHES IN DOWNTOWN!",
+		"type": "Extraction",
+		"threat": 20,
+		"setup": "Place three Rubble Piles (Target of Opportunity) as shown on map C.",
+		"scoring": "Players score 2 VPs if a character they control is holding the Core during the Cleanup Phase.",
+		"details": "Interact (Rubble Pile): Roll two dice. If either die is a {CRIT}, that character picks up the Kree Power Core (Asset) and removes all Rubble Pile tokens from the battlefield.\nInteract (Kree Power Core): Pick up the Core.\nA character holding the Core cannot perform more than one move action per turn. When a character ends its activation while holding the Core, it suffers 1 {DMG} if it did not make an attack that activation.",
+		"banned": false,
+		"id": "b2401342-ae40-47ff-a72e-5158e6e16514",
+		"image": "alien_ship.PNG"
+	},
+	{
+		"name": "S.W.O.R.D. ESTABLISHES BASE ON MOON'S BLUE AREA",
+		"type": "Secure",
+		"threat": 14,
+		"setup": "Place three Consoles (Target of Opportunity) as shown on map C.",
+		"scoring": "The player controlling the most Consoles scores 3 VPs during the Cleanup Phase.",
+		"details": "Interact (Console): If no enemy characters are contesting the Console, you are now controlling the Console. If one or more enemy characters are contesting the Console, roll a die. If the result is a {CRIT}, {WILD}, or {HIT}, you are now controlling the Console.\nIf a player controls more Consoles during the Power Phase than their opponent, they control the security systems in the base and may choose an enemy character. The chosen character is pushed {S}.",
+		"banned": false,
+		"id": "1892598b-4f73-434f-9424-9288490f3884"
+	},
+	{
+		"name": "GAMMA WAVE SWEEPS ACROSS MIDWEST",
+		"type": "Secure",
+		"threat": 15,
+		"setup": "Place three Gamma Shelters (Target of Opportunity) on the battlefield as shown on map E.",
+		"scoring": "Players score 1 VP for securing the close, 2 VPs for the central, and 3 VPs for the far Shelter during the Cleanup Phase.",
+		"details": "During the Cleanup Phase, each character that is not within {RNG} 2 of a Gamma Shelter suffers 1 {DMG}.\nThe Gamma Shelter closest to a player's battlefield edge is their Close Shelter. The center Gamma Shelter is the Central Shelter. The Gamma Shelter farthest from their battlefield edge is their Far Shelter.",
+		"banned": false,
+		"id": "f8cc1a53-e3d8-4338-a5fe-c948af77772c",
+		"image": "gamma_wave.PNG"
+	},
+	{
+		"name": "COSMIC INVASION! BLACK ORDER DESCENDS ON EARTH",
+		"type": "Secure",
+		"threat": 16,
+		"setup": "Place four Cosmic Vaults (Target of Opportunity) onto the battlefield as indicated on map D.",
+		"scoring": "Players score 1 VP for each Cosmic Vault they secure during the Cleanup Phase.",
+		"details": "During the Power Phase, some Cosmic Vaults will radiate cosmic energy. Starting with the player with Priority, players roll a die for each character they control within {RNG} 1 of a Cosmic Vault. If the result is a {CRIT} or {WILD}, that character gains 2 {PWR} and is pushed away from the Vault {S} before rolling for the next character. The opposing player resolves this push.",
+		"banned": false,
+		"id": "6656f66e-e1cb-4ab7-89fe-71336b8f07f0",
+		"image": "cosmic_invasion.PNG"
+	},
+	{
+		"name": "MAYOR FISK VOWS TO FIND MISSING WITNESSES",
+		"type": "Secure",
+		"threat": 16,
+		"setup": "Place two Witnesses (Civilian) on the points near each board edge as shown on map C.",
+		"scoring": "Players score 2 VPs for each Witness they are securing during the Cleanup Phase.",
+		"details": "During the Cleanup Phase, each of the Witnesses may flee. Starting with the player with priority, each player places all Witness tokens secured by their opponent within {RNG} 2 of their current position. Each token may be placed in this way only once per round. Then each character within {RNG} 1 of a Witness suffers 1 {DMG} and gains the Stun special condition.",
+		"banned": false,
+		"id": "b83015b9-81dd-454b-8324-8b91ecf37a9d",
+		"image": "mayor_fisk.PNG"
+	},
+	{
+		"name": "DEADLY METEORS MUTATE CIVILIANS",
+		"type": "Secure",
+		"threat": 17,
+		"setup": "Place three Origin Bombs (Target of Opportunity) as shown on map C.",
+		"scoring": "The player controlling the most Origin Bombs scores 3 VPs during the Cleanup Phase.",
+		"details": "Interact (Origin Bomb): Roll dice equal to the interacting character's {ENRG} Defense. If the roll contains more {CRIT}, {WILD}, and {HIT} results than the number of Healthy enemy characters contesting this Origin Bomb, the interacting character's controlling player now controls the Origin Bomb. If the roll contains at least one {FAIL}, the interacting character suffers 1 {DMG}.",
+		"banned": false,
+		"id": "175b4218-07fa-4c7e-81d8-7a1036f81c0f",
+		"image": "deadly_meteors.PNG"
+	},
+	{
+		"name": "INFINITY FORMULA GOES MISSING",
+		"type": "Secure",
+		"threat": 17,
+		"setup": "Place four Serum Canisters (Target of Opportunity) as shown on map B.",
+		"scoring": "Players score 1 VP for each Serum Canister they are securing during the Cleanup Phase.",
+		"details": "During the Power Phase, characters contesting a Serum Canister gain 1 {PWR}.",
+		"banned": false,
+		"id": "b591eb75-0bce-45ac-88b4-16a511941750",
+		"image": "infinity_formula.PNG"
+	},
+	{
+		"name": "RIOTS SPARK OVER EXTREMIS 3.0",
+		"type": "Secure",
+		"threat": 17,
+		"setup": "Place four Extremis Consoles (Target of Opportunity) as shown on map D.",
+		"scoring": "Players score 1 VP for each Extremis Console they secure during the Cleanup Phase.",
+		"details": "Interact (Extremis Console): Remove 1 {DMG} from a non dazed character within {RNG} 2 of the Extremis Console.",
+		"banned": false,
+		"id": "c9b0c736-42c5-4763-b886-2d7fd4763a8d",
+		"image": "riots_spark.PNG"
+	},
+	{
+		"name": "MUTANT MADMAN TURNS CITY CENTER INTO LETHAL AMUSEMENT PARK",
+		"type": "Secure",
+		"threat": 18,
+		"setup": "Place four Traps (Target of Opportunity) as indicated on map B.",
+		"scoring": "Players score 1 VP for each Trap they control during the Cleanup Phase.",
+		"details": "Interact (Trap): Roll dice equal to the interacting character's {PHYS} Defense. If the roll contains more {CRIT}, {WILD}, and {HIT} results than the number of Healthy contesting enemy characters, the interacting character's controlling player now controls the Trap.\nDuring the Cleanup Phase, each player controlling a Trap chooses an enemy character within {RNG} 2 of each Trap they control. The chosen character suffers 1 {DMG} and gains 1 {PWR}. Resolve each Trap completely before moving on to the next.",
+		"banned": false,
+		"id": "ef0a9031-66d4-40b0-b51c-45c1765f1859",
+		"image": "madmen.PNG"
+	},
+	{
+		"name": "PORTALS OVERRUN CITY WITH SPIDER PEOPLE",
+		"type": "Secure",
+		"threat": 18,
+		"setup": "Place four Inheritor Portals (Target of Opportunity) as indicated on map D.",
+		"scoring": "Players score 1 VP for each Portal they Control during the Cleanup Phase.",
+		"details": "Interact (Inheritor Portal): Roll dice equal to the interacting character's {ENRG} Defense. If the roll contains more {CRIT}, {WILD}, and {HIT} results than the number of Healthy contesting enemy characters, the interacting character's controlling player now controls the Portal.\nIf the roll contains at least one {FAIL}, the interacting character is placed within {RNG} 2 of its current position. The opposing player resolves this placement.",
+		"banned": false,
+		"id": "427acb2e-7b47-4fc2-b68a-66d6dbf6237d",
+		"image": "spider_people.PNG"
+	},
+	{
+		"name": "DEMONS DOWNTOWN! HAS OUR COMEUPPANCE COME DUE?",
+		"type": "Secure",
+		"threat": 19,
+		"setup": "Place three Flaming Portals (Target of Opportunity) as indicated on map E.",
+		"scoring": "Players score 1 VP for each Flaming Portal they are securing during the Cleanup Phase.",
+		"details": "During the Power Phase, all characters within {RNG} 1 of a Flaming Portal gain the Incinerate special condition.",
+		"banned": false,
+		"id": "2929f190-6d93-48ef-bf29-9b32d0229259",
+		"image": "demons_downtown.PNG"
+	},
+	{
+		"name": "INTRUSIONS OPEN ACROSS CITY AS SEALS COLLAPSE",
+		"type": "Secure",
+		"threat": 19,
+		"setup": "Place three Dark Portals (Target of Opportunity) as indicated on map C.",
+		"scoring": "Players score 1 VP for each Dark Portal they Secure during the Cleanup Phase",
+		"details": "Interact (Dark Portal): This character drops all objective tokens it is holding, if any. Then roll a die. If the result is {CRIT}, {WILD}, {HIT}, or {BLOCK}, place this character within {RNG} 1 of another Dark Portal. Otherwise, your opponent places this character within {RNG} 1 of another Dark Portal. After being placed, this character suffers 1 {DMG}.",
+		"banned": false,
+		"id": "8d51a482-ea66-42e8-b8ef-5ca96cff5e05"
+	},
+	{
+		"name": "TERRIGEN CLOUDS SWEEP OVER CITY",
+		"type": "Secure",
+		"threat": 20,
+		"setup": "Place two Terrigen Mist Clouds (Target of Opportunity) on the points near each board edge as shown on map C.",
+		"scoring": "Players score 2 VPs for each Mist Cloud they are securing during the Cleanup Phase.",
+		"details": "During the Cleanup Phase, each of the Mist Clouds may move. Starting with the player with priority, each player places all Mist Clouds secured by their opponent within {RNG} 2 of their current position. Each token may be placed only once per round in this way. Then each character within {RNG} 1 of a Mist Cloud suffers 1 {DMG} and gains the Poison special condition.",
+		"banned": false,
+		"id": "e8740386-82bd-4531-ac85-b172c3ba15dd",
+		"image": "terrigen_clouds.PNG"
+	}
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "characterName": "Infinity Gem: Mind",
+    "alterEgo": "",
+    "threat": 1,
+    "activeSuperPowers": [],
+    "cards": [
+      "https://s3-us-west-2.amazonaws.com/assets.acrossthebifrost.com/025/1/infinity_gem_mind.jpg",
+      "https://s3-us-west-2.amazonaws.com/assets.acrossthebifrost.com/025/1/infinity_gem_mind.jpg"
+    ],
+    "id": "2d4678f7-9352-4499-be3b-99e8fdba3611",
+    "color": "rgb(185, 58, 39)"
+  },
+  {
+    "characterName": "Infinity Gem: Power",
+    "alterEgo": "",
+    "threat": 1,
+    "activeSuperPowers": [],
+    "cards": [
+      "https://s3-us-west-2.amazonaws.com/assets.acrossthebifrost.com/025/1/infinity_gem_reality.jpg",
+      "https://s3-us-west-2.amazonaws.com/assets.acrossthebifrost.com/025/1/infinity_gem_reality.jpg"
+    ],
+    "id": "14677e3f-a5f8-4884-9e98-c1f0882baf01",
+    "color": "rgb(174, 130, 56)"
+  },
+  {
+    "characterName": "Infinity Gem: Reality",
+    "alterEgo": "",
+    "threat": 1,
+    "activeSuperPowers": [],
+    "cards": [
+      "https://s3-us-west-2.amazonaws.com/assets.acrossthebifrost.com/025/1/infinity_gem_mind.jpg",
+      "https://s3-us-west-2.amazonaws.com/assets.acrossthebifrost.com/025/1/infinity_gem_mind.jpg"
+    ],
+    "id": "057c369f-391b-4398-b00e-54a8eeccec28",
+    "color": "rgb(219, 82, 37)"
+  },
+  {
+    "characterName": "Infinity Gem: Soul",
+    "alterEgo": "",
+    "threat": 1,
+    "activeSuperPowers": [],
+    "cards": [
+      "https://s3-us-west-2.amazonaws.com/assets.acrossthebifrost.com/025/1/infinity_gem_soul.jpg",
+      "https://s3-us-west-2.amazonaws.com/assets.acrossthebifrost.com/025/1/infinity_gem_soul.jpg"
+    ],
+    "id": "9a595b99-ccd5-42ef-9177-2397ac2e849a",
+    "color": "rgb(136, 81, 146)"
+  },
+  {
+    "characterName": "Infinity Gem: Space",
+    "alterEgo": "",
+    "threat": 1,
+    "activeSuperPowers": [],
+    "cards": [
+      "https://s3.us-west-2.amazonaws.com/assets.acrossthebifrost.com/025/1/TacticCard_InfinityGem_Space_Revised.png",
+      "https://s3.us-west-2.amazonaws.com/assets.acrossthebifrost.com/025/1/TacticCard_InfinityGem_Space_Revised.png"
+    ],
+    "id": "f0298220-acae-469f-9730-90e9f6a9074f",
+    "color": "rgb(21, 107, 68)"
+  },
+  {
+    "characterName": "Infinity Gem: Time",
+    "alterEgo": "",
+    "threat": 1,
+    "activeSuperPowers": [],
+    "cards": [
+      "https://s3.us-west-2.amazonaws.com/assets.acrossthebifrost.com/025/1/TacticCard_InfinityGem_Time_Revised.png",
+      "https://s3.us-west-2.amazonaws.com/assets.acrossthebifrost.com/025/1/TacticCard_InfinityGem_Time_Revised.png"
+    ],
+    "id": "ebc6e181-7820-4e41-b743-609e95aa3555",
+    "color": "rgb(34, 127, 163)"
+  }
+]
