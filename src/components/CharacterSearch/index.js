@@ -150,6 +150,7 @@ const CharacterSearch = ({ updateQuery, hideNumbers }) => {
 							</InputAdornment>
 						),
 					}}
+					autoComplete="off"
 					autoFocus
 				/>
 				<TextSearchOptionsMenu

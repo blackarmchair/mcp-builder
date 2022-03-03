@@ -239,5 +239,15 @@
 		"banned": false,
 		"id": "e8740386-82bd-4531-ac85-b172c3ba15dd",
 		"image": "terrigen_clouds.PNG"
+	},
+	{
+		"name": "SUPER-POWERED SCOUNDRELS FORM SINISTER SYNDICATE!",
+		"type": "Secure",
+		"threat": 20,
+		"setup": "Place 5 Ambush Tokens (Target of Opportunity) as shown on map F.",
+		"scoring": "Players score 1 VP for each Ambush they secure during the Cleanup Phase.",
+		"details": "Characters contesting an Ambush token have cover from attack made by characters not contesting the same Ambush token.",
+		"banned": false,
+		"id": "e8740386-82bd-4531-ac85-b172c3ba15ff"
 	}
 ]
