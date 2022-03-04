@@ -511,7 +511,7 @@
 			}
 		],
 		"cp": 1,
-		"cards": ["baron_zemo_healthy.jpg", "baron_zemo.jpg"],
+		"cards": ["baron_zemo_healthy.jpg", "baron_zemo_injured.jpg"],
 		"id": "b29cc627-6f56-4b74-a295-38d1ad3ac132",
 		"affiliations": ["Cabal"],
 		"baseSize": "35mm",
@@ -685,7 +685,7 @@
 			}
 		],
 		"cp": 34,
-		"cards": ["black_bolt_healthy.png", "black_bolt_injured.png"],
+		"cards": ["blackbolt_healthy.png", "blackbolt_injured.png"],
 		"id": "a043b487-101a-487b-9ef7-a6fd8a0b4445",
 		"affiliations": ["Inhumans"],
 		"baseSize": "35mm",
@@ -4167,7 +4167,7 @@
 			}
 		],
 		"cp": 4,
-		"cards": ["hulk_healthy.png"],
+		"cards": ["hulk_healthy.png", "hulk_healthy.png"],
 		"id": "59d1d852-1e0c-4128-9b87-23597621aa8d",
 		"affiliations": ["Avengers", "Defenders"],
 		"baseSize": "65mm",
@@ -6678,7 +6678,7 @@
 			}
 		],
 		"cp": 20,
-		"cards": ["ronan_the_accuser.jpg", "ronan_the_accuser.jpg"],
+		"cards": ["ronan_the_accuser_healthy.jpg", "ronan_the_accuser_injured.jpg"],
 		"id": "36642ef6-72d9-4e10-9865-284ee1696706",
 		"affiliations": ["Guardians of the Galaxy", "Inhumans"],
 		"baseSize": "50mm",
@@ -6986,7 +6986,7 @@
 		],
 		"innateSuperpowers": [
 			{
-				"name": "HEAD OF WAKANDA R&amp;D",
+				"name": "HEAD OF WAKANDA R&D",
 				"type": "Innate",
 				"cost": 0,
 				"specialRules": "Whenever this character rolls dice, after the effect is resolved it gains 1 {PWR} if it rolled at least 1 {FAIL}."
