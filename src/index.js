@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import App from './App';
 import themeData from './theme';
-import { register } from './serviceWorkerRegistration';
+import { register, notifyUpdate } from './serviceWorkerRegistration';
 
 const theme = createTheme(themeData);
 
@@ -16,4 +16,6 @@ ReactDOM.render(
 	document.getElementById('root')
 );
 
-register();
+register({
+	onUpdate: (reg) => notifyUpdate(reg),
+});
