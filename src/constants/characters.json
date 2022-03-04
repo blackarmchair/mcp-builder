@@ -4838,7 +4838,7 @@
 			}
 		],
 		"cp": 58,
-		"cards": ["Kraven_healthy.png", "Kraven_injured.png"],
+		"cards": ["kraven_healthy.png", "kraven_injured.png"],
 		"id": "0c65c82f-695b-49c5-a608-cf260efe00e0",
 		"affiliations": ["Criminal Syndicate", "Spider-Foes"],
 		"baseSize": "35mm",
@@ -6993,7 +6993,7 @@
 			}
 		],
 		"cp": 8,
-		"cards": ["Shuri_healthy.png", "Shuri_injured.png"],
+		"cards": ["shuri_healthy.png", "shuri_injured.png"],
 		"id": "8227dc1f-493f-443d-b63e-7b64e3b71d80",
 		"affiliations": ["A-Force", "Wakanda"],
 		"baseSize": "35mm",
