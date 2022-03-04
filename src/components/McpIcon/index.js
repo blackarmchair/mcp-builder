@@ -31,7 +31,7 @@ const MCPIcon = ({ icon, size, invert }) => {
   const icons = {
     block: { keys: ["{block}", "{block}", "block"], icon: BLOCK },
     critical: { keys: ["{crit}", "critical"], icon: CRITICAL },
-    failure: { keys: ["{failure}", "failure"], icon: FAILURE },
+    failure: { keys: ["{failure}", "failure", "{fail}", "fail"], icon: FAILURE },
     hit: { keys: ["{hit}", "hit"], icon: HIT },
     wild: { keys: ["{wild}", "wild"], icon: WILD },
     energy: { keys: ["{energy}", "energy", "{enrg}", "enrg"], icon: ENERGY },
