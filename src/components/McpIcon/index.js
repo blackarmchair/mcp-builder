@@ -36,7 +36,7 @@ const MCPIcon = ({ icon, size, invert }) => {
     wild: { keys: ["{wild}", "wild"], icon: WILD },
     energy: { keys: ["{energy}", "energy", "{enrg}", "enrg"], icon: ENERGY },
     leadership: { keys: ["{leadership}", "leadership"], icon: LEADERSHIP },
-    mystic: { keys: ["{mystic}", "mystic"], icon: MYSTIC },
+    mystic: { keys: ["{mystic}", "mystic", "{myst}", "myst"], icon: MYSTIC },
     physical: {
       keys: ["{physical}", "physical", "{phys}", "phys"],
       icon: PHYSICAL,
