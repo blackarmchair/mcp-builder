@@ -45,7 +45,7 @@ const CrisesList = ({ clickDisposition, handleSelection, preclude }) => {
 							}}
 							secondaryAction={<Typography>{crisis.threat}</Typography>}
 						>
-							<ListItemAvatar sx={{ mr: 2 }}>
+							<ListItemAvatar sx={{ mr: { xs: 0, mb: 1 } }}>
 								<Avatar
 									sx={{
 										backgroundColor: !crisis.type.localeCompare('Extraction')

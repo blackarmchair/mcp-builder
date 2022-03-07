@@ -136,7 +136,7 @@ const AddCharacters = () => {
 							<ListItem
 								sx={{
 									backgroundColor: 'transparent',
-									mb: 1,
+									mb: { xs: 0, md: 1 },
 								}}
 								onClick={() => handleSelectCharacter(character)}
 								secondaryAction={

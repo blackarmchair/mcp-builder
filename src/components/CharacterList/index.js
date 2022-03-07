@@ -13,12 +13,23 @@ import toTitleCase from '../../services/titleCase';
 import THEME from '../../theme';
 
 const CharacterList = ({ clickDisposition, handleSelection, preclude }) => {
-	const { characters } = useSearch();
+	const { characters, lastAccessedCharacter, handleSetLastAccessedCharacter } =
+		useSearch();
 	const { navigate } = useRouter();
+
+	React.useEffect(() => {
+		document
+			.getElementById(lastAccessedCharacter)
+			.scrollIntoView({ block: 'end' });
+	}, [lastAccessedCharacter]);
+
 	const precluded = Array.isArray(preclude) ? preclude : [];
 	const handleSelect = (character) => {
 		if (clickDisposition === 'select') handleSelection(character);
-		else navigate(`/card-reference/${character.id}`);
+		else {
+			handleSetLastAccessedCharacter(character.id);
+			navigate(`/card-reference/${character.id}`);
+		}
 	};
 
 	return (
@@ -36,6 +47,7 @@ const CharacterList = ({ clickDisposition, handleSelection, preclude }) => {
 								backgroundColor: THEME.palette.overlay.main,
 								mb: 1,
 							}}
+							id={character.id}
 						>
 							<ListItemAvatar sx={{ mr: 2 }}>
 								<CharacterAvatar character={character} />

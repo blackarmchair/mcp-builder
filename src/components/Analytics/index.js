@@ -136,7 +136,7 @@ const Analytics = () => {
 						<ListItemText
 							primary={`${roster.affiliations
 								.map((a) => toTitleCase(a))
-								.join(', or')} Roster`}
+								.join(', or ')} Roster`}
 							secondary={`${roster.totalThreat} Threat`}
 						/>
 						<Stack direction="row" spacing={1}>

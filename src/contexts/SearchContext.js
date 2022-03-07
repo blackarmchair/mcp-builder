@@ -16,6 +16,9 @@ export function SearchProvider({ children }) {
 	const [crises, setCrises] = useState(CRISES);
 	const [isFiltered, setIsFiltered] = useState(false);
 	const [currentSearchTerms, setCurrentTerms] = useState([]);
+	const [lastAccessedCharacter, setLastAccessedCharacter] = useState(
+		CHARACTERS[0].id
+	);
 
 	const reset = () => {
 		setCharacters(CHARACTERS);
@@ -81,6 +84,17 @@ export function SearchProvider({ children }) {
 		}
 	};
 
+	/**
+	 * This tracks the last character the user viewed in the details page.
+	 * This is used to scroll to the last spot when the back button is used.
+	 */
+	const handleSetLastAccessedCharacter = (characterId) => {
+		setLastAccessedCharacter(characterId);
+	};
+	const resetLastAccessedCharacter = () => {
+		setLastAccessedCharacter(CHARACTERS[0].id);
+	};
+
 	return (
 		<SearchContext.Provider
 			value={{
@@ -89,6 +103,9 @@ export function SearchProvider({ children }) {
 				characters,
 				teamTactics,
 				crises,
+				lastAccessedCharacter,
+				handleSetLastAccessedCharacter,
+				resetLastAccessedCharacter,
 				reset,
 				isFiltered,
 				allCharacters: CHARACTERS,

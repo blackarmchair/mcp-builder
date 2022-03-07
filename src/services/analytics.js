@@ -83,26 +83,28 @@ export const getRosterData = (roster) => {
 		}))
 
 		// Has more than half of all characters sharing an affiliation/leader
-		.filter((candidate) => {
-			return candidate.leaders.filter((leader) => {
-				const affiliationLead =
-					leader?.leadership[0]?.affiliation || 'Convocation';
-				const followers = candidate.characters.reduce((count, character) => {
-					const canBeLead = character.affiliations
-						.map((a) => a.toLowerCase())
-						.includes(affiliationLead.toLowerCase());
-					return canBeLead ? count + 1 : count;
-				}, 0);
-
-				return followers >= Math.ceil(candidate.characters.length / 2);
-			});
-		})
 		.map((candidate) => ({
 			...candidate,
-			affiliations: candidate.leaders.reduce((list, leader) => {
-				const affiliation = leader?.leadership[0]?.affiliation || 'convocation';
-				return [...new Set([...list, affiliation])];
-			}, []),
+			affiliations: candidate.leaders
+				.filter((leader) => {
+					const affiliationLead = leader.hasOwnProperty('leadership')
+						? leader?.leadership[0]?.affiliation
+						: 'Convocation';
+					const followers = candidate.characters.reduce((count, char) => {
+						const canBeLead = char.affiliations
+							.map((a) => a.toLowerCase())
+							.includes(affiliationLead.toLowerCase());
+						return canBeLead ? count + 1 : count;
+					}, 0);
+
+					return followers >= Math.ceil(candidate.characters.length / 2);
+				})
+				.reduce((list, leader) => {
+					const affiliation = leader.hasOwnProperty('leadership')
+						? leader?.leadership[0]?.affiliation
+						: 'Convocation';
+					return [...new Set([...list, affiliation])];
+				}, []),
 		}));
 
 	return {
