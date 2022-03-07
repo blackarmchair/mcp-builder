@@ -5978,6 +5978,83 @@
 		"portrait": "nebula.jpg"
 	},
 	{
+		"characterName": "Nick Fury",
+		"alterEgo": "Nicholas J. Fury, JR.",
+		"healthySide": {
+			"healthyStamina": 6,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 4,
+			"healthyPhysicalDefense": 4,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 4
+		},
+		"injuredSide": {
+			"injuredStamina": 5,
+			"injuredSpeed": "M",
+			"injuredSize": 2,
+			"injuredThreat": 4,
+			"injuredPhysicalDefense": 4,
+			"injuredEnergyDefense": 3,
+			"injuredMysticalDefense": 4
+		},
+		"attacks": [
+			{
+				"name": "Fury Special",
+				"type": "Phys",
+				"range": 3,
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains 1 {PWR}. - {WILD} Pierce: Change one of the defending character's {CRIT}, {WILD}, or {BLOCK} results to a blank."
+			},
+			{
+				"name": "Tactical Knife",
+				"type": "Phys",
+				"range": 2,
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - {WILD} Bleed: After this attack is resolved, the target character gains the Bleed special condition. - {WILD} Pierce: Change one of the defending character's {CRIT}, {WILD}, or {BLOCK} results to a blank."
+			},
+			{
+				"name": "Lead from the Front",
+				"type": "Phys",
+				"range": 3,
+				"strength": 7,
+				"cost": 3,
+				"specialRules": "- After this attack is resovled, an allied S.H.I.E.L.D Agents character within {rng} 3 of this character may advance {s} toward the target character. Then, the S.H.I.E.L.D Agents character may make a Pistols attack targeting that character."
+			}
+		],
+		"leadership": [
+			{
+				"name": "Last Line of Defense",
+				"specialRules": "- If you have fewer VPs than your opponent, the first time each round an allied character is Dazed or KO'd by an enemy effect, after the effect is resolved, you score 1 VP. - If you have an equal number or more VPs than your opponent when an enemy character damages an allied character with an attack, the allied character may spend 1 {PWR}. If it does, after the attack is resolved, the allied character may advance {s} toward the attacking character.",
+				"affiliation": "S.H.I.E.L.D"
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Call in the Cavalry",
+				"type": "Active",
+				"cost": 2,
+				"specialRules": "- If there is no allied S.H.I.E.L.D Agents character in play, place it in play within {rng} 3 of this character with an Activated token. It may immediately interact with one Extract objective token. It is part of your squad."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Director of S.H.I.E.L.D",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "- When an Allied S.H.I.E.L.D Agents character is within {rng} 3 of this character, it may reroll one of its attack or defense dice, and this character gains 1 {PWR} whenever the allied character deals {DMG} or suffers {DMG} from an enemy effect."
+			}
+		],
+		"cp": 55,
+		"cards": ["nick_fury_healthy.png", "nick_fury_injured.png"],
+		"id": "64aadfb9-b553-4079-abbd-4ea1f1b4c4d8",
+		"affiliations": ["S.H.I.E.L.D"],
+		"baseSize": "35mm",
+		"portrait": "nick_fury.png"
+	},
+	{
 		"characterName": "OKOYE",
 		"alterEgo": "Okoye",
 		"healthySide": {
