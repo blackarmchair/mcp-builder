@@ -42,7 +42,7 @@ export function RouterProvider({ children }) {
 		const backPath =
 			!!targetPath && targetPath.hasOwnProperty('backPath')
 				? typeof targetPath?.backPath === 'function'
-					? targetPath.backPath(targetPath.split('/').pop())
+					? targetPath.backPath(location.pathname.split('/').pop())
 					: targetPath?.backPath
 				: '/';
 		navigate(backPath);
