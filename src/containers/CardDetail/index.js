@@ -128,21 +128,23 @@ const CardDetail = () => {
 						healthy={!side.localeCompare('healthy')}
 					/>
 
-					<Stack direction="row" justifyContent="space-around">
-						<StyledButtonGroup
-							color="white"
-							value={side}
-							exclusive
-							onChange={handleSideChange}
-						>
-							<StyledToggleButton key="healthy" value="healthy">
-								Healthy Side
-							</StyledToggleButton>
-							<StyledToggleButton key="injured" value="injured">
-								Injured Side
-							</StyledToggleButton>
-						</StyledButtonGroup>
-					</Stack>
+					{character.injuredSide.injuredStamina > 0 && (
+						<Stack direction="row" justifyContent="space-around">
+							<StyledButtonGroup
+								color="white"
+								value={side}
+								exclusive
+								onChange={handleSideChange}
+							>
+								<StyledToggleButton key="healthy" value="healthy">
+									Healthy Side
+								</StyledToggleButton>
+								<StyledToggleButton key="injured" value="injured">
+									Injured Side
+								</StyledToggleButton>
+							</StyledButtonGroup>
+						</Stack>
+					)}
 
 					<CharacterVitals
 						character={character}

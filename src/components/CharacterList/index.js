@@ -20,7 +20,7 @@ const CharacterList = ({ clickDisposition, handleSelection, preclude }) => {
 	React.useEffect(() => {
 		document
 			.getElementById(lastAccessedCharacter)
-			.scrollIntoView({ block: 'end' });
+			?.scrollIntoView({ block: 'end' });
 	}, [lastAccessedCharacter]);
 
 	const precluded = Array.isArray(preclude) ? preclude : [];

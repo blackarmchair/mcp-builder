@@ -3178,6 +3178,80 @@
 		"portrait": "ebony_maw.png"
 	},
 	{
+		"characterName": "Elektra",
+		"alterEgo": "Elektra Natchios",
+		"healthySide": {
+			"healthyStamina": 6,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 4,
+			"healthyPhysicalDefense": 3,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 3
+		},
+		"injuredSide": {
+			"injuredStamina": 5,
+			"injuredSpeed": "M",
+			"injuredSize": 2,
+			"injuredThreat": 4,
+			"injuredPhysicalDefense": 3,
+			"injuredEnergyDefense": 3,
+			"injuredMysticalDefense": 3
+		},
+		"attacks": [
+			{
+				"name": "Ancient Throwing Blades",
+				"type": "Myst",
+				"range": "3",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- {WILD} Pierce: Change one of the defending character's {CRIT}, {WILD}, or {BLOCK} results to a blank. - {WILD} Bleed: After this attack is resolved, the target character gains the Bleed special condition. - After this attack is resolved if there is not an allied Hand Ninjas character in play, place it in play within {RNG} 1 of this character with an Activated token. It is part of your squad."
+			},
+			{
+				"name": "Implale",
+				"type": "Phys",
+				"range": "1",
+				"strength": 8,
+				"cost": 5,
+				"specialRules": "- If an allied Hand Ninjas character is within {RNG} 2 of the target character, add 2 dice to the attack roll. - The defending character does not add {CRIT} results in its defense roll to its total successes and cannot add additional dice to its defense roll as a result of {CRIT} results. - After this attack is resolved, this character may advance {M}."
+			}
+		],
+		"reactiveSuperpowers": [
+			{
+				"name": "Assassin's Step",
+				"type": "Reactive",
+				"cost": 2,
+				"specialRules": "When this character damages an enemy character with an attack, after the attack is resolved it may use this superpower. Place this character within {RNG} 1 of the damaged character. This superpower can be used only once per turn."
+			},
+			{
+				"name": "Martial Prowess",
+				"type": "Reactive",
+				"cost": 2,
+				"specialRules": "When this character is targeted by an attack within {RNG} 2, it may use this superpower. Instead of rolling dice equal to its Defense, it rolls 5 defense dice. Then, if this character suffered no {DMG} from the attack, after the attack is resolved, the attacker suffers 2 {DMG}."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Out For Blood",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "When this character deals damage to an enemy character with an attack or superpower, after the attack or superpower is resolved, this character gains 1 {PWR}."
+			},
+			{
+				"name": "STEALTH",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "Characters must be within {RNG} 3 of this character to target it with attacks."
+			}
+		],
+		"cp": 79,
+		"cards": ["elektra_healthy.png", "elektra_injured.png"],
+		"id": "b3abddd7-b647-4b8e-8fb8-5406b7460a43",
+		"affiliations": ["Criminal Syndicate"],
+		"baseSize": "35mm",
+		"portrait": "elektra.png"
+	},
+	{
 		"characterName": "ENCHANTRESS",
 		"alterEgo": "Amora",
 		"healthySide": {
@@ -3755,6 +3829,72 @@
 		"portrait": "groot.png"
 	},
 	{
+		"characterName": "Hand Ninjas",
+		"alterEgo": "Hand Ninjas",
+		"healthySide": {
+			"healthyStamina": 2,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 0,
+			"healthyPhysicalDefense": 1,
+			"healthyEnergyDefense": 1,
+			"healthyMysticalDefense": 2
+		},
+		"injuredSide": {
+			"injuredStamina": 0,
+			"injuredSpeed": "S",
+			"injuredSize": 0,
+			"injuredThreat": 0,
+			"injuredPhysicalDefense": 0,
+			"injuredEnergyDefense": 0,
+			"injuredMysticalDefense": 0
+		},
+		"attacks": [
+			{
+				"name": "Ninja Weapons",
+				"type": "Phys",
+				"range": 2,
+				"strength": 4,
+				"cost": 0,
+				"specialRules": "- {WILD}{WILD} Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Ninja Vanish",
+				"type": "Active",
+				"cost": 0,
+				"specialRules": "- Action: Move one Asset or Civilian token being held by this character to another allied character within {RNG} 3. The allied character is now holding that token. A character cannot hold more tokens than allowed by the crisis due to this superpower. Then this character is KO'd."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Ninja Ambush",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "When this character is placed onto the battlefield as a result of the Coordinated Strike or Ancient Throwing Blades special rules, it may immediately make an attack."
+			},
+			{
+				"name": "The Hand",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "This character cannot contest Secure objective tokens. This character does not have to pay {PWR} when interacting with Civilian or Asset tokens."
+			},
+			{
+				"name": "Grunts [Elektra, Shadowland Daredevil]",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": ""
+			}
+		],
+		"cp": 0,
+		"cards": ["hand_ninjas.png", "hand_ninjas.png"],
+		"id": "9848ecc0-c7bc-4ab9-83b7-b1664314a9c9",
+		"affiliations": ["Criminal Syndicate"],
+		"baseSize": "50mm",
+		"portrait": "hand.png"
+	},
+	{
 		"characterName": "HAWKEYE",
 		"alterEgo": "Clint Barton",
 		"healthySide": {
@@ -4092,11 +4232,11 @@
 		"injuredSide": {
 			"injuredStamina": 0,
 			"injuredSpeed": "",
-			"injuredSize": "",
-			"injuredThreat": "",
-			"injuredPhysicalDefense": "",
-			"injuredEnergyDefense": "",
-			"injuredMysticalDefense": ""
+			"injuredSize": 0,
+			"injuredThreat": 0,
+			"injuredPhysicalDefense": 0,
+			"injuredEnergyDefense": 0,
+			"injuredMysticalDefense": 0
 		},
 		"attacks": [
 			{
@@ -6920,6 +7060,109 @@
 		"portrait": "scarlet_witch.png"
 	},
 	{
+		"characterName": "Shadowland Daredevil",
+		"alterEgo": "Matt Murdock",
+		"healthySide": {
+			"healthyStamina": 6,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 4,
+			"healthyPhysicalDefense": 4,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 3
+		},
+		"injuredSide": {
+			"injuredStamina": 7,
+			"injuredSpeed": "M",
+			"injuredSize": 2,
+			"injuredThreat": 4,
+			"injuredPhysicalDefense": 3,
+			"injuredEnergyDefense": 3,
+			"injuredMysticalDefense": 4
+		},
+		"attacks": [
+			{
+				"name": "Coordinated Strike",
+				"type": "Phys",
+				"range": 2,
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - After this attack is resolved, if there is not an allied Hand Ninjas character in play, place it in play within {RNG} 1 of this character with an Activated token. It is part of your squad."
+			},
+			{
+				"name": "Baton Snare",
+				"type": "Phys",
+				"range": 4,
+				"strength": 4,
+				"cost": 0,
+				"specialRules": "- This attack ignores LOS, and the defending character does not benefit from cover. - {WILD} Pursuit: Before {DMG} is dealt, this character may advance {S} toward the target character."
+			},
+			{
+				"name": "Demon's Devastation",
+				"type": "Phys",
+				"range": 2,
+				"strength": 7,
+				"cost": 3,
+				"specialRules": "- If an allied Hand Ninjas characteris within {RNG} 2 of the target character, add 2 dice to the attack roll. - {WILD} Vanish: After this attack is resolved, place this character within {RNG} 2.",
+				"healthyOnly": true
+			},
+			{
+				"name": "Demon's Devastation",
+				"type": "Myst",
+				"range": 2,
+				"strength": 7,
+				"cost": 3,
+				"specialRules": "- If an allied Hand Ninjas characteris within {RNG} 2 of the target character, add 2 dice to the attack roll.",
+				"injuredOnly": true
+			}
+		],
+		"leadership": [
+			{
+				"name": "Shadow War",
+				"specialRules": "When an allied character attacks an enemy character holding or contesting an objective, it may reroll 1 of its attack dice. This Leadership ability can reroll {FAIL} results.",
+				"affiliation": "Criminal Syndicate"
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "There Is Only The Beast",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "The next time the Demon's Devastation attack is used this activation, its range becomes A2.",
+				"injuredOnly": true
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Radar Sense",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "When defending agains {PHYS} or {ENRG} attacks, this character adds blanks in its defense roll to its total successes."
+			},
+			{
+				"name": "Stealth",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "Characters must be within {RNG} 3 of this character to target it with attacks."
+			},
+			{
+				"name": "WALL CRAWLER",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
+			}
+		],
+		"cp": 79,
+		"cards": [
+			"shadowland_daredevil_healthy.png",
+			"shadowland_daredevil_injured.png"
+		],
+		"id": "66a9bc58-31fe-4892-911a-71c02b312f3c",
+		"affiliations": ["Criminal Syndicate"],
+		"baseSize": "35mm",
+		"portrait": "shadowland_daredevil.png"
+	},
+	{
 		"characterName": "SHE-HULK",
 		"alterEgo": "Jennifer Walters",
 		"healthySide": {
@@ -7007,6 +7250,64 @@
 		"affiliations": ["A-Force", "Avengers"],
 		"baseSize": "50mm",
 		"portrait": "she_hulk.jpg"
+	},
+	{
+		"characterName": "S.H.I.E.L.D Agents",
+		"alterEgo": "S.H.I.E.L.D Agents",
+		"healthySide": {
+			"healthyStamina": 2,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 0,
+			"healthyPhysicalDefense": 1,
+			"healthyEnergyDefense": 1,
+			"healthyMysticalDefense": 1
+		},
+		"injuredSide": {
+			"injuredStamina": 0,
+			"injuredSpeed": "",
+			"injuredSize": 0,
+			"injuredThreat": 0,
+			"injuredPhysicalDefense": 0,
+			"injuredEnergyDefense": 0,
+			"injuredMysticalDefense": 0
+		},
+		"attacks": [
+			{
+				"name": "Pistols",
+				"type": "Phys",
+				"range": 3,
+				"strength": 4,
+				"cost": 0,
+				"specialRules": ""
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Buy You Time",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "When this character drops an objective token, its controlling player places it on the battlefield instead of their opponent."
+			},
+			{
+				"name": "S.H.I.E.L.D Operatives",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "This character cannot contest secure objective tokens. This character does not have to pay {PWR} when interacting with Civilian or Asset tokens."
+			},
+			{
+				"name": "Grunts [Nick Fury]",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": ""
+			}
+		],
+		"cp": 55,
+		"cards": ["shield_agents_healthy.png", "shield_agents_injured.png"],
+		"id": "30e4db50-993a-4d4a-b414-17debd69ed65",
+		"affiliations": ["S.H.I.E.L.D"],
+		"baseSize": "35mm",
+		"portrait": "shield_agents.webp"
 	},
 	{
 		"characterName": "SHURI",
