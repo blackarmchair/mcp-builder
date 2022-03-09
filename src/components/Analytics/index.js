@@ -36,6 +36,14 @@ const StyledMenuItem = styled(MenuItem)(({ theme }) => ({
 		backgroundColor: theme.palette.overlay.headerBg,
 		color: theme.palette.white.main,
 	},
+	'&[aria-selected="true"]': {
+		backgroundColor: theme.palette.white.main,
+		color: theme.palette.overlay.main,
+	},
+	'&[aria-selected="true"]:hover': {
+		backgroundColor: theme.palette.white.main,
+		color: theme.palette.overlay.main,
+	},
 }));
 
 const Analytics = () => {
@@ -45,12 +53,13 @@ const Analytics = () => {
 	const { selectedRoster } = useRosters();
 	const rosterData = getRosterData(selectedRoster);
 
-	const [affiliation, setAffiliation] = React.useState('');
+	const [leader, setLeader] = React.useState('');
 	const [threat, setThreat] = React.useState('');
 	const [numChars, setNumChars] = React.useState('');
+	const [mustInclude, setMustInclude] = React.useState([]);
 
-	const handleSetAffiliation = (e) => {
-		setAffiliation(e.target.value);
+	const handleSetLeader = (e) => {
+		setLeader(e.target.value);
 	};
 	const handleSetThreat = (e) => {
 		setThreat(e.target.value);
@@ -58,17 +67,31 @@ const Analytics = () => {
 	const handleSetRosterSize = (e) => {
 		setNumChars(e.target.value);
 	};
+	const handleSetMustInclude = (e) => {
+		const value = e.target.value;
+		setMustInclude(typeof value === 'string' ? value.split(',') : value);
+	};
 
 	const filteredRosterList = rosterData.possibleRosters.filter((roster) => {
 		if (
-			affiliation !== '' &&
-			!roster.affiliations.includes(affiliation.toUpperCase())
+			leader !== '' &&
+			!roster.leaders.find(
+				({ characterName }) =>
+					characterName.toLowerCase() === leader.toLowerCase()
+			)
 		)
 			return false;
 		if (threat !== '' && roster.totalThreat !== threat) return false;
 		if (numChars !== '' && roster.characters.length !== numChars) return false;
+		if (
+			mustInclude !== '' &&
+			!mustInclude.every((id) => !!roster.characters.find((c) => c.id === id))
+		)
+			return false;
 		return true;
 	});
+
+	console.log(rosterData);
 
 	return (
 		<>
@@ -78,16 +101,16 @@ const Analytics = () => {
 				justifyContent="space-evenly"
 			>
 				<FormControl fullWidth>
-					<InputLabel id="affiliation">Affiliation</InputLabel>
+					<InputLabel id="leader">Leader</InputLabel>
 					<StyledSelect
-						labelId="affiliation"
-						value={affiliation}
-						onChange={handleSetAffiliation}
+						labelId="leader"
+						value={leader}
+						onChange={handleSetLeader}
 					>
 						<StyledMenuItem value={''}>Any</StyledMenuItem>
-						{rosterData.affiliations.map((affiliation) => (
-							<StyledMenuItem key={affiliation} value={affiliation}>
-								{affiliation}
+						{rosterData.leaders.map(({ characterName, id }) => (
+							<StyledMenuItem key={id} value={characterName}>
+								{toTitleCase(characterName)}
 							</StyledMenuItem>
 						))}
 					</StyledSelect>
@@ -121,6 +144,22 @@ const Analytics = () => {
 						{[...Array(10).keys()].map((key) => (
 							<StyledMenuItem value={key + 1} key={key + 1}>
 								{key + 1}
+							</StyledMenuItem>
+						))}
+					</StyledSelect>
+				</FormControl>
+				<FormControl fullWidth>
+					<InputLabel id="mustInclude">Must Include</InputLabel>
+					<StyledSelect
+						labelId="mustInclude"
+						value={mustInclude}
+						onChange={handleSetMustInclude}
+						multiple
+					>
+						<StyledMenuItem value={''}>Any</StyledMenuItem>
+						{rosterData.characters.map(({ characterName, id }) => (
+							<StyledMenuItem value={id} key={id}>
+								{toTitleCase(characterName)}
 							</StyledMenuItem>
 						))}
 					</StyledSelect>
