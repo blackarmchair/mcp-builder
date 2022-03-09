@@ -86,10 +86,10 @@ const CardDetail = () => {
 		character.innateSuperpowers.forEach((power) => powers.push(power));
 	}
 
+	const currentCharacterIndex = characters.findIndex(
+		({ id }) => id === character.id
+	);
 	const handleNextCharacter = () => {
-		const currentCharacterIndex = characters.findIndex(
-			({ id }) => id === character.id
-		);
 		const isNextCharacter = Boolean(
 			characters.length !== currentCharacterIndex + 1
 		);
@@ -99,11 +99,7 @@ const CardDetail = () => {
 		}
 	};
 	const handlePreviousCharacter = () => {
-		const currentCharacterIndex = characters.findIndex(
-			({ id }) => id === character.id
-		);
 		const isPrevCharacter = Boolean(currentCharacterIndex !== 0);
-		console.log(currentCharacterIndex, isPrevCharacter);
 		if (isPrevCharacter) {
 			const prevCharacterId = characters[currentCharacterIndex - 1].id;
 			navigate(`/card-reference/${prevCharacterId}`);
@@ -117,6 +113,7 @@ const CardDetail = () => {
 					color="white"
 					disableRipple
 					onClick={handlePreviousCharacter}
+					disabled={!currentCharacterIndex}
 				>
 					<ArrowBackIcon />
 				</NavButton>
@@ -176,7 +173,12 @@ const CardDetail = () => {
 				</Stack>
 			</PageContainer>
 			<NavButtonContainer>
-				<NavButton color="white" disableRipple onClick={handleNextCharacter}>
+				<NavButton
+					color="white"
+					disableRipple
+					onClick={handleNextCharacter}
+					disabled={currentCharacterIndex + 1 === characters.length}
+				>
 					<ArrowForwardIcon />
 				</NavButton>
 			</NavButtonContainer>

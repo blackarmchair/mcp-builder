@@ -6,11 +6,13 @@ const CharacterImage = ({ open, toggle, character }) => {
 	const [face, setFace] = React.useState(0);
 	const toggleFacing = (e) => {
 		e.stopPropagation();
-		setLoading(true);
-		setFace((prevState) => {
-			if (prevState) return 0;
-			return 1;
-		});
+		if (character?.cards[0] !== character?.cards[1]) {
+			setLoading(true);
+			setFace((prevState) => {
+				if (prevState) return 0;
+				return 1;
+			});
+		}
 	};
 	const handleCloseOverlay = () => {
 		toggle();

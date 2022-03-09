@@ -1,6 +1,7 @@
 import React from 'react';
 import { Stack, Typography } from '@mui/material';
 import THEME from '../../theme';
+import toTitleCase from '../../services/titleCase';
 
 const CharacterBio = ({ character, healthy }) => {
 	return (
@@ -13,7 +14,9 @@ const CharacterBio = ({ character, healthy }) => {
 				textAlign: 'center',
 			}}
 		>
-			<Typography variant="h5">{character.characterName}</Typography>
+			<Typography variant="h5">
+				{toTitleCase(character.characterName)}
+			</Typography>
 			<Typography variant="caption">
 				{character.alterEgo} (CP{character.cp}) |{' '}
 				{character.affiliations.join(', ')}

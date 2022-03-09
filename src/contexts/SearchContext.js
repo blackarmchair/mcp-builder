@@ -33,7 +33,7 @@ export function SearchProvider({ children }) {
 	 * @param {Array} terms in the form ['property', 'value']
 	 * @param {String} category
 	 */
-	const search = (terms, category) => {
+	const search = (terms, category, fuzzy = true) => {
 		// Separate-out any full-text search terms as they are handled differently
 		const fullTextSearchTerms = [];
 		const regularSearchTerms = [];
@@ -60,7 +60,7 @@ export function SearchProvider({ children }) {
 		const results = defaultSet
 			// Filter the list with the updated set of terms
 			.filter((member) =>
-				merged.every((term) => findInObject(member, term[0], term[1]))
+				merged.every((term) => findInObject(member, term[0], term[1], fuzzy))
 			)
 			// Filter the list with any full-text search terms
 			.filter((member) => {

@@ -54,7 +54,7 @@ const searchFields = [
 	},
 	{
 		name: 'restricted',
-		label: 'restricted',
+		label: 'Restricted',
 		cmpt: 'Select',
 		options: [
 			{ label: 'Yes', value: true },
@@ -78,12 +78,15 @@ const TeamTacticsSearch = ({ updateQuery, hideNumbers }) => {
 		let parsedQuery = [];
 		Object.keys(query).forEach((key) => {
 			const entry = query[key];
-			if (!!entry && !isNaN(entry)) parsedQuery.push([key, parseInt(entry)]);
-			else if (!!entry && isNaN(entry)) parsedQuery.push([key, entry]);
+			if (typeof entry === 'boolean') parsedQuery.push([key, entry]);
+			if (!!entry && !isNaN(entry) && typeof entry !== 'boolean')
+				parsedQuery.push([key, parseInt(entry)]);
+			else if (!!entry && isNaN(entry) && typeof entry !== 'boolean')
+				parsedQuery.push([key, entry]);
 		});
 
 		toggleAdvancedSearch();
-		updateQuery(parsedQuery, 'teamTactics');
+		updateQuery(parsedQuery, 'teamTactics', false);
 	};
 
 	const handleReset = () => {

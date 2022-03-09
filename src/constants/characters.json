@@ -761,7 +761,12 @@
 		"cp": 37,
 		"cards": ["black_cat_healthy.png", "black_cat_injured.png"],
 		"id": "bab03b7c-08cf-411c-b15a-6288646d2dcf",
-		"affiliations": [],
+		"affiliations": [
+			"A-Force",
+			"Criminal Syndicate",
+			"Midnight Sons",
+			"Web Warriors"
+		],
 		"baseSize": "35mm",
 		"portrait": "black_cat.png"
 	},
@@ -961,7 +966,7 @@
 				"range": "3",
 				"strength": 4,
 				"cost": 0,
-				"specialRules": "-"
+				"specialRules": ""
 			},
 			{
 				"name": "MIXED TECHNIQUE",
@@ -997,7 +1002,7 @@
 		"cp": 1,
 		"cards": ["black_widow_healthy.jpg", "black_widow_injured.jpg"],
 		"id": "231e5db3-cd81-42fb-af87-cebeaffc6811",
-		"affiliations": [],
+		"affiliations": ["A-Force", "Avengers"],
 		"baseSize": "35mm",
 		"portrait": "black_widow.jpg"
 	},
@@ -1076,7 +1081,7 @@
 			"black_widow_agent_of_shield_injured.jpg"
 		],
 		"id": "deaf34eb-a669-4f4a-82de-4856a9f3e939",
-		"affiliations": [],
+		"affiliations": ["Avengers", "A-Force"],
 		"baseSize": "35mm",
 		"portrait": "black_widow_agent_of_shield.jpg"
 	},
@@ -1239,7 +1244,7 @@
 			"bob_agent_of_hydra_injured.png"
 		],
 		"id": "65417420-3fcc-494e-9501-b0315100c50e",
-		"affiliations": [],
+		"affiliations": ["Cabal"],
 		"baseSize": "35mm",
 		"portrait": "bob_agent_of_hydra.png"
 	},
@@ -2243,7 +2248,7 @@
 		"cp": 35,
 		"cards": ["crystal_healthy.png", "crystal_injured.png"],
 		"id": "6b2e36f7-569b-4932-a7a2-60b92bae6ea4",
-		"affiliations": [],
+		"affiliations": ["Inhumans", "A-Force"],
 		"baseSize": "35mm",
 		"portrait": "crystal.png"
 	},
@@ -3674,7 +3679,8 @@
 		},
 		"attacks": [
 			{
-				"name": " PUMPKIN BOMBS",
+				"name": "PUMPKIN BOMBS",
+				"healthyOnly": true,
 				"type": "Phys",
 				"range": "4",
 				"strength": 5,
@@ -3682,7 +3688,7 @@
 				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt.<br>\n                                            - Before choosing a target, this character chooses whether this attack's type is {PHYS} or {ENRG}.<br>\n                                            - {WILD} Bag of Tricks: Before damage is dealt, the enemy character gains one of the following special conditions: Bleed, Poison, or Incinerate."
 			},
 			{
-				"name": " PUMPKIN BOMBS",
+				"name": "PUMPKIN BOMBS",
 				"injuredOnly": true,
 				"type": "Phys",
 				"range": "4",
@@ -3692,6 +3698,7 @@
 			},
 			{
 				"name": "NIGHT OF THE GOBLIN",
+				"healthyOnly": true,
 				"type": "Phys",
 				"range": "3",
 				"strength": 7,
@@ -4253,7 +4260,7 @@
 				"range": "B3",
 				"strength": 5,
 				"cost": 3,
-				"specialRules": "-"
+				"specialRules": ""
 			},
 			{
 				"name": "HULK SMASH!",
@@ -4432,7 +4439,7 @@
 			}
 		],
 		"cp": 52,
-		"cards": ["hulkbuster_healthy.png", "iron_man_hulkbuster.png"],
+		"cards": ["hulkbuster.png", "iron_man_hulkbuster.png"],
 		"id": "f961f849-35bf-4d7b-8894-9c52a2b9face",
 		"affiliations": ["Avengers"],
 		"baseSize": "65mm",
@@ -5304,7 +5311,7 @@
 		"cp": 49,
 		"cards": ["luke_cage_healthy.png", "luke_cage_injured.png"],
 		"id": "bc3848ca-e0a3-482d-8301-f3c0d4da7826",
-		"affiliations": [],
+		"affiliations": ["Avengers", "Defenders"],
 		"baseSize": "35mm",
 		"portrait": "luke_cage.png"
 	},
@@ -5381,7 +5388,7 @@
 		"cp": 5,
 		"cards": ["modok_healthy.png", "modok_injured.png"],
 		"id": "e954c2c1-fdd3-4013-b165-8a709cee19a9",
-		"affiliations": [],
+		"affiliations": ["Cabal", "Criminal Syndicate"],
 		"baseSize": "65mm",
 		"portrait": "modok.png"
 	},
@@ -5710,7 +5717,7 @@
 		"cp": 46,
 		"cards": ["mister_sinister_healthy.png", "mister_sinister_injured.png"],
 		"id": "4446a63d-2dbc-47ac-9bdb-5900a32980a4",
-		"affiliations": [],
+		"affiliations": ["Cabal"],
 		"baseSize": "50mm",
 		"portrait": "mister_sinister.png"
 	},
@@ -7245,7 +7252,7 @@
 			}
 		],
 		"cp": 39,
-		"cards": ["she_hulk_healthy.jpg", "she_hulk_healthy.jpg"],
+		"cards": ["she_hulk.jpg", "she_hulk.jpg"],
 		"id": "c9ef58da-fba9-4a02-bc74-5e66b06187df",
 		"affiliations": ["A-Force", "Avengers"],
 		"baseSize": "50mm",
@@ -8015,7 +8022,7 @@
 				"range": "A2",
 				"strength": 7,
 				"cost": 6,
-				"specialRules": "-"
+				"specialRules": ""
 			}
 		],
 		"leadership": [
