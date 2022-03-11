@@ -25,12 +25,6 @@ const toTitleCase = (str) => {
 				return current.toLowerCase();
 			}
 
-			/* Ignore intentional capitalization */
-			// if (current.substr(1).search(/[A-Z]|\../) > -1) {
-			// 	console.log(current, 'intentional');
-			// 	return current;
-			// }
-
 			/* Ignore URLs */
 			if (array[index + 1] === ':' && array[index + 2] !== '') {
 				return current;
@@ -38,7 +32,7 @@ const toTitleCase = (str) => {
 
 			/* Capitalize the first letter */
 			return current
-				.replace(/(\b.)|(.)/g, function ($0, $1, $2) {
+				.replace(/(\b.)'|(.)/g, function ($0, $1, $2) {
 					return ($1 && $1.toUpperCase()) || $2.toLowerCase();
 				})
 				.replace(alphanumericPattern, function (match) {

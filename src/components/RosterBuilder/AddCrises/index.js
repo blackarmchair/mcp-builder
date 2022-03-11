@@ -28,6 +28,15 @@ const Panel = styled(Paper)(({ theme }) => ({
 	marginTop: theme.spacing(1),
 	padding: theme.spacing(1),
 }));
+const StyledDialog = styled(Dialog)(({ theme }) => ({
+	'& .MuiPaper-root': {
+		[theme.breakpoints.down('sm')]: {
+			maxWidth: '100vw',
+			maxHeight: '100vh',
+			margin: 0,
+		},
+	},
+}));
 const StyledDialogContent = styled(DialogContent)(({ theme }) => ({
 	backgroundColor: theme.palette.overlay.main,
 	padding: theme.spacing(1),
@@ -47,7 +56,7 @@ const AddCrisesModal = ({ open, toggle, addCrisis }) => {
 		if (crises.length === 1) reset();
 	};
 	return (
-		<Dialog open={open} onClose={toggle} maxWidth="md" fullWidth>
+		<StyledDialog open={open} onClose={toggle}>
 			<StyledDialogTitle>
 				<Stack direction="row" justifyContent="space-between">
 					Add Crisis Card
@@ -64,7 +73,7 @@ const AddCrisesModal = ({ open, toggle, addCrisis }) => {
 					preclude={selectedRoster.crises}
 				/>
 			</StyledDialogContent>
-		</Dialog>
+		</StyledDialog>
 	);
 };
 

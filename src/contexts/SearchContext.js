@@ -43,11 +43,12 @@ export function SearchProvider({ children }) {
 		});
 
 		// Combine previously-applied search terms with any new ones
-		const merged = [...regularSearchTerms];
+		let merged = [...regularSearchTerms];
 		currentSearchTerms.forEach((term) => {
 			const isOverwritten = terms.find((t) => !t[0].localeCompare(term[0]));
 			if (!isOverwritten) merged.push(term);
 		});
+		merged = merged.filter((term) => term[1] !== undefined);
 		setCurrentTerms(merged);
 
 		// Determine which collection to search in

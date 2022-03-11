@@ -1,17 +1,10 @@
 import React from 'react';
-import {
-	Stack,
-	IconButton,
-	TextField,
-	Button,
-	Typography,
-} from '@mui/material';
+import { Stack, TextField, Button, Typography } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import MoreIcon from '@mui/icons-material/More';
 import { useSearch } from '../../contexts/SearchContext';
-import AdvancedSearchModal from '../AdvancedSearchModal';
 import debounce from '../../services/debounce';
 import AFFILIATIONS from '../../constants/affiliations.json';
+import ChipFilter from '../ChipFilter';
 
 const OverlayedStack = styled(Stack)(({ theme }) => ({
 	backgroundColor: theme.palette.overlay.main,
@@ -24,7 +17,7 @@ const StyledTextField = styled(TextField)(({ theme }) => ({
 }));
 
 const searchFields = [
-	{ name: 'rules', label: 'Card Text' },
+	// { name: 'rules', label: 'Card Text' },
 	{
 		name: 'affiliation',
 		label: 'Affiliation',
@@ -65,29 +58,10 @@ const searchFields = [
 
 const TeamTacticsSearch = ({ updateQuery, hideNumbers }) => {
 	const { allTeamTactics, teamTactics, isFiltered, reset } = useSearch();
-	const [advancedSearch, setAdvancedSearch] = React.useState(false);
-	const toggleAdvancedSearch = () => {
-		setAdvancedSearch((prevState) => !advancedSearch);
-	};
 
 	const handleSimpleSearch = debounce((e) => {
 		updateQuery([['name', e.target.value]], 'teamTactics');
 	}, 400);
-
-	const handleUpdateQuery = (query) => {
-		let parsedQuery = [];
-		Object.keys(query).forEach((key) => {
-			const entry = query[key];
-			if (typeof entry === 'boolean') parsedQuery.push([key, entry]);
-			if (!!entry && !isNaN(entry) && typeof entry !== 'boolean')
-				parsedQuery.push([key, parseInt(entry)]);
-			else if (!!entry && isNaN(entry) && typeof entry !== 'boolean')
-				parsedQuery.push([key, entry]);
-		});
-
-		toggleAdvancedSearch();
-		updateQuery(parsedQuery, 'teamTactics', false);
-	};
 
 	const handleReset = () => {
 		document.querySelector('input').value = null;
@@ -109,18 +83,33 @@ const TeamTacticsSearch = ({ updateQuery, hideNumbers }) => {
 						style: { color: 'white' },
 					}}
 					autoComplete="off"
-					autoFocus
 				/>
-				<IconButton onClick={toggleAdvancedSearch} size="large">
-					<MoreIcon color="white" />
-				</IconButton>
+			</Stack>
+			<Stack
+				direction="row"
+				spacing={1}
+				mt={2}
+				mb={1}
+				sx={{ maxWidth: '100%', overflow: 'scroll' }}
+			>
+				{searchFields.map((field) => (
+					<ChipFilter
+						key={field.name}
+						name={field.name}
+						label={field.label}
+						filterOptions={field.options}
+						handleFilter={(value) =>
+							updateQuery([[field.name, value]], 'teamTactics')
+						}
+					/>
+				))}
 			</Stack>
 			{isFiltered && (
 				<Stack
 					direction="row"
 					alignItems="center"
 					justifyContent="space-between"
-					sx={{ mt: 2 }}
+					sx={{ mt: 1 }}
 				>
 					{!hideNumbers && (
 						<Typography>
@@ -133,12 +122,6 @@ const TeamTacticsSearch = ({ updateQuery, hideNumbers }) => {
 					</Button>
 				</Stack>
 			)}
-			<AdvancedSearchModal
-				open={advancedSearch}
-				toggle={toggleAdvancedSearch}
-				submit={handleUpdateQuery}
-				searchFields={searchFields}
-			/>
 		</OverlayedStack>
 	);
 };

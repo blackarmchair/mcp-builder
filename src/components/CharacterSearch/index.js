@@ -1,7 +1,6 @@
 import React from 'react';
 import {
 	Stack,
-	IconButton,
 	TextField,
 	InputAdornment,
 	Button,
@@ -10,12 +9,11 @@ import {
 	MenuItem,
 } from '@mui/material';
 import { styled } from '@mui/material/styles';
-import MoreIcon from '@mui/icons-material/More';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-import AdvancedSearchModal from '../AdvancedSearchModal';
 import { useSearch } from '../../contexts/SearchContext';
 import debounce from '../../services/debounce';
 import AFFILIATIONS from '../../constants/affiliations.json';
+import ChipFilter from '../ChipFilter';
 
 const OverlayedStack = styled(Stack)(({ theme }) => ({
 	backgroundColor: theme.palette.overlay.main,
@@ -28,7 +26,7 @@ const StyledTextField = styled(TextField)(({ theme }) => ({
 }));
 
 const searchFields = [
-	{ name: 'healthyStamina', label: 'Stamina' },
+	// { name: 'healthyStamina', label: 'Stamina' },
 	{
 		name: 'healthySpeed',
 		label: 'Move Speed',
@@ -39,8 +37,31 @@ const searchFields = [
 			{ label: 'Long', value: 'L' },
 		],
 	},
-	{ name: 'healthySize', label: 'Size' },
-	{ name: 'healthyThreat', label: 'Threat' },
+	{
+		name: 'healthySize',
+		label: 'Size',
+		options: [
+			{ label: '1', value: 1 },
+			{ label: '2', value: 2 },
+			{ label: '3', value: 3 },
+			{ label: '4', value: 4 },
+			{ label: '5', value: 5 },
+		],
+	},
+	{
+		name: 'healthyThreat',
+		label: 'Threat',
+		options: [
+			{ label: '1', value: 1 },
+			{ label: '2', value: 2 },
+			{ label: '3', value: 3 },
+			{ label: '4', value: 4 },
+			{ label: '5', value: 5 },
+			{ label: '6', value: 6 },
+			{ label: '7', value: 7 },
+			{ label: '8', value: 8 },
+		],
+	},
 	{
 		name: 'affiliations',
 		label: 'Affiliation',
@@ -50,9 +71,42 @@ const searchFields = [
 			value: affiliation,
 		})),
 	},
-	{ name: 'healthyPhysicalDefense', label: 'Physical Defense' },
-	{ name: 'healthyEnergyDefense', label: 'Energy Defense' },
-	{ name: 'healthyMysticalDefense', label: 'Mystical Defense' },
+	{
+		name: 'healthyPhysicalDefense',
+		label: 'Physical Defense',
+		options: [
+			{ label: '1', value: 1 },
+			{ label: '2', value: 2 },
+			{ label: '3', value: 3 },
+			{ label: '4', value: 4 },
+			{ label: '5', value: 5 },
+			{ label: '6', value: 6 },
+		],
+	},
+	{
+		name: 'healthyEnergyDefense',
+		label: 'Energy Defense',
+		options: [
+			{ label: '1', value: 1 },
+			{ label: '2', value: 2 },
+			{ label: '3', value: 3 },
+			{ label: '4', value: 4 },
+			{ label: '5', value: 5 },
+			{ label: '6', value: 6 },
+		],
+	},
+	{
+		name: 'healthyMysticalDefense',
+		label: 'Mystical Defense',
+		options: [
+			{ label: '1', value: 1 },
+			{ label: '2', value: 2 },
+			{ label: '3', value: 3 },
+			{ label: '4', value: 4 },
+			{ label: '5', value: 5 },
+			{ label: '6', value: 6 },
+		],
+	},
 ];
 const simpleSearchModes = {
 	NAME: 'characterName',
@@ -80,7 +134,6 @@ const TextSearchOptionsMenu = styled((props) => (
 
 const CharacterSearch = ({ updateQuery, hideNumbers }) => {
 	const { allCharacters, characters, isFiltered, reset } = useSearch();
-	const [advancedSearch, setAdvancedSearch] = React.useState(false);
 	const [simpleSearchMode, setSimpleSearchMode] = React.useState(
 		simpleSearchModes.NAME
 	);
@@ -95,10 +148,6 @@ const CharacterSearch = ({ updateQuery, hideNumbers }) => {
 		setTextSearchOptsAnchor(null);
 	};
 
-	const toggleAdvancedSearch = () => {
-		setAdvancedSearch((prevState) => !prevState);
-	};
-
 	const handleSimpleSearch = debounce((e) => {
 		if (simpleSearchMode === simpleSearchModes.FULL_TEXT) {
 			updateQuery([['fullText', e.target.value]], 'characters');
@@ -106,18 +155,6 @@ const CharacterSearch = ({ updateQuery, hideNumbers }) => {
 			updateQuery([['characterName', e.target.value]], 'characters');
 		}
 	}, 400);
-
-	const handleUpdateQuery = (query) => {
-		let parsedQuery = [];
-		Object.keys(query).forEach((key) => {
-			const entry = query[key];
-			if (!!entry && !isNaN(entry)) parsedQuery.push([key, parseInt(entry)]);
-			else if (!!entry && isNaN(entry)) parsedQuery.push([key, entry]);
-		});
-
-		toggleAdvancedSearch();
-		updateQuery(parsedQuery, 'characters');
-	};
 
 	const handleReset = () => {
 		document.querySelector('input').value = null;
@@ -151,7 +188,6 @@ const CharacterSearch = ({ updateQuery, hideNumbers }) => {
 						),
 					}}
 					autoComplete="off"
-					autoFocus
 				/>
 				<TextSearchOptionsMenu
 					anchorEl={textSearchOptsAnchor}
@@ -173,9 +209,25 @@ const CharacterSearch = ({ updateQuery, hideNumbers }) => {
 						Full-Text
 					</MenuItem>
 				</TextSearchOptionsMenu>
-				<IconButton onClick={toggleAdvancedSearch} size="large">
-					<MoreIcon color="white" />
-				</IconButton>
+			</Stack>
+			<Stack
+				direction="row"
+				spacing={1}
+				mt={2}
+				mb={1}
+				sx={{ maxWidth: '100%', overflow: 'scroll' }}
+			>
+				{searchFields.map((field) => (
+					<ChipFilter
+						key={field.name}
+						name={field.name}
+						label={field.label}
+						filterOptions={field.options}
+						handleFilter={(value) =>
+							updateQuery([[field.name, value]], 'characters')
+						}
+					/>
+				))}
 			</Stack>
 			{isFiltered && (
 				<Stack
@@ -194,12 +246,6 @@ const CharacterSearch = ({ updateQuery, hideNumbers }) => {
 					</Button>
 				</Stack>
 			)}
-			<AdvancedSearchModal
-				open={advancedSearch}
-				toggle={toggleAdvancedSearch}
-				submit={handleUpdateQuery}
-				searchFields={searchFields}
-			/>
 		</OverlayedStack>
 	);
 };
