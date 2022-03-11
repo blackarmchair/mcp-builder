@@ -100,10 +100,13 @@ const AddCharacters = () => {
 	};
 	const handleRemoveCharacter = (e, character) => {
 		e.stopPropagation();
+		console.log(selectedRoster.characters);
 		updateRoster({
 			...selectedRoster,
 			characters: selectedRoster.characters.filter((c) =>
-				c.localeCompare(character.id)
+				Array.isArray(c)
+					? c[0].localeCompare(character.id)
+					: c.localeCompare(character.id)
 			),
 		});
 	};
