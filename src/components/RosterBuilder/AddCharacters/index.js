@@ -20,9 +20,12 @@ import CharacterList from '../../CharacterList';
 import CharacterAvatar from '../../CharacterAvatar';
 import CharacterSearch from '../../CharacterSearch';
 import CharacterImage from '../../CharacterImage';
+import AffiliationLogo from '../../AffiliationLogo';
 import GemPicker from '../GemPicker';
 import toTitleCase from '../../../services/titleCase';
 import { isGemBearer, availableGems } from '../../../services/gems';
+import truncate from '../../../services/truncate';
+import AFFILIATIONS from '../../../constants/affiliations.json';
 
 const Panel = styled(Paper)(({ theme }) => ({
 	backgroundColor: theme.palette.overlay.main,
@@ -130,6 +133,13 @@ const AddCharacters = () => {
 		});
 	};
 
+	const characterAffiliationLogos = (affiliations) => {
+		return affiliations.map((affiliation) => {
+			const logo = AFFILIATIONS.find((a) => a.name === affiliation)?.logo;
+			return <AffiliationLogo affiliation={logo} />;
+		});
+	};
+
 	return (
 		<Panel>
 			<List>
@@ -143,6 +153,7 @@ const AddCharacters = () => {
 						? characterEntry[1].length
 						: 0;
 					const threat = character.healthySide.healthyThreat + extraGemThreat;
+					const logos = characterAffiliationLogos(character.affiliations);
 					return (
 						<div key={`${character.id}`} style={{ cursor: 'pointer' }}>
 							<ListItem
@@ -165,8 +176,24 @@ const AddCharacters = () => {
 									<CharacterAvatar character={character} />
 								</ListItemAvatar>
 								<ListItemText
+									primaryTypographyProps={{
+										sx: truncate.sx,
+									}}
 									primary={toTitleCase(character.characterName)}
-									secondary={`Threat Level: ${threat}`}
+									secondary={
+										<>
+											<span
+												style={{
+													marginTop: 4,
+													marginBottom: 4,
+													display: 'block',
+												}}
+											>
+												Threat Level: {threat}
+											</span>
+											{logos}
+										</>
+									}
 								/>
 							</ListItem>
 							{gems.length && (

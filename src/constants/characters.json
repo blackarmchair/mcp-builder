@@ -1081,7 +1081,7 @@
 			"black_widow_agent_of_shield_injured.jpg"
 		],
 		"id": "deaf34eb-a669-4f4a-82de-4856a9f3e939",
-		"affiliations": ["Avengers", "A-Force"],
+		"affiliations": ["Avengers", "A-Force", "S.H.I.E.L.D."],
 		"baseSize": "35mm",
 		"portrait": "black_widow_agent_of_shield.jpg"
 	},
@@ -3957,7 +3957,7 @@
 		"cp": 24,
 		"cards": ["hawkeye_healthy.jpg", "hawkeye_injured.jpg"],
 		"id": "c6a68770-934c-43d5-a340-16bcb5f7603c",
-		"affiliations": ["Avengers", "Defenders"],
+		"affiliations": ["Avengers", "Defenders", "S.H.I.E.L.D."],
 		"baseSize": "35mm",
 		"portrait": "hawkeye.jpg"
 	},
@@ -4586,7 +4586,7 @@
 		"cp": 1,
 		"cards": ["iron_man_healthy.png", "iron_man_injured.png"],
 		"id": "c98b785d-9ca1-481e-bc35-6bbe9f95d423",
-		"affiliations": ["Avengers"],
+		"affiliations": ["Avengers", "S.H.I.E.L.D."],
 		"baseSize": "35mm",
 		"portrait": "iron_man.png"
 	},
@@ -6168,14 +6168,14 @@
 				"range": 3,
 				"strength": 7,
 				"cost": 3,
-				"specialRules": "- After this attack is resovled, an allied S.H.I.E.L.D Agents character within {rng} 3 of this character may advance {s} toward the target character. Then, the S.H.I.E.L.D Agents character may make a Pistols attack targeting that character."
+				"specialRules": "- After this attack is resovled, an allied S.H.I.E.L.D. Agents character within {rng} 3 of this character may advance {s} toward the target character. Then, the S.H.I.E.L.D. Agents character may make a Pistols attack targeting that character."
 			}
 		],
 		"leadership": [
 			{
 				"name": "Last Line of Defense",
 				"specialRules": "- If you have fewer VPs than your opponent, the first time each round an allied character is Dazed or KO'd by an enemy effect, after the effect is resolved, you score 1 VP. - If you have an equal number or more VPs than your opponent when an enemy character damages an allied character with an attack, the allied character may spend 1 {PWR}. If it does, after the attack is resolved, the allied character may advance {s} toward the attacking character.",
-				"affiliation": "S.H.I.E.L.D"
+				"affiliation": "S.H.I.E.L.D."
 			}
 		],
 		"activeSuperPowers": [
@@ -6183,21 +6183,21 @@
 				"name": "Call in the Cavalry",
 				"type": "Active",
 				"cost": 2,
-				"specialRules": "- If there is no allied S.H.I.E.L.D Agents character in play, place it in play within {rng} 3 of this character with an Activated token. It may immediately interact with one Extract objective token. It is part of your squad."
+				"specialRules": "- If there is no allied S.H.I.E.L.D. Agents character in play, place it in play within {rng} 3 of this character with an Activated token. It may immediately interact with one Extract objective token. It is part of your squad."
 			}
 		],
 		"innateSuperpowers": [
 			{
-				"name": "Director of S.H.I.E.L.D",
+				"name": "Director of S.H.I.E.L.D.",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "- When an Allied S.H.I.E.L.D Agents character is within {rng} 3 of this character, it may reroll one of its attack or defense dice, and this character gains 1 {PWR} whenever the allied character deals {DMG} or suffers {DMG} from an enemy effect."
+				"specialRules": "- When an Allied S.H.I.E.L.D. Agents character is within {rng} 3 of this character, it may reroll one of its attack or defense dice, and this character gains 1 {PWR} whenever the allied character deals {DMG} or suffers {DMG} from an enemy effect."
 			}
 		],
 		"cp": 55,
 		"cards": ["nick_fury_healthy.png", "nick_fury_injured.png"],
 		"id": "64aadfb9-b553-4079-abbd-4ea1f1b4c4d8",
-		"affiliations": ["S.H.I.E.L.D"],
+		"affiliations": ["S.H.I.E.L.D."],
 		"baseSize": "35mm",
 		"portrait": "nick_fury.png"
 	},
@@ -7254,13 +7254,13 @@
 		"cp": 39,
 		"cards": ["she_hulk.jpg", "she_hulk.jpg"],
 		"id": "c9ef58da-fba9-4a02-bc74-5e66b06187df",
-		"affiliations": ["A-Force", "Avengers"],
+		"affiliations": ["A-Force", "Avengers", "S.H.I.E.L.D."],
 		"baseSize": "50mm",
 		"portrait": "she_hulk.jpg"
 	},
 	{
-		"characterName": "S.H.I.E.L.D Agents",
-		"alterEgo": "S.H.I.E.L.D Agents",
+		"characterName": "S.H.I.E.L.D. Agents",
+		"alterEgo": "S.H.I.E.L.D. Agents",
 		"healthySide": {
 			"healthyStamina": 2,
 			"healthySpeed": "M",
@@ -7297,7 +7297,7 @@
 				"specialRules": "When this character drops an objective token, its controlling player places it on the battlefield instead of their opponent."
 			},
 			{
-				"name": "S.H.I.E.L.D Operatives",
+				"name": "S.H.I.E.L.D. Operatives",
 				"type": "Innate",
 				"cost": 0,
 				"specialRules": "This character cannot contest secure objective tokens. This character does not have to pay {PWR} when interacting with Civilian or Asset tokens."
@@ -7312,7 +7312,7 @@
 		"cp": 55,
 		"cards": ["shield_agents_healthy.png", "shield_agents_injured.png"],
 		"id": "30e4db50-993a-4d4a-b414-17debd69ed65",
-		"affiliations": ["S.H.I.E.L.D"],
+		"affiliations": ["S.H.I.E.L.D."],
 		"baseSize": "35mm",
 		"portrait": "shield_agents.webp"
 	},
@@ -7884,7 +7884,7 @@
 		"cp": 32,
 		"cards": ["taskmaster_healthy.jpg", "taskmaster_injured.jpg"],
 		"id": "64478286-e85e-4b77-a730-0bfc9d2e5542",
-		"affiliations": ["Criminal Syndicate"],
+		"affiliations": ["Criminal Syndicate", "S.H.I.E.L.D."],
 		"baseSize": "35mm",
 		"portrait": "taskmaster.jpg"
 	},
@@ -8617,7 +8617,7 @@
 		"cp": 38,
 		"cards": ["war_machine_healthy.png", "war_machine_injured.png"],
 		"id": "97d4756b-5179-44c9-9b3d-8578a761472b",
-		"affiliations": ["Avengers"],
+		"affiliations": ["Avengers", "S.H.I.E.L.D."],
 		"baseSize": "35mm",
 		"portrait": "war_machine.png"
 	},
@@ -8801,7 +8801,7 @@
 		"cp": 13,
 		"cards": ["winter_soldier_healthy.png", "winter_soldier_injured.png"],
 		"id": "36755692-dfb7-4b1f-92ef-c91f40199503",
-		"affiliations": [""],
+		"affiliations": ["S.H.I.E.L.D."],
 		"baseSize": "35mm",
 		"portrait": "winter_soldier.png"
 	},

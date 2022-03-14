@@ -22,9 +22,13 @@ const searchFields = [
 		name: 'affiliation',
 		label: 'Affiliation',
 		cmpt: 'Select',
-		options: AFFILIATIONS.map((affiliation) => ({
-			label: affiliation,
-			value: affiliation,
+		options: AFFILIATIONS.sort((a, b) => {
+			if (a.name.toLowerCase() > b.name.toLowerCase()) return 1;
+			if (a.name.toLowerCase() < b.name.toLowerCase()) return -1;
+			return 0;
+		}).map((affiliation) => ({
+			label: affiliation.name,
+			value: affiliation.name,
 		})),
 	},
 	{

@@ -9,8 +9,10 @@ import {
 import { useSearch } from '../../contexts/SearchContext';
 import { useRouter } from '../../contexts/RouterContext';
 import CharacterAvatar from '../CharacterAvatar';
+import AffiliationLogo from '../AffiliationLogo';
 import toTitleCase from '../../services/titleCase';
 import THEME from '../../theme';
+import AFFILIATIONS from '../../constants/affiliations.json';
 
 const CharacterList = ({ clickDisposition, handleSelection, preclude }) => {
 	const { characters, lastAccessedCharacter, handleSetLastAccessedCharacter } =
@@ -32,34 +34,44 @@ const CharacterList = ({ clickDisposition, handleSelection, preclude }) => {
 		}
 	};
 
+	const characterAffiliationLogos = (affiliations) => {
+		return affiliations.map((affiliation) => {
+			const logo = AFFILIATIONS.find((a) => a.name === affiliation)?.logo;
+			return <AffiliationLogo affiliation={logo} />;
+		});
+	};
+
 	return (
 		<List>
 			{characters
 				.filter((character) => !precluded.includes(character.id))
-				.map((character) => (
-					<div
-						key={`${character.id}`}
-						onClick={() => handleSelect(character)}
-						style={{ cursor: 'pointer' }}
-					>
-						<ListItem
-							sx={{
-								backgroundColor: THEME.palette.overlay.main,
-								mb: 1,
-							}}
-							id={character.id}
+				.map((character) => {
+					const logos = characterAffiliationLogos(character.affiliations);
+					return (
+						<div
+							key={`${character.id}`}
+							onClick={() => handleSelect(character)}
+							style={{ cursor: 'pointer' }}
 						>
-							<ListItemAvatar sx={{ mr: 2 }}>
-								<CharacterAvatar character={character} />
-							</ListItemAvatar>
-							<ListItemText
-								primary={toTitleCase(character.characterName)}
-								secondary={toTitleCase(character.alterEgo)}
-							/>
-						</ListItem>
-						<Divider />
-					</div>
-				))}
+							<ListItem
+								sx={{
+									backgroundColor: THEME.palette.overlay.main,
+									mb: 1,
+								}}
+								id={character.id}
+							>
+								<ListItemAvatar sx={{ mr: 2 }}>
+									<CharacterAvatar character={character} />
+								</ListItemAvatar>
+								<ListItemText
+									primary={toTitleCase(character.characterName)}
+									secondary={logos}
+								/>
+							</ListItem>
+							<Divider />
+						</div>
+					);
+				})}
 		</List>
 	);
 };
