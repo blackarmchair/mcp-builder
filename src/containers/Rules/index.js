@@ -12,11 +12,11 @@ const OverlayedStack = styled(Stack)(({ theme }) => ({
 const ENTRIES = [
 	{
 		label: 'Core Rules',
-		link: 'https://www.atomicmassgames.com/s/CP01_CrisisProtocol_Rule_Book_112221.pdf',
+		link: 'https://www.atomicmassgames.com/s/CP01_CrisisProtocol_Rule_Book_033122web.pdf',
 	},
 	{
 		label: 'FAQ & Errata',
-		link: 'https://www.atomicmassgames.com/s/OP_CrisisProtocol_FAQ_020322-x5jy.pdf',
+		link: 'https://www.atomicmassgames.com/s/OP_CrisisProtocol_FAQ_060622.pdf',
 	},
 	{
 		label: 'Crisis Event Rules',
@@ -24,15 +24,15 @@ const ENTRIES = [
 	},
 	{
 		label: 'Base Size Reference',
-		link: 'https://www.atomicmassgames.com/s/OP_CrisisProtocol_BaseSizes_020322.pdf',
+		link: 'https://www.atomicmassgames.com/s/OP_CrisisProtocol_BaseSizes_060622.pdf',
 	},
 	{
 		label: 'Affiliation Reference',
-		link: 'https://www.atomicmassgames.com/s/OP_CrisisProtocol_Affiliation_List_020322.pdf',
+		link: 'https://www.atomicmassgames.com/s/OP_CrisisProtocol_Affiliation_List_060622.pdf',
 	},
 	{
 		label: 'Banned & Restricted List',
-		link: 'https://www.atomicmassgames.com/s/OP_CrisisProtocol_BNR_020322.pdf',
+		link: 'https://www.atomicmassgames.com/s/OP_CrisisProtocol_BNR_063022.pdf',
 	},
 ];
 
