@@ -64,7 +64,11 @@ const AddTeamTacticsModal = ({ open, toggle, addTeamTactic }) => {
 				</Stack>
 			</StyledDialogTitle>
 			<StyledDialogContent>
-				<TeamTacticsSearch updateQuery={search} hideNumbers />
+				<TeamTacticsSearch
+					updateQuery={search}
+					hideNumbers
+					associatedRoster={selectedRoster}
+				/>
 				<TeamTacticsList
 					clickDisposition="select"
 					handleSelection={(ttc) => handleAddTeamTactic(ttc)}

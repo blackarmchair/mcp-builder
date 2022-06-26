@@ -60,9 +60,14 @@ export function SearchProvider({ children }) {
 
 		const results = defaultSet
 			// Filter the list with the updated set of terms
-			.filter((member) =>
-				merged.every((term) => findInObject(member, term[0], term[1], fuzzy))
-			)
+			.filter((member) => {
+				return merged.every((term) => {
+					if (typeof term[1] === 'object') {
+						return term[1].filterFunction(member);
+					}
+					return findInObject(member, term[0], term[1], fuzzy);
+				});
+			})
 			// Filter the list with any full-text search terms
 			.filter((member) => {
 				if (fullTextSearchTerms.length)

@@ -41,11 +41,13 @@ const ChipFilter = ({ label, name, filterOptions, handleFilter }) => {
 	const currentFilter = currentSearchTerms.find(
 		(term) => !term[0].localeCompare(name)
 	)?.[1];
+	const currentFilterLabel =
+		typeof currentFilter === 'string' ? currentFilter : currentFilter?.label;
 
 	return (
 		<>
 			<StyledChip
-				label={!!currentFilter ? `${label}: ${currentFilter}` : label}
+				label={!!currentFilter ? `${label}: ${currentFilterLabel}` : label}
 				onClick={handleMenuOpen}
 				onDelete={!!currentFilter ? handleClearFilter : undefined}
 				variant={!!currentFilter ? 'filled' : 'outlined'}

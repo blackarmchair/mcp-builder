@@ -42,7 +42,7 @@ const searchFields = [
 	},
 	{
 		name: 'standardStatus',
-		label: 'Standard Status',
+		label: 'Legality',
 		cmpt: 'Select',
 		options: [
 			{ label: 'Unrestricted', value: 'legal' },
@@ -50,9 +50,30 @@ const searchFields = [
 			{ label: 'Banned', value: 'banned' },
 		],
 	},
+	{
+		name: 'associatedCharacters',
+		label: 'Character-Specific',
+		cmpt: 'Select',
+		options: [
+			{
+				label: 'Yes',
+				value: {
+					filterFunction: (member) => member.associatedCharacters.length,
+					label: 'Yes',
+				},
+			},
+			{
+				label: 'No',
+				value: {
+					filterFunction: (member) => !member.associatedCharacters.length,
+					label: 'No',
+				},
+			},
+		],
+	},
 ];
 
-const TeamTacticsSearch = ({ updateQuery, hideNumbers }) => {
+const TeamTacticsSearch = ({ updateQuery, hideNumbers, associatedRoster }) => {
 	const { allTeamTactics, teamTactics, isFiltered, reset } = useSearch();
 
 	const handleSimpleSearch = debounce((e) => {
@@ -88,17 +109,40 @@ const TeamTacticsSearch = ({ updateQuery, hideNumbers }) => {
 				mb={1}
 				sx={{ maxWidth: '100%', overflow: 'scroll' }}
 			>
-				{searchFields.map((field) => (
-					<ChipFilter
-						key={field.name}
-						name={field.name}
-						label={field.label}
-						filterOptions={field.options}
-						handleFilter={(value) =>
-							updateQuery([[field.name, value]], 'teamTactics')
+				{searchFields
+					.map((field) => {
+						if (!!associatedRoster && field.name === 'associatedCharacters') {
+							return {
+								name: 'associatedCharacters',
+								label: 'Recommended',
+								cmpt: 'Select',
+								options: [
+									{
+										label: 'Yes',
+										value: {
+											filterFunction: (member) =>
+												member.associatedCharacters.some((c) =>
+													associatedRoster.characters.includes(c)
+												),
+											label: 'Yes',
+										},
+									},
+								],
+							};
 						}
-					/>
-				))}
+						return field;
+					})
+					.map((field) => (
+						<ChipFilter
+							key={field.name}
+							name={field.name}
+							label={field.label}
+							filterOptions={field.options}
+							handleFilter={(value) =>
+								updateQuery([[field.name, value]], 'teamTactics')
+							}
+						/>
+					))}
 			</Stack>
 			{isFiltered && (
 				<Stack

@@ -8,7 +8,11 @@
 		"cp": 62,
 		"image": "a_better_tomorrow.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"ea383ada-1f55-4637-a94e-9720538ccf76",
+			"e3e40411-5de4-47ca-a18c-6b9319a31bdb"
+		]
 	},
 	{
 		"name": "A-FORCE ASSEMBLE!",
@@ -19,7 +23,8 @@
 		"cp": 39,
 		"image": "a_force_assemble.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "A.I.M. LACKEYS",
@@ -30,7 +35,8 @@
 		"cp": 5,
 		"image": "aim_lackeys.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["e954c2c1-fdd3-4013-b165-8a709cee19a9"]
 	},
 	{
 		"name": "ACUTE SENSES",
@@ -41,7 +47,8 @@
 		"cp": 30,
 		"image": "acute_senses.jpg",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "ADVANCED R&D",
@@ -52,7 +59,8 @@
 		"cp": 8,
 		"image": "advanced_r&d.png",
 		"standardStatus": "restricted",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "AGENTS OF S.M.A.S.H.",
@@ -63,7 +71,11 @@
 		"cp": 39,
 		"image": "agents_of_smash.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"c9ef58da-fba9-4a02-bc74-5e66b06187df",
+			"59d1d852-1e0c-4128-9b87-23597621aa8d"
+		]
 	},
 	{
 		"name": "ALL ACCORDING TO PLAN",
@@ -74,7 +86,8 @@
 		"cp": 29,
 		"image": "all_according_to_plan.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "ALL WEBBED UP",
@@ -85,7 +98,8 @@
 		"cp": 10,
 		"image": "all_webbed_up.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "ALL YOU'VE GOT",
@@ -96,7 +110,8 @@
 		"cp": 10,
 		"image": "all_youve_got.jpg",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "ANGER MANAGEMENT",
@@ -107,7 +122,8 @@
 		"cp": 4,
 		"image": "anger_management.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["59d1d852-1e0c-4128-9b87-23597621aa8d"]
 	},
 	{
 		"name": "ASTEROID M",
@@ -118,7 +134,8 @@
 		"cp": 42,
 		"image": "asteroid_m.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "ASTRAL RING",
@@ -129,7 +146,8 @@
 		"cp": 64,
 		"image": "astral_ring.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "ATTILAN RISING",
@@ -140,7 +158,8 @@
 		"cp": 34,
 		"image": "attilan_rising.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "AUNT MAY'S WHEAT CAKES",
@@ -151,7 +170,8 @@
 		"cp": 37,
 		"image": "aunt_mays_wheat_cakes.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "AVENGERS ASSEMBLE",
@@ -162,7 +182,8 @@
 		"cp": 1,
 		"image": "avengers_assemble.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "BANE OF DAMBALLAH",
@@ -173,7 +194,8 @@
 		"cp": 64,
 		"image": "bane_of_damballah.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "BANISHMENT",
@@ -184,7 +206,8 @@
 		"cp": 48,
 		"image": "banishment.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "BATS THE GHOST HOUND",
@@ -195,7 +218,8 @@
 		"cp": 48,
 		"image": "bats_the_ghost_hound.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "Battlefield Medicine",
@@ -206,7 +230,8 @@
 		"cp": 55,
 		"image": "battlefield_medicine.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "BATTLE LUST",
@@ -217,7 +242,8 @@
 		"cp": 7,
 		"image": "battle_lust.jpg",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "BIRD OF PREY",
@@ -228,7 +254,8 @@
 		"cp": 38,
 		"image": "bird_of_prey.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["a29ee4cf-e7d5-4537-b1c7-938f480071bb"]
 	},
 	{
 		"name": "BITTER RIVALS",
@@ -239,7 +266,8 @@
 		"cp": 34,
 		"image": "bitter_rivals.png",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "BLIND OBSESSION",
@@ -250,7 +278,8 @@
 		"cp": 21,
 		"image": "blind_obsession.jpg",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "BLOOD RED AND PERSONAL",
@@ -261,7 +290,8 @@
 		"cp": 32,
 		"image": "blood_red_and_personal.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["9694bf4d-1dd1-4cf1-95f0-483f4e50b860"]
 	},
 	{
 		"name": "BLOOD TO SPARE",
@@ -272,7 +302,8 @@
 		"cp": 15,
 		"image": "blood_to_spare.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "BOOK OF CAGLIOSTRO",
@@ -283,7 +314,8 @@
 		"cp": 67,
 		"image": "book_of_cagliostro.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "BRACE FOR IMPACT",
@@ -294,7 +326,8 @@
 		"cp": 1,
 		"image": "brace_for_impact.jpg",
 		"standardStatus": "restricted",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "CAN I BORROW THAT?",
@@ -305,7 +338,8 @@
 		"cp": 63,
 		"image": "can_i_borrow_that.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["7e8eb980-aa53-4bf4-90d2-defe008c8c6f"]
 	},
 	{
 		"name": "CARBONADIUM SYNTHESIZER",
@@ -316,7 +350,8 @@
 		"cp": 54,
 		"image": "carbonadium_synthesizer.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["a0f1111f-e28e-446f-b2d0-b86e0baf1d99"]
 	},
 	{
 		"name": "CARNAGE RULES",
@@ -327,7 +362,8 @@
 		"cp": 50,
 		"image": "carnage_rules.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["dc999320-3724-4426-99dd-25420e5cb83f"]
 	},
 	{
 		"name": "CAT AND MOUSE",
@@ -338,7 +374,8 @@
 		"cp": 47,
 		"image": "cat_and_mouse.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "CHARMING THIEF",
@@ -349,7 +386,8 @@
 		"cp": 60,
 		"image": "charming_thief.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["c82177d5-6a36-436d-b24c-4023a76ebdaf"]
 	},
 	{
 		"name": "CHILDREN OF THE ATOM",
@@ -360,7 +398,8 @@
 		"cp": 41,
 		"image": "children_of_the_atom.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "CHIMICHANGAS",
@@ -371,7 +410,8 @@
 		"cp": 45,
 		"image": "chimichangas.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["f7f25f9b-1452-419a-b4c2-9793c29fc93e"]
 	},
 	{
 		"name": "CLIMBING GEAR",
@@ -382,7 +422,8 @@
 		"cp": 30,
 		"image": "climbing_gear.jpg",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "CLONING BANKS",
@@ -393,7 +434,8 @@
 		"cp": 46,
 		"image": "cloning_banks.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["4446a63d-2dbc-47ac-9bdb-5900a32980a4"]
 	},
 	{
 		"name": "COSMIC INVIGORATION",
@@ -404,7 +446,8 @@
 		"cp": 1,
 		"image": "cosmic_invigoration.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["8b154877-c338-41cf-9b4b-552deb908bf5"]
 	},
 	{
 		"name": "CREW OF THE MILANO",
@@ -415,7 +458,8 @@
 		"cp": 18,
 		"image": "crew_of_the_milano.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "CRUELTY",
@@ -426,7 +470,8 @@
 		"cp": 30,
 		"image": "cruelty.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "DARK EMPOWERMENT",
@@ -437,7 +482,8 @@
 		"cp": 33,
 		"image": "dark_empowerment.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "DARK PAST",
@@ -448,7 +494,8 @@
 		"cp": 60,
 		"image": "dark_past.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["c82177d5-6a36-436d-b24c-4023a76ebdaf"]
 	},
 	{
 		"name": "DARK REIGN",
@@ -459,7 +506,8 @@
 		"cp": 1,
 		"image": "dark_reign.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "DARK RESTORATION",
@@ -470,7 +518,8 @@
 		"cp": 33,
 		"image": "dark_restoration.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["9863615f-a03e-472f-a3ba-7d02457e2718"]
 	},
 	{
 		"name": "DAUGHTERS OF THANOS",
@@ -481,7 +530,11 @@
 		"cp": 16,
 		"image": "daughters_of_thanos.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"eb09140d-018a-4724-8275-57fdff589111",
+			"7ff2ba68-12f5-40b4-80c6-5a410a08c79e"
+		]
 	},
 	{
 		"name": "DEADLY DUO",
@@ -492,7 +545,11 @@
 		"cp": 17,
 		"image": "deadly_duo.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"cd67ecbb-f683-4e08-9e60-c93978c99a25",
+			"68d20110-2875-4b17-9b18-de674ba390f1"
+		]
 	},
 	{
 		"name": "DEAL WITH THE DEVIL",
@@ -503,7 +560,8 @@
 		"cp": 27,
 		"image": "deal_with_the_devil.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["f57c2151-3ca8-4df7-a38f-215c3470bef7"]
 	},
 	{
 		"name": "DECEPTION",
@@ -514,7 +572,8 @@
 		"cp": 43,
 		"image": "deception.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["04baeeff-807b-4f05-8b68-388b00ff47c3"]
 	},
 	{
 		"name": "Defensive Prototype",
@@ -525,7 +584,8 @@
 		"cp": 55,
 		"image": "defensive_prototype.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "DIFFICULT TO PLEASE",
@@ -536,7 +596,12 @@
 		"cp": 63,
 		"image": "difficult_to_please.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"4820fefd-9876-4ac7-9fd2-f948a8e8177b",
+			"7e8eb980-aa53-4bf4-90d2-defe008c8c6f",
+			"e3299d5c-5211-4374-a636-a1b11c23b915"
+		]
 	},
 	{
 		"name": "DIRTY WORK",
@@ -547,7 +612,8 @@
 		"cp": 47,
 		"image": "dirty_work.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "DISARM",
@@ -558,7 +624,8 @@
 		"cp": 1,
 		"image": "disarm.jpg",
 		"standardStatus": "restricted",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "DO YOU KNOW WHO I AM?",
@@ -569,7 +636,8 @@
 		"cp": 56,
 		"image": "do_you_know_who_i_am.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["d4c9a1c8-fc3e-46a7-8daa-5de34b8ad87e"]
 	},
 	{
 		"name": "DOOMED PROPHECY",
@@ -580,7 +648,8 @@
 		"cp": 12,
 		"image": "doomed_prophecy.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "DROP OFF",
@@ -591,7 +660,8 @@
 		"cp": 1,
 		"image": "drop_off.jpg",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "ELEMENTAL INFUSION",
@@ -602,7 +672,8 @@
 		"cp": 35,
 		"image": "elemental_infusion.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["6b2e36f7-569b-4932-a7a2-60b92bae6ea4"]
 	},
 	{
 		"name": "ESCORT TO SAFETY",
@@ -613,7 +684,8 @@
 		"cp": 1,
 		"image": "escort_to_safety.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "EXECUTE",
@@ -624,7 +696,8 @@
 		"cp": 15,
 		"image": "execute.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["6e152252-1f4e-4c01-8bf0-ac8efe0b0c16"]
 	},
 	{
 		"name": "EXTREME CONDITIONING",
@@ -635,7 +708,8 @@
 		"cp": 32,
 		"image": "extreme_conditioning.jpg",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "Eye in the Sky",
@@ -646,7 +720,8 @@
 		"cp": 55,
 		"image": "eye_in_the_sky.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["64aadfb9-b553-4079-abbd-4ea1f1b4c4d8"]
 	},
 	{
 		"name": "EYES ON THE PRIZE",
@@ -657,7 +732,8 @@
 		"cp": 38,
 		"image": "eyes_on_the_prize.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "FACE ME",
@@ -668,7 +744,8 @@
 		"cp": 25,
 		"image": "face_me.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "FALL BACK",
@@ -679,7 +756,8 @@
 		"cp": 52,
 		"image": "fall_back.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "FAN CLUB",
@@ -690,7 +768,11 @@
 		"cp": 52,
 		"image": "fan_club.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"30f6914c-ccb4-4d97-95cc-3cc7b40b513f",
+			"e3e40411-5de4-47ca-a18c-6b9319a31bdb"
+		]
 	},
 	{
 		"name": "FASTBALL SPECIAL!",
@@ -701,7 +783,11 @@
 		"cp": 57,
 		"image": "fastball_special.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"d5b32e96-6565-4d84-a8b4-df6d20d6c9db",
+			"bd634937-4457-4351-bfca-15a0365a263e"
+		]
 	},
 	{
 		"name": "FEARFUL SYMMETRY",
@@ -712,7 +798,12 @@
 		"cp": 58,
 		"image": "fearful_symmetry.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"0c65c82f-695b-49c5-a608-cf260efe00e0",
+			"ea294a42-9e74-440c-a36c-a4534dd37369",
+			"5647b077-4e2e-493b-bdfa-f44b8651c432"
+		]
 	},
 	{
 		"name": "FIELD DRESSING",
@@ -723,7 +814,8 @@
 		"cp": 13,
 		"image": "field_dressing.jpg",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "FIRST CLASS",
@@ -734,7 +826,8 @@
 		"cp": 41,
 		"image": "first_class.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "FOLLOW ME",
@@ -745,7 +838,8 @@
 		"cp": 1,
 		"image": "follow_me.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "FORCED EXTRACTION",
@@ -756,7 +850,8 @@
 		"cp": 46,
 		"image": "forced_extraction.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["4446a63d-2dbc-47ac-9bdb-5900a32980a4"]
 	},
 	{
 		"name": "GAMMA LAUNCH",
@@ -767,7 +862,8 @@
 		"cp": 4,
 		"image": "gamma_launch.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["59d1d852-1e0c-4128-9b87-23597621aa8d"]
 	},
 	{
 		"name": "GRIEVOUS WOUNDS",
@@ -778,7 +874,8 @@
 		"cp": 28,
 		"image": "grievous_wounds.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "Hard Reset",
@@ -789,7 +886,8 @@
 		"cp": 55,
 		"image": "hard_reset.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "HEAVE HO",
@@ -800,7 +898,8 @@
 		"cp": 1,
 		"image": "heave_ho.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "HEAVY FIREPOWER",
@@ -811,7 +910,8 @@
 		"cp": 24,
 		"image": "heavy_firepower.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "HEAVY ORDNANCE",
@@ -822,7 +922,8 @@
 		"cp": 32,
 		"image": "heavy_ordnance.jpg",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "Helicarrier Strike",
@@ -833,7 +934,8 @@
 		"cp": 55,
 		"image": "helicarrier_strike.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "HELIOS LASER BOMBARDMENT",
@@ -844,7 +946,11 @@
 		"cp": 52,
 		"image": "helios_laser_bombardment.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"f961f849-35bf-4d7b-8894-9c52a2b9face",
+			"c98b785d-9ca1-481e-bc35-6bbe9f95d423"
+		]
 	},
 	{
 		"name": "HEROES FOR HIRE",
@@ -855,7 +961,11 @@
 		"cp": 49,
 		"image": "heroes_for_hire.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"bc3848ca-e0a3-482d-8301-f3c0d4da7826",
+			"8fb831ca-7a47-4be1-8330-bf2a78ccf323"
+		]
 	},
 	{
 		"name": "HIGHWAY TO HELL",
@@ -866,7 +976,8 @@
 		"cp": 27,
 		"image": "highway_to_hell.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["f57c2151-3ca8-4df7-a38f-215c3470bef7"]
 	},
 	{
 		"name": "HIRED MUSCLE",
@@ -877,7 +988,8 @@
 		"cp": 29,
 		"image": "hired_muscle.jpg",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "HOOD'S GANG",
@@ -888,7 +1000,8 @@
 		"cp": 65,
 		"image": "hoods_gang.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["3ed19eec-75fa-4149-a8f5-f46f25e9ead7"]
 	},
 	{
 		"name": "ILLICIT TECH",
@@ -899,7 +1012,11 @@
 		"cp": 61,
 		"image": "illicit_tech.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"e93e8dd2-f6b4-4f99-8917-fdc5393f24ff",
+			"b6bfab62-39b8-44d3-a3d2-6974cf841a05"
+		]
 	},
 	{
 		"name": "INDOMITABLE",
@@ -910,7 +1027,8 @@
 		"cp": 57,
 		"image": "indomitable.png",
 		"standardStatus": "restricted",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "INHUMAN ROYAL FAMILY",
@@ -921,7 +1039,8 @@
 		"cp": 34,
 		"image": "inhuman_royal_family.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "INSPIRING MONOLOGUE",
@@ -932,7 +1051,8 @@
 		"cp": 1,
 		"image": "inspiring_monologue.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "IRON-BOUND BOOKS OF SHUMA-GORATH",
@@ -943,7 +1063,8 @@
 		"cp": 67,
 		"image": "iron_bound_books_of_shuma_gorath.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "JEAN!!!",
@@ -954,7 +1075,12 @@
 		"cp": 53,
 		"image": "jean.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"03a4a2b4-55d2-41cb-b199-3bb06232d393",
+			"5f0a1817-7adc-4b63-b31b-1283850bac53",
+			"bd634937-4457-4351-bfca-15a0365a263e"
+		]
 	},
 	{
 		"name": "JONATHAN THE UNSTOPPABLE",
@@ -965,7 +1091,8 @@
 		"cp": 71,
 		"image": "jonathan_the_unstoppable.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["6b234e6c-536f-4b57-8d04-069158744898"]
 	},
 	{
 		"name": "JOURNEY THROUGH LIMBO",
@@ -976,7 +1103,8 @@
 		"cp": 57,
 		"image": "journey_through_limbo.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["d57807a1-c4f8-4edb-992a-31201d793238"]
 	},
 	{
 		"name": "K'UN-LUN TRAINING",
@@ -987,7 +1115,8 @@
 		"cp": 49,
 		"image": "kun_lun_training.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "KICK 'EM WHILE THEY'RE DOWN",
@@ -998,7 +1127,8 @@
 		"cp": 49,
 		"image": "kick_em_while_theyre_down.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "LAST-MINUTE SAVE",
@@ -1009,7 +1139,8 @@
 		"cp": 35,
 		"image": "last_minute_save.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["7c6c9d2c-6bed-415a-8723-b84d00660075"]
 	},
 	{
 		"name": "LETHAL PROTECTOR",
@@ -1020,7 +1151,8 @@
 		"cp": 9,
 		"image": "lethal_protector.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["3c1faf0b-c1ea-4f38-ab32-94856e6b3ed6"]
 	},
 	{
 		"name": "Life Model Decoy",
@@ -1031,7 +1163,8 @@
 		"cp": 55,
 		"image": "life_model_decoy.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["64aadfb9-b553-4079-abbd-4ea1f1b4c4d8"]
 	},
 	{
 		"name": "LOVABLE MISFITS",
@@ -1042,7 +1175,8 @@
 		"cp": 28,
 		"image": "lovable_misfits.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "MAGNETIC CRUSH",
@@ -1053,7 +1187,8 @@
 		"cp": 42,
 		"image": "magnetic_crush.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["e3299d5c-5211-4374-a636-a1b11c23b915"]
 	},
 	{
 		"name": "MAGNETIC REFRACTION",
@@ -1064,7 +1199,8 @@
 		"cp": 42,
 		"image": "magnetic_refraction.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["e3299d5c-5211-4374-a636-a1b11c23b915"]
 	},
 	{
 		"name": "MAKIN' A RUCKUS",
@@ -1075,7 +1211,8 @@
 		"cp": 56,
 		"image": "makin_a_ruckus.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["d4c9a1c8-fc3e-46a7-8daa-5de34b8ad87e"]
 	},
 	{
 		"name": "MARKED FOR DEATH",
@@ -1086,7 +1223,8 @@
 		"cp": 19,
 		"image": "marked_for_death.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "MEDPACK",
@@ -1097,7 +1235,8 @@
 		"cp": 16,
 		"image": "medpack.jpg",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "MENTAL DOMINATION",
@@ -1108,7 +1247,11 @@
 		"cp": 53,
 		"image": "mental_domination.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"d1d383fa-c53a-431a-9966-87386ca344e6",
+			"03a4a2b4-55d2-41cb-b199-3bb06232d393"
+		]
 	},
 	{
 		"name": "MIND IF I CUT IN?",
@@ -1119,7 +1262,8 @@
 		"cp": 60,
 		"image": "mind_if_i_cut_in.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["12df0ea0-c0d9-4e40-b6b5-ef89574f1ece"]
 	},
 	{
 		"name": "MISSION OBJECTIVE",
@@ -1130,7 +1274,8 @@
 		"cp": 1,
 		"image": "mission_objective.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "MONKEY BRAIN IS LIZARD HOME",
@@ -1141,7 +1286,8 @@
 		"cp": 58,
 		"image": "monkey_brain_is_lizard_home.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["5d8d6c5f-87b0-465c-8e1c-5f0072a3b99f"]
 	},
 	{
 		"name": "MOTHERSHIP",
@@ -1152,7 +1298,8 @@
 		"cp": 19,
 		"image": "mothership.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "NEOGENETIC RECOMBINATOR",
@@ -1163,7 +1310,8 @@
 		"cp": 58,
 		"image": "neogenetic_recombinator.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "NO ESCAPE",
@@ -1174,7 +1322,8 @@
 		"cp": 26,
 		"image": "no_escape.jpg",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "NO MATTER THE COST",
@@ -1185,7 +1334,8 @@
 		"cp": 20,
 		"image": "no_matter_the_cost.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "NO MORE MUTANTS",
@@ -1196,7 +1346,8 @@
 		"cp": 63,
 		"image": "no_more_mutants.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["4820fefd-9876-4ac7-9fd2-f948a8e8177b"]
 	},
 	{
 		"name": "ODIN'S BLESSING",
@@ -1207,7 +1358,8 @@
 		"cp": 11,
 		"image": "odins_blessing.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "ONE-TWO PUNCH",
@@ -1218,7 +1370,8 @@
 		"cp": 1,
 		"image": "one_two_punch.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "ORB OF AGAMOTTO",
@@ -1229,7 +1382,8 @@
 		"cp": 64,
 		"image": "orb_of_agamotto.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "PARDON ME, SUGAH",
@@ -1240,7 +1394,8 @@
 		"cp": 60,
 		"image": "pardon_me_sugah.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["d2c90764-e434-4951-9334-4a0bfd618c0b"]
 	},
 	{
 		"name": "PATCH UP",
@@ -1251,7 +1406,8 @@
 		"cp": 1,
 		"image": "patch_up.jpg",
 		"standardStatus": "restricted",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "PENTAGRAM OF FARALLAH",
@@ -1262,7 +1418,8 @@
 		"cp": 23,
 		"image": "pentagram_of_farallah.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "PLANE OF POHLDAHK",
@@ -1273,7 +1430,8 @@
 		"cp": 65,
 		"image": "plane_of_pohldahk.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "POWER OF THE COSMOS",
@@ -1284,7 +1442,8 @@
 		"cp": 25,
 		"image": "power_of_the_cosmos.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["d2c90764-e434-4951-9334-4a0bfd618c0b"]
 	},
 	{
 		"name": "PRETTY SNEAKY, SIS",
@@ -1295,7 +1454,8 @@
 		"cp": 45,
 		"image": "pretty_sneaky_sis.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "PRICE OF FAILURE",
@@ -1306,7 +1466,8 @@
 		"cp": 15,
 		"image": "price_of_failure.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "PROFESSIONALS",
@@ -1317,7 +1478,12 @@
 		"cp": 24,
 		"image": "professionals.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"231e5db3-cd81-42fb-af87-cebeaffc6811",
+			"deaf34eb-a669-4f4a-82de-4856a9f3e939",
+			"c6a68770-934c-43d5-a340-16bcb5f7603c"
+		]
 	},
 	{
 		"name": "PSYCHIC FORTRESS",
@@ -1328,7 +1494,8 @@
 		"cp": 5,
 		"image": "psychic_fortress.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["e954c2c1-fdd3-4013-b165-8a709cee19a9"]
 	},
 	{
 		"name": "PSYCHIC SHIELDING DEVICE (P.S.D.)",
@@ -1339,7 +1506,8 @@
 		"cp": 13,
 		"image": "psychic_shielding_device_psd.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "PYM PARTICLES",
@@ -1350,7 +1518,11 @@
 		"cp": 26,
 		"image": "pym_particles.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"798bb202-f43e-4cc3-80f8-2889108aeb80",
+			"a6a3ceb4-f6f7-4c1b-a34f-fc5c17914684"
+		]
 	},
 	{
 		"name": "RAINBOW BRIDGE",
@@ -1361,7 +1533,8 @@
 		"cp": 28,
 		"image": "rainbow_bridge.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "RECALIBRATION MATRIX",
@@ -1372,7 +1545,8 @@
 		"cp": 5,
 		"image": "recalibration_matrix.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "RED ROOM TRAINING",
@@ -1383,7 +1557,8 @@
 		"cp": 54,
 		"image": "red_room_training.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "Reposition",
@@ -1394,7 +1569,8 @@
 		"cp": 55,
 		"image": "reposition.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["64aadfb9-b553-4079-abbd-4ea1f1b4c4d8"]
 	},
 	{
 		"name": "REVERSAL",
@@ -1405,7 +1581,8 @@
 		"cp": 26,
 		"image": "reversal.jpg",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "RICOCHET BLAST",
@@ -1416,7 +1593,12 @@
 		"cp": 1,
 		"image": "ricochet_blast.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"c98b785d-9ca1-481e-bc35-6bbe9f95d423",
+			"a29ee4cf-e7d5-4537-b1c7-938f480071bb",
+			"dfed56cf-8dae-4b3d-9bd1-c54e7185a711"
+		]
 	},
 	{
 		"name": "ROCKET BOOTS?!",
@@ -1427,7 +1609,8 @@
 		"cp": 18,
 		"image": "rocket_boots.jpg",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "SACRIFICE",
@@ -1438,7 +1621,8 @@
 		"cp": 1,
 		"image": "sacrifice.jpg",
 		"standardStatus": "restricted",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "SEANCE",
@@ -1449,7 +1633,8 @@
 		"cp": 65,
 		"image": "seance.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["1a981a9f-df83-4a59-97e1-25d14558d0f5"]
 	},
 	{
 		"name": "SECOND WIND",
@@ -1460,7 +1645,8 @@
 		"cp": 1,
 		"image": "second_wind.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "SEEING RED",
@@ -1471,7 +1657,8 @@
 		"cp": 4,
 		"image": "seeing_red.jpg",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "SEVEN SUNS OF CINNIBUS",
@@ -1482,7 +1669,8 @@
 		"cp": 23,
 		"image": "seven_suns_of_cinnibus.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["8253ec69-c186-45e4-8533-1bfd174a64f4"]
 	},
 	{
 		"name": "SHADOW ORGANIZATION",
@@ -1493,7 +1681,8 @@
 		"cp": 29,
 		"image": "shadow_organization.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "SHHH...",
@@ -1504,7 +1693,8 @@
 		"cp": 19,
 		"image": "shhh.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["10a612d9-1f8b-470a-b2da-9d8102f76830"]
 	},
 	{
 		"name": "SIBLING RIVALRY",
@@ -1515,7 +1705,11 @@
 		"cp": 12,
 		"image": "sibling_rivalry.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"ba8861c3-2cdf-42be-84e0-5c23af8d7683",
+			"26a7ed0e-c1bf-480b-b118-f8b3a9649510"
+		]
 	},
 	{
 		"name": "SIEGE OF DARKNESS",
@@ -1526,7 +1720,8 @@
 		"cp": 48,
 		"image": "siege_of_darkness.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "SINISTER TRAPS",
@@ -1537,7 +1732,8 @@
 		"cp": 58,
 		"image": "sinister_traps.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "Sitrep",
@@ -1548,7 +1744,8 @@
 		"cp": 55,
 		"image": "sitrep.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "SMASH",
@@ -1559,7 +1756,8 @@
 		"cp": 1,
 		"image": "smash.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "SPECIAL DELIVERY",
@@ -1570,7 +1768,8 @@
 		"cp": 39,
 		"image": "special_delivery.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["c9ef58da-fba9-4a02-bc74-5e66b06187df"]
 	},
 	{
 		"name": "SPIDER-TRACKER",
@@ -1581,7 +1780,8 @@
 		"cp": 37,
 		"image": "spider_tracker.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "STALWART DETERMINATION",
@@ -1592,7 +1792,8 @@
 		"cp": 39,
 		"image": "stalwart_determination.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "SUCKER",
@@ -1603,7 +1804,8 @@
 		"cp": 1,
 		"image": "sucker.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "TACTICAL ANALYSIS",
@@ -1614,7 +1816,8 @@
 		"cp": 13,
 		"image": "tactical_analysis.jpg",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "TACTICAL MANEUVERS",
@@ -1625,7 +1828,8 @@
 		"cp": 38,
 		"image": "tactical_maneuvers.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "TERRIGENESIS",
@@ -1636,7 +1840,8 @@
 		"cp": 34,
 		"image": "terrigenesis.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "THE AGE OF ULTRON",
@@ -1647,7 +1852,8 @@
 		"cp": 1,
 		"image": "the_age_of_ultron.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["ff7a464f-f666-45c4-8c53-ca0389b5bce0"]
 	},
 	{
 		"name": "THE AIR FORCE",
@@ -1658,7 +1864,11 @@
 		"cp": 38,
 		"image": "the_air_force.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"97d4756b-5179-44c9-9b3d-8578a761472b",
+			"30f6914c-ccb4-4d97-95cc-3cc7b40b513f"
+		]
 	},
 	{
 		"name": "THE BAR WITH NO DOORS (Front)",
@@ -1669,7 +1879,8 @@
 		"cp": 67,
 		"image": "the_bar_with_no_doors_front.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "THE BAR WITH NO DOORS (Back)",
@@ -1680,7 +1891,8 @@
 		"cp": 67,
 		"image": "the_bar_with_no_doors_back.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "THE BOOKS OF TRUTH",
@@ -1691,7 +1903,8 @@
 		"cp": 43,
 		"image": "the_books_of_truth.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "THE CAT AND THE SPIDER",
@@ -1702,7 +1915,11 @@
 		"cp": 37,
 		"image": "the_cat_and_the_spider.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"5647b077-4e2e-493b-bdfa-f44b8651c432",
+			"ea294a42-9e74-440c-a36c-a4534dd37369"
+		]
 	},
 	{
 		"name": "THE GRAND ILLUSION",
@@ -1713,7 +1930,8 @@
 		"cp": 50,
 		"image": "the_grand_illusion.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["957885a0-78d2-4f5e-8fb2-139bd019a174"]
 	},
 	{
 		"name": "The Initiative",
@@ -1724,7 +1942,8 @@
 		"cp": 55,
 		"image": "the_initiative.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "The Shieldmobile",
@@ -1735,7 +1954,8 @@
 		"cp": 55,
 		"image": "the_shieldmobile.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "THE WHIMS OF CHAOS",
@@ -1746,7 +1966,8 @@
 		"cp": 63,
 		"image": "the_whims_of_chaos.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["4820fefd-9876-4ac7-9fd2-f948a8e8177b"]
 	},
 	{
 		"name": "THERE WILL BE CARNAGE",
@@ -1757,7 +1978,8 @@
 		"cp": 50,
 		"image": "there_will_be_carnage.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["dc999320-3724-4426-99dd-25420e5cb83f"]
 	},
 	{
 		"name": "THUNDERWAVE",
@@ -1768,7 +1990,12 @@
 		"cp": 11,
 		"image": "thunderwave.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"ba8861c3-2cdf-42be-84e0-5c23af8d7683",
+			"a29ee4cf-e7d5-4537-b1c7-938f480071bb",
+			"dfed56cf-8dae-4b3d-9bd1-c54e7185a711"
+		]
 	},
 	{
 		"name": "TILL THE END OF THE LINE",
@@ -1779,7 +2006,12 @@
 		"cp": 13,
 		"image": "till_the_end_of_the_line.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"a29ee4cf-e7d5-4537-b1c7-938f480071bb",
+			"dfed56cf-8dae-4b3d-9bd1-c54e7185a711",
+			"36755692-dfb7-4b1f-92ef-c91f40199503"
+		]
 	},
 	{
 		"name": "TO ASH AND CINDER",
@@ -1790,7 +2022,11 @@
 		"cp": 61,
 		"image": "to_ash_and_cinder.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"e93e8dd2-f6b4-4f99-8917-fdc5393f24ff",
+			"b6bfab62-39b8-44d3-a3d2-6974cf841a05"
+		]
 	},
 	{
 		"name": "TO ME, MY X-MEN!",
@@ -1801,7 +2037,8 @@
 		"cp": 41,
 		"image": "to_me_my_x_men.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "TRIP UP",
@@ -1812,7 +2049,8 @@
 		"cp": 1,
 		"image": "trip_up.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "UNEARTHLY RAGE",
@@ -1823,7 +2061,8 @@
 		"cp": 20,
 		"image": "unearthly_rage.jpg",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "UNEASY ALLIES",
@@ -1834,7 +2073,12 @@
 		"cp": 9,
 		"image": "uneasy_allies.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"3c1faf0b-c1ea-4f38-ab32-94856e6b3ed6",
+			"ea383ada-1f55-4637-a94e-9720538ccf76",
+			"ea294a42-9e74-440c-a36c-a4534dd37369"
+		]
 	},
 	{
 		"name": "USURP THE THRONE",
@@ -1845,7 +2089,8 @@
 		"cp": 7,
 		"image": "usurp_the_throne.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["ec1f2f0f-88b6-42ed-8202-969d45f435ca"]
 	},
 	{
 		"name": "VAPORS OF VALTORR",
@@ -1856,7 +2101,8 @@
 		"cp": 23,
 		"image": "vapors_of_valtorr.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["8253ec69-c186-45e4-8533-1bfd174a64f4"]
 	},
 	{
 		"name": "VERSATILE STRATEGY",
@@ -1867,7 +2113,8 @@
 		"cp": 56,
 		"image": "versatile_strategy.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "VIBRANIUM SHIELDING",
@@ -1878,7 +2125,11 @@
 		"cp": 8,
 		"image": "vibranium_shielding.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"98e6220f-30c6-4f57-a9b3-a939e7df8031",
+			"8227dc1f-493f-443d-b63e-7b64e3b71d80"
+		]
 	},
 	{
 		"name": "WAKANDA FOREVER",
@@ -1889,7 +2140,8 @@
 		"cp": 7,
 		"image": "wakanda_forever.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "WAND OF WATOOMB",
@@ -1900,7 +2152,8 @@
 		"cp": 67,
 		"image": "wand_of_watoomb.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "WARPATH",
@@ -1911,7 +2164,8 @@
 		"cp": 47,
 		"image": "warpath.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "WE ARE GROOT",
@@ -1922,7 +2176,8 @@
 		"cp": 17,
 		"image": "we_are_groot.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["68d20110-2875-4b17-9b18-de674ba390f1"]
 	},
 	{
 		"name": "WEAPON X PROGRAM",
@@ -1933,7 +2188,11 @@
 		"cp": 40,
 		"image": "weapon_x_program.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"bd634937-4457-4351-bfca-15a0365a263e",
+			"a78f1083-3279-446c-8287-c760cfce58b7"
+		]
 	},
 	{
 		"name": "WEB BARRIER",
@@ -1944,7 +2203,8 @@
 		"cp": 10,
 		"image": "web_barrier.jpg",
 		"standardStatus": "rotated",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "WELL-LAID PLANS",
@@ -1955,7 +2215,11 @@
 		"cp": 21,
 		"image": "well_laid_plans.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"def45dc3-2fba-4fc5-96fb-15613beaf42e",
+			"c2243027-cdb5-4b3c-abd9-281611c22283"
+		]
 	},
 	{
 		"name": "WOLVERINES",
@@ -1966,7 +2230,11 @@
 		"cp": 71,
 		"image": "wolverines.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"bd634937-4457-4351-bfca-15a0365a263e",
+			"ae79510d-0c9b-429c-a89c-00b57089f1b0"
+		]
 	},
 	{
 		"name": "X-CEPTIONAL HEALING",
@@ -1977,7 +2245,16 @@
 		"cp": 40,
 		"image": "x_ceptional_healing.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"d1d383fa-c53a-431a-9966-87386ca344e6",
+			"f7f25f9b-1452-419a-b4c2-9793c29fc93e",
+			"6b234e6c-536f-4b57-8d04-069158744898",
+			"5d8d6c5f-87b0-465c-8e1c-5f0072a3b99f",
+			"a78f1083-3279-446c-8287-c760cfce58b7",
+			"bd634937-4457-4351-bfca-15a0365a263e",
+			"ae79510d-0c9b-429c-a89c-00b57089f1b0"
+		]
 	},
 	{
 		"name": "YOINK",
@@ -1988,10 +2265,11 @@
 		"cp": 45,
 		"image": "yoink.png",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["f7f25f9b-1452-419a-b4c2-9793c29fc93e"]
 	},
 	{
-		"name": "Black Onslaught",
+		"name": "BLACK ONSLAUGHT",
 		"affiliation": "Black Order",
 		"type": "Reactive",
 		"rules": "If Black Swan is within {RNG} 2 of an allied Black Dwarf when she uses the Charge {ACT} superpower, they may each spent 1 {PWR} to play this card.\n After the Charge movement action is resolved but before making the attack action, you may place Black Dwarf within {RNG} 1 of Black Swan.",
@@ -1999,7 +2277,11 @@
 		"cp": 81,
 		"image": "black_onslaught.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"693fe566-26be-4c8e-90f4-65f27db1cffc",
+			"ecd91109-cb95-4991-81d2-1b6544d7e2b7"
+		]
 	},
 	{
 		"name": "Bounty Hunters",
@@ -2010,7 +2292,11 @@
 		"cp": 79,
 		"image": "bounty_hunters.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"b3abddd7-b647-4b8e-8fb8-5406b7460a43",
+			"64478286-e85e-4b77-a730-0bfc9d2e5542"
+		]
 	},
 	{
 		"name": "Cruel Tutelage",
@@ -2021,7 +2307,8 @@
 		"cp": 79,
 		"image": "cruel_tutelage.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "No Mercy",
@@ -2032,7 +2319,8 @@
 		"cp": 79,
 		"image": "no_mercy.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	},
 	{
 		"name": "Psychic Shockwave",
@@ -2043,7 +2331,11 @@
 		"cp": 81,
 		"image": "psychic_shockwave.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"7da3e3cb-8ef5-42ed-94d3-ed656302889e",
+			"10a612d9-1f8b-470a-b2da-9d8102f76830"
+		]
 	},
 	{
 		"name": "Shuriken Arashi",
@@ -2054,7 +2346,11 @@
 		"cp": 79,
 		"image": "shuriken_arashi.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"b3abddd7-b647-4b8e-8fb8-5406b7460a43",
+			"66a9bc58-31fe-4892-911a-71c02b312f3c"
+		]
 	},
 	{
 		"name": "Vendetta",
@@ -2065,7 +2361,8 @@
 		"cp": 79,
 		"image": "vendetta.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": ["b3abddd7-b647-4b8e-8fb8-5406b7460a43"]
 	},
 	{
 		"name": "First of the Black Order",
@@ -2076,6 +2373,10 @@
 		"cp": 81,
 		"image": "first_of_the_black_order.jpg",
 		"standardStatus": "legal",
-		"extendedStatus": "legal"
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"d2c90764-e434-4951-9334-4a0bfd618c0b",
+			"6e152252-1f4e-4c01-8bf0-ac8efe0b0c16"
+		]
 	}
 ]
