@@ -41,6 +41,13 @@ const Home = () => {
 				</Typography>
 				<Typography
 					variant="h6"
+					onClick={() => navigate(`/misc-reference`)}
+					sx={{ cursor: 'pointer' }}
+				>
+					Misc. Reference
+				</Typography>
+				<Typography
+					variant="h6"
 					onClick={() => navigate(`rules-reference`)}
 					sx={{ cursor: 'pointer' }}
 				>

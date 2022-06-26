@@ -1,7 +1,8 @@
 import React from 'react';
+import PageContainer from '../../components/PageContainer';
 
 const Calculator = () => {
-	return <div>Calculator</div>;
+	return <PageContainer></PageContainer>;
 };
 
 export default Calculator;

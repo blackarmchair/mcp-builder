@@ -25,40 +25,47 @@ const TeamTacticsList = ({ clickDisposition, handleSelection, preclude }) => {
 		<List>
 			{teamTactics
 				.filter((tactic) => !precluded.includes(tactic.id))
-				.map((tactic) => (
-					<div
-						key={`${tactic.id}`}
-						onClick={() => handleSelectCard(tactic)}
-						style={{ cursor: 'pointer' }}
-					>
-						<ListItem
-							sx={{
-								backgroundColor: THEME.palette.overlay.main,
-								mb: 1,
-							}}
+				.map((tactic) => {
+					const rotated = tactic.standardStatus === 'rotated';
+					const restricted = tactic.standardStatus === 'restricted';
+					const banned = tactic.standardStatus === 'banned';
+					return (
+						<div
+							key={`${tactic.id}`}
+							onClick={() => handleSelectCard(tactic)}
+							style={{ cursor: 'pointer' }}
 						>
-							<ListItemText
-								primary={tactic.name}
-								secondary={toTitleCase(tactic.affiliation)}
-								primaryTypographyProps={{
-									color: tactic.banned
-										? THEME.palette.phys.main
-										: tactic.restricted
-										? THEME.palette.enrg.main
-										: THEME.palette.white.main,
+							<ListItem
+								sx={{
+									backgroundColor: THEME.palette.overlay.main,
+									mb: 1,
 								}}
-								secondaryTypographyProps={{
-									color: tactic.banned
-										? `${THEME.palette.phys.main} !important`
-										: tactic.restricted
-										? `${THEME.palette.enrg.main} !important`
-										: THEME.palette.white.main,
-								}}
-							/>
-						</ListItem>
-						<Divider />
-					</div>
-				))}
+							>
+								<ListItemText
+									primary={tactic.name}
+									secondary={toTitleCase(tactic.affiliation)}
+									primaryTypographyProps={{
+										color:
+											banned || rotated
+												? THEME.palette.phys.main
+												: restricted
+												? THEME.palette.enrg.main
+												: THEME.palette.white.main,
+									}}
+									secondaryTypographyProps={{
+										color:
+											banned || rotated
+												? `${THEME.palette.phys.main} !important`
+												: restricted
+												? `${THEME.palette.enrg.main} !important`
+												: THEME.palette.white.main,
+									}}
+								/>
+							</ListItem>
+							<Divider />
+						</div>
+					);
+				})}
 			<TeamTacticsCardDetail
 				open={detailModal}
 				toggle={toggleDetailModal}

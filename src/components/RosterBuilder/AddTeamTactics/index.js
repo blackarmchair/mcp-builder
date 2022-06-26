@@ -119,6 +119,9 @@ const AddTeamTactics = () => {
 					const teamTactic = allTeamTactics.find(
 						(c) => !c.id.localeCompare(id)
 					);
+					const banned = teamTactic.standardStatus === 'banned';
+					const rotated = teamTactic.standardStatus === 'rotated';
+					const restricted = teamTactic.standardStatus === 'restricted';
 					return (
 						<div key={id} style={{ cursor: 'pointer' }}>
 							<ListItem
@@ -141,18 +144,20 @@ const AddTeamTactics = () => {
 									primary={teamTactic.name}
 									secondary={toTitleCase(teamTactic.affiliation)}
 									primaryTypographyProps={{
-										color: teamTactic.banned
-											? THEME.palette.phys.main
-											: teamTactic.restricted
-											? THEME.palette.enrg.main
-											: THEME.palette.white.main,
+										color:
+											banned || rotated
+												? THEME.palette.phys.main
+												: restricted
+												? THEME.palette.enrg.main
+												: THEME.palette.white.main,
 									}}
 									secondaryTypographyProps={{
-										color: teamTactic.banned
-											? `${THEME.palette.phys.main} !important`
-											: teamTactic.restricted
-											? `${THEME.palette.enrg.main} !important`
-											: THEME.palette.white.main,
+										color:
+											banned || rotated
+												? `${THEME.palette.phys.main} !important`
+												: restricted
+												? `${THEME.palette.enrg.main} !important`
+												: THEME.palette.white.main,
 									}}
 								/>
 							</ListItem>

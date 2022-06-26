@@ -18,7 +18,7 @@
 		"setup": "Place two Herb (Asset) onto the central points on map A. Place two Vessels (Target of Opportunity) on the other two points.",
 		"scoring": "Players score 4 VPs if an allied character is holding their Herb while contesting their Vessel during the Cleanup Phase.",
 		"details": "Interact (Herb): Pick up your Herb.\nA character holding an Herb cannot perform more than one move action per turn, and adds one die to {PHYS} attack rolls, and has the {INNATE} Immunity [Slow, Stagger] superpower.\nHerbs placed farthest from a player's board edge and Vessels placed closest to a player's board edge are their Herbs and Vessels.",
-		"banned": false,
+		"banned": true,
 		"map": "A",
 		"speed": 4,
 		"id": "c60e4d20-bf2e-441b-8603-bd8163553572"

@@ -4,6 +4,7 @@ import Rosters from './containers/Rosters';
 import RosterDetail from './containers/Roster';
 import CardReference from './containers/CardReference';
 import CardDetail from './containers/CardDetail';
+import MiscReference from './containers/MiscReference';
 import Import from './containers/Import';
 import Collection from './containers/Collection';
 import Rules from './containers/Rules';
@@ -61,6 +62,16 @@ const paths = [
 			</Route>
 		),
 		backPath: '/card-reference',
+		resetSearch: false,
+	},
+	{
+		path: '/misc-reference',
+		route: (
+			<Route exact path="/misc-reference" key="miscReference">
+				<MiscReference />
+			</Route>
+		),
+		backPath: '/',
 		resetSearch: false,
 	},
 	{
