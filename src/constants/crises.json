@@ -9,7 +9,8 @@
 		"banned": false,
 		"map": "C",
 		"speed": 2,
-		"id": "f1a71e83-1297-4528-be07-189a173e270e"
+		"id": "f1a71e83-1297-4528-be07-189a173e270e",
+		"image": "mutant_extremists_target_us_senators.jpg"
 	},
 	{
 		"name": "MYSTIC WAKANDAN HERBS: FACT OR FICTION?",
@@ -21,7 +22,8 @@
 		"banned": true,
 		"map": "A",
 		"speed": 4,
-		"id": "c60e4d20-bf2e-441b-8603-bd8163553572"
+		"id": "c60e4d20-bf2e-441b-8603-bd8163553572",
+		"image": "mystic_wakandan_herbs_fact_or_fiction.jpg"
 	},
 	{
 		"name": "RESEARCH STATION ATTACKED!",
@@ -33,7 +35,8 @@
 		"banned": false,
 		"map": "E",
 		"speed": 4,
-		"id": "1d6914bd-67bd-4792-9786-cc7b8e24ed1e"
+		"id": "1d6914bd-67bd-4792-9786-cc7b8e24ed1e",
+		"image": "research_station_attacked!.png"
 	},
 	{
 		"name": "SKRULLS INFILTRATE WORLD LEADERSHIP",
@@ -45,7 +48,8 @@
 		"banned": false,
 		"map": "C",
 		"speed": 2,
-		"id": "7210e5c5-0155-4423-957f-abbcfdf30005"
+		"id": "7210e5c5-0155-4423-957f-abbcfdf30005",
+		"image": "skrulls_infiltrate_world_leadership.jpg"
 	},
 	{
 		"name": "SPIDER INFECTED INVADE MANHATTAN",
@@ -57,7 +61,8 @@
 		"banned": false,
 		"map": "F",
 		"speed": 5,
-		"id": "aa6e36a5-d516-48e7-99b8-92fd873b571e"
+		"id": "aa6e36a5-d516-48e7-99b8-92fd873b571e",
+		"image": "spider_infected_invade_manhattan.jpg"
 	},
 	{
 		"name": "STRUGGLE FOR THE CUBE CONTINUES",
@@ -69,7 +74,8 @@
 		"banned": false,
 		"map": "F",
 		"speed": 5,
-		"id": "c7edcff3-6871-4f00-b911-4e5ced2ef64c"
+		"id": "c7edcff3-6871-4f00-b911-4e5ced2ef64c",
+		"image": "struggle_for_the_cube_continues.jpg"
 	},
 	{
 		"name": "THE MONTESI FORMULA FOUND",
@@ -81,7 +87,8 @@
 		"banned": false,
 		"map": "E",
 		"speed": 3,
-		"id": "19e000dd-ff90-457d-a4c2-88298e3b0250"
+		"id": "19e000dd-ff90-457d-a4c2-88298e3b0250",
+		"image": "the_montesi_formula_found.jpg"
 	},
 	{
 		"name": "FEAR GRIPS WORLD AS \"WORTHY\" TERRORIZE CITIES",
@@ -93,7 +100,8 @@
 		"banned": false,
 		"map": "D",
 		"speed": 4,
-		"id": "1308c7cc-0e69-4281-9b90-ccd37b02cfab"
+		"id": "1308c7cc-0e69-4281-9b90-ccd37b02cfab",
+		"image": "fear_grips_world_as_worthy_terrorize_cities.jpg"
 	},
 	{
 		"name": "DEADLY LEGACY VIRUS CURED?",
@@ -105,7 +113,8 @@
 		"banned": false,
 		"map": "C",
 		"speed": 3,
-		"id": "f14b3cae-21b9-4535-8f69-d5871a9adc51"
+		"id": "f14b3cae-21b9-4535-8f69-d5871a9adc51",
+		"image": "deadly_legacy_virus_cured.png"
 	},
 	{
 		"name": "PANIC GRIPS CITY AS EVACUATION EFFORTS CONTINUE!",
@@ -117,7 +126,8 @@
 		"banned": true,
 		"map": "B",
 		"speed": 4,
-		"id": "c3f6e76e-7be2-42d2-ac1c-7d6e3b889180"
+		"id": "c3f6e76e-7be2-42d2-ac1c-7d6e3b889180",
+		"image": "panic_grips_city_as_evacuation_efforts_continue.jpg"
 	},
 	{
 		"name": "ALIEN SHIP CRASHES IN DOWNTOWN!",
@@ -130,7 +140,7 @@
 		"map": "C",
 		"speed": 2,
 		"id": "b2401342-ae40-47ff-a72e-5158e6e16514",
-		"image": "alien_ship.PNG"
+		"image": "alien_ship_crashes_in_downtown.jpg"
 	},
 	{
 		"name": "S.W.O.R.D. ESTABLISHES BASE ON MOON'S BLUE AREA",
@@ -142,7 +152,8 @@
 		"banned": false,
 		"map": "C",
 		"speed": 3,
-		"id": "1892598b-4f73-434f-9424-9288490f3884"
+		"id": "1892598b-4f73-434f-9424-9288490f3884",
+		"image": "sword_establishes_base_on_moons_blue_area.png"
 	},
 	{
 		"name": "GAMMA WAVE SWEEPS ACROSS MIDWEST",
@@ -155,7 +166,7 @@
 		"map": "E",
 		"speed": 6,
 		"id": "f8cc1a53-e3d8-4338-a5fe-c948af77772c",
-		"image": "gamma_wave.PNG"
+		"image": "gamma_wave_sweeps_across_midwest.jpg"
 	},
 	{
 		"name": "COSMIC INVASION! BLACK ORDER DESCENDS ON EARTH",
@@ -168,7 +179,7 @@
 		"map": "D",
 		"speed": 4,
 		"id": "6656f66e-e1cb-4ab7-89fe-71336b8f07f0",
-		"image": "cosmic_invasion.PNG"
+		"image": "cosmic_invasion_black_order_descends_on_earth.jpg"
 	},
 	{
 		"name": "MAYOR FISK VOWS TO FIND MISSING WITNESSES",
@@ -181,7 +192,7 @@
 		"map": "C",
 		"speed": 4,
 		"id": "b83015b9-81dd-454b-8324-8b91ecf37a9d",
-		"image": "mayor_fisk.PNG"
+		"image": "mayor_fisk_vows_to_find_missing_witnesses.jpg"
 	},
 	{
 		"name": "DEADLY METEORS MUTATE CIVILIANS",
@@ -194,7 +205,7 @@
 		"map": "C",
 		"speed": 3,
 		"id": "175b4218-07fa-4c7e-81d8-7a1036f81c0f",
-		"image": "deadly_meteors.PNG"
+		"image": "deadly_meteors_mutate_civilians.jpg"
 	},
 	{
 		"name": "INFINITY FORMULA GOES MISSING",
@@ -207,7 +218,7 @@
 		"map": "B",
 		"speed": 4,
 		"id": "b591eb75-0bce-45ac-88b4-16a511941750",
-		"image": "infinity_formula.PNG"
+		"image": "infinity_formula_goes_missing.jpg"
 	},
 	{
 		"name": "RIOTS SPARK OVER EXTREMIS 3.0",
@@ -220,7 +231,7 @@
 		"map": "D",
 		"speed": 4,
 		"id": "c9b0c736-42c5-4763-b886-2d7fd4763a8d",
-		"image": "riots_spark.PNG"
+		"image": "riots_spark_over_extremis_3.jpg"
 	},
 	{
 		"name": "MUTANT MADMAN TURNS CITY CENTER INTO LETHAL AMUSEMENT PARK",
@@ -233,7 +244,7 @@
 		"map": "B",
 		"speed": 4,
 		"id": "ef0a9031-66d4-40b0-b51c-45c1765f1859",
-		"image": "madmen.PNG"
+		"image": "mutant_madman_turns_city_center_into_lethal_amusement_park.jpg"
 	},
 	{
 		"name": "PORTALS OVERRUN CITY WITH SPIDER PEOPLE",
@@ -246,7 +257,7 @@
 		"map": "D",
 		"speed": 4,
 		"id": "427acb2e-7b47-4fc2-b68a-66d6dbf6237d",
-		"image": "spider_people.PNG"
+		"image": "portals_overrun_city_with_spider_people.jpg"
 	},
 	{
 		"name": "DEMONS DOWNTOWN! HAS OUR COMEUPPANCE COME DUE?",
@@ -259,7 +270,7 @@
 		"map": "E",
 		"speed": 3,
 		"id": "2929f190-6d93-48ef-bf29-9b32d0229259",
-		"image": "demons_downtown.PNG"
+		"image": "demons_downtown_has_our_comeuppance_come_due.jpg"
 	},
 	{
 		"name": "INTRUSIONS OPEN ACROSS CITY AS SEALS COLLAPSE",
@@ -271,7 +282,8 @@
 		"banned": false,
 		"map": "C",
 		"speed": 3,
-		"id": "8d51a482-ea66-42e8-b8ef-5ca96cff5e05"
+		"id": "8d51a482-ea66-42e8-b8ef-5ca96cff5e05",
+		"image": "intrusions_open_across_city_as_seals_collapse.png"
 	},
 	{
 		"name": "TERRIGEN CLOUDS SWEEP OVER CITY",
@@ -284,7 +296,7 @@
 		"map": "C",
 		"speed": 4,
 		"id": "e8740386-82bd-4531-ac85-b172c3ba15dd",
-		"image": "terrigen_clouds.PNG"
+		"image": "terrigen_clouds_sweep_over_city.png"
 	},
 	{
 		"name": "SUPER-POWERED SCOUNDRELS FORM SINISTER SYNDICATE!",
@@ -296,6 +308,7 @@
 		"banned": false,
 		"map": "F",
 		"speed": 5,
-		"id": "e8740386-82bd-4531-ac85-b172c3ba15ff"
+		"id": "e8740386-82bd-4531-ac85-b172c3ba15ff",
+		"image": "super_powered_scoundrels_form_sinister_syndicate.png"
 	}
 ]

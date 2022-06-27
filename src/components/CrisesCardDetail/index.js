@@ -1,84 +1,66 @@
 import React from 'react';
-import {
-	Dialog,
-	DialogTitle,
-	DialogContent,
-	DialogActions,
-	Button,
-	List,
-	ListItem,
-	ListItemText,
-	Typography,
-	Divider,
-	Paper,
-} from '@mui/material';
-import { styled } from '@mui/material/styles';
-import toTitleCase from '../../services/titleCase';
-import parseRulesText from '../../services/parseSpecialRules';
-
-const StyledDialogContent = styled(DialogContent)(({ theme }) => ({
-	backgroundColor: theme.palette.overlay.main,
-	padding: theme.spacing(1),
-}));
-const StyledDialogActions = styled(DialogActions)(({ theme }) => ({
-	backgroundColor: theme.palette.overlay.main,
-	padding: theme.spacing(1),
-}));
-const StyledDialogTitle = styled(DialogTitle)(({ theme }) => ({
-	backgroundColor: theme.palette.overlay.main,
-	padding: theme.spacing(1),
-}));
-const Subheader = styled(Typography)(({ theme }) => ({
-	backgroundColor: theme.palette.overlay.main,
-	paddingLeft: theme.spacing(1),
-	fontSize: 'small',
-}));
-const StyledDivider = styled(Divider)(({ theme }) => ({
-	backgroundColor: theme.palette.overlay.main,
-	borderColor: theme.palette.white.main,
-	marginTop: theme.spacing(1),
-}));
-const StyledPaper = styled(Paper)(({ theme }) => ({
-	backgroundColor: `${theme.palette.overlay.main} !important`,
-	padding: theme.spacing(2),
-}));
-
-const CardEntry = ({ label, value, secondary }) => (
-	<ListItem secondaryAction={secondary && <Typography>{value}</Typography>}>
-		<ListItemText primary={label} secondary={!secondary && value} />
-	</ListItem>
-);
+import { Backdrop, CircularProgress } from '@mui/material';
 
 const CrisesCardDetail = ({ open, toggle, card }) => {
+	const [loading, setLoading] = React.useState(true);
+	const [facing, setFacing] = React.useState(0);
+
+	const handleBgClick = () => {
+		if (facing === 1) handleCloseOverlay();
+		flipCard();
+	};
+
+	const handleCloseOverlay = () => {
+		toggle();
+		setLoading(false);
+	};
+
+	const flipCard = () => {
+		setFacing((prev) => (prev ? 0 : 1));
+	};
+
+	const CrisisCardImage = () => (
+		<img
+			src={`${process.env.PUBLIC_URL}/assets/crises/${card?.image}`}
+			alt={card?.name}
+			style={{
+				position: 'absolute',
+				top: '50%',
+				left: '50%',
+				transform: 'translate(-50%, -50%)',
+				maxWidth: '90vw',
+				maxHeight: '90vh',
+				zIndex: 2,
+				opacity: loading ? 0.75 : 1,
+			}}
+			onLoad={() => setLoading(false)}
+		/>
+	);
+
+	const DeploymentMapImage = ({ type }) => (
+		<img
+			src={`${process.env.PUBLIC_URL}/assets/crises/${type}.jpg`}
+			alt={type}
+			style={{
+				position: 'absolute',
+				top: '50%',
+				left: '50%',
+				transform: 'translate(-50%, -50%)',
+				maxWidth: '90vw',
+				maxHeight: '90vh',
+				zIndex: 2,
+				opacity: loading ? 0.75 : 1,
+			}}
+			onLoad={() => setLoading(false)}
+		/>
+	);
+
 	return (
-		<Dialog
-			open={open}
-			onClose={toggle}
-			maxWidth="sm"
-			fullWidth
-			PaperProps={{ component: StyledPaper }}
-		>
-			<StyledDialogTitle sx={{ pb: 0 }}>
-				{toTitleCase(card?.name)}
-			</StyledDialogTitle>
-			<Subheader>
-				Type: {card?.type} | Threat {card?.threat} | Banned:{' '}
-				{card?.banned ? 'Yes' : 'No'}
-			</Subheader>
-			<StyledDivider />
-			<StyledDialogContent>
-				<List>
-					<CardEntry label="" value={parseRulesText(card?.setup)} />
-					<CardEntry label="" value={parseRulesText(card?.scoring)} />
-					<CardEntry label="" value={parseRulesText(card?.details)} />
-				</List>
-			</StyledDialogContent>
-			<StyledDialogActions>
-				<Button variant="contained" color="secondary" onClick={toggle}>
-					Close
-				</Button>
-			</StyledDialogActions>
-		</Dialog>
+		<Backdrop open={open} onClick={handleBgClick} sx={{ zIndex: 1 }}>
+			{loading && <CircularProgress sx={{ zIndex: 3 }} />}
+			{!facing && <CrisisCardImage />}
+			{facing && <DeploymentMapImage type={card?.map?.toLowerCase()} />}
+		</Backdrop>
 	);
 };
 
