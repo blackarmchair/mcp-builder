@@ -22,7 +22,7 @@ const Home = () => {
 			<Grid
 				container
 				spacing={2}
-				style={{ paddingLeft: '10vw', paddingRight: '10vw' }}
+				style={{ paddingLeft: '5vw', paddingRight: '5vw' }}
 			>
 				<PageTile
 					label="Rosters"
