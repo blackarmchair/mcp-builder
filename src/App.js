@@ -11,6 +11,7 @@ import paths from './paths';
 
 import TopBar from './components/Sidebar';
 import Background from './components/Background';
+import Version from './components/Version';
 
 const App = () => {
 	const [appHasUpdates, setAppHasUpdates] = React.useState(false);
@@ -31,11 +32,7 @@ const App = () => {
 
 	const handleAppUpgrade = () => {
 		setAppHasUpdates(false);
-		if (serviceWorkerRegistration.waiting) {
-			serviceWorkerRegistration.waiting.addEventListener('statechange', (e) => {
-				if (e.target.state === 'activated') window.location.reload();
-			});
-		}
+		serviceWorkerRegistration.unregister().then(() => window.location.reload());
 	};
 
 	return (
@@ -58,10 +55,10 @@ const App = () => {
 						<RouterProvider>
 							<Background />
 							<TopBar />
-
 							<RosterProvider>
 								<Switch>{paths.map((path) => path.route)}</Switch>
 							</RosterProvider>
+							<Version version="1.0.0" />
 						</RouterProvider>
 					</SearchProvider>
 				</ToastProvider>

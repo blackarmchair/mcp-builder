@@ -2133,6 +2133,13 @@
 				"specialRules": "- After this attack is resolved, this character may advance {M}.<br>\n                                            - {WILD} {BLOCK} Flurry: After this attack is resolved, this character may make a Strike attack."
 			}
 		],
+		"leadership": [
+			{
+				"name": "Right-Hand Man",
+				"specialRules": "When an allied Black Order character Dazes or KO's an enemy character, all other Black Order characters gain 1 {PWR}.",
+				"affiliation": "BLACK ORDER"
+			}
+		],
 		"activeSuperPowers": [
 			{
 				"name": "GLAIVE'S EDGE",

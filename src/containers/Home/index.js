@@ -1,14 +1,13 @@
 import React from 'react';
-import { Stack, Typography } from '@mui/material';
-import { styled } from '@mui/material/styles';
+import { Stack, Grid } from '@mui/material';
 import { useRouter } from '../../contexts/RouterContext';
+import PageTile from '../../components/PageTile';
 
-const OverlayedStack = styled(Stack)(({ theme }) => ({
-	backgroundColor: theme.palette.overlay.main,
-	minWidth: '33vw',
-	minHeight: '50vh',
-	textAlign: 'center',
-}));
+import ListAltIcon from '@mui/icons-material/ListAlt';
+import FeaturedPlayListIcon from '@mui/icons-material/FeaturedPlayList';
+import AllInclusiveIcon from '@mui/icons-material/AllInclusive';
+import BookIcon from '@mui/icons-material/Book';
+import CollectionsBookmarkIcon from '@mui/icons-material/CollectionsBookmark';
 
 const Home = () => {
 	const { navigate } = useRouter();
@@ -18,56 +17,39 @@ const Home = () => {
 			direction="column"
 			alignItems="center"
 			justifyContent="center"
-			sx={{ minHeight: '100vh' }}
+			sx={{ minHeight: 'calc(100vh - 64px)' }}
 		>
-			<OverlayedStack
+			<Grid
+				container
 				spacing={2}
-				justifyContent="center"
-				sx={{ minWidth: { xs: '66vw', md: '25vw' } }}
+				style={{ paddingLeft: '10vw', paddingRight: '10vw' }}
 			>
-				<Typography
-					variant="h6"
-					onClick={() => navigate(`/rosters`)}
-					sx={{ cursor: 'pointer' }}
-				>
-					Rosters
-				</Typography>
-				<Typography
-					variant="h6"
-					onClick={() => navigate(`/card-reference`)}
-					sx={{ cursor: 'pointer' }}
-				>
-					Card Reference
-				</Typography>
-				<Typography
-					variant="h6"
-					onClick={() => navigate(`/misc-reference`)}
-					sx={{ cursor: 'pointer' }}
-				>
-					Misc. Reference
-				</Typography>
-				<Typography
-					variant="h6"
-					onClick={() => navigate(`rules-reference`)}
-					sx={{ cursor: 'pointer' }}
-				>
-					Rules Reference
-				</Typography>
-				<Typography
-					variant="h6"
-					onClick={() => navigate(`/collection`)}
-					sx={{ cursor: 'pointer' }}
-				>
-					Collection
-				</Typography>
-				<Typography
-					variant="h6"
-					onClick={() => navigate(`/calculator`)}
-					sx={{ cursor: 'pointer' }}
-				>
-					Dice Calculator
-				</Typography>
-			</OverlayedStack>
+				<PageTile
+					label="Rosters"
+					icon={<ListAltIcon color="white" fontSize="large" />}
+					handleClick={() => navigate('/rosters')}
+				/>
+				<PageTile
+					label="Card Reference"
+					icon={<FeaturedPlayListIcon color="white" fontSize="large" />}
+					handleClick={() => navigate('/card-reference')}
+				/>
+				<PageTile
+					label="Misc. Reference"
+					icon={<AllInclusiveIcon color="white" fontSize="large" />}
+					handleClick={() => navigate('/misc-reference')}
+				/>
+				<PageTile
+					label="Rule Reference"
+					icon={<BookIcon color="white" fontSize="large" />}
+					handleClick={() => navigate('/rules-reference')}
+				/>
+				<PageTile
+					label="Collection"
+					icon={<CollectionsBookmarkIcon color="white" fontSize="large" />}
+					handleClick={() => navigate('/collection')}
+				/>
+			</Grid>
 		</Stack>
 	);
 };

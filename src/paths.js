@@ -8,7 +8,6 @@ import MiscReference from './containers/MiscReference';
 import Import from './containers/Import';
 import Collection from './containers/Collection';
 import Rules from './containers/Rules';
-import Calculator from './containers/Calculator';
 import Analytics from './containers/Analytics';
 
 export const HOME_ROUTE = {
@@ -89,16 +88,6 @@ const paths = [
 		route: (
 			<Route exact path="/collection" key="collection">
 				<Collection />
-			</Route>
-		),
-		backPath: '/',
-		resetSearch: true,
-	},
-	{
-		path: '/calculator',
-		route: (
-			<Route exact path="/calculator" key="calculator">
-				<Calculator />
 			</Route>
 		),
 		backPath: '/',
