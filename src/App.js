@@ -58,7 +58,7 @@ const App = () => {
 							<RosterProvider>
 								<Switch>{paths.map((path) => path.route)}</Switch>
 							</RosterProvider>
-							<Version version="1.0.0" />
+							<Version version="1.0.1" />
 						</RouterProvider>
 					</SearchProvider>
 				</ToastProvider>

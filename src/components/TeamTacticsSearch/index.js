@@ -127,6 +127,14 @@ const TeamTacticsSearch = ({ updateQuery, hideNumbers, associatedRoster }) => {
 											label: 'Yes',
 										},
 									},
+									{
+										label: 'No',
+										value: {
+											filterFunction: (member) =>
+												!member.associatedCharacters.length,
+											label: 'No',
+										},
+									},
 								],
 							};
 						}
