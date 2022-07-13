@@ -2378,5 +2378,32 @@
 			"d2c90764-e434-4951-9334-4a0bfd618c0b",
 			"6e152252-1f4e-4c01-8bf0-ac8efe0b0c16"
 		]
+	},
+	{
+		"name": "Weapons of Midgard",
+		"affiliation": "Unaffiliated",
+		"type": "Reactive",
+		"rules": "{PHYS} Weapons of Midgard {RNG} B4 {STR} 5 {COST} 0\nDuring Skurge, the Executioner's activation, he may spend 2 {PWR} to play this card.\n Skurge, the Executioner may use the attack listed above once this activation.",
+		"id": "1286823c-3537-4be7-a45e-0362d9e9ede9",
+		"cp": 107,
+		"image": "weapons_of_midgard.png",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": ["30dddbba-3a6c-4bde-adfa-86d3e3ed542f"]
+	},
+	{
+		"name": "Meet My Executioner",
+		"affiliation": "Unaffiliated",
+		"type": "Reactive",
+		"rules": "When another allied character would suffer a collision, Enchantress may spend 2 {PWR} to play this card.\n Place an allied Skurge, the Executioner within {RNG} 1 of the character suffering a collision. Skurge, the Executioner suffers the collision instead. During this collision, if Skurge the Executioner would suffer damage, reduce the amount he suffers by 1.",
+		"id": "0dcb50e6-2e6a-4d6e-bd1c-1ecbc49f143b",
+		"cp": 107,
+		"image": "meet_my_executioner.png",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"30dddbba-3a6c-4bde-adfa-86d3e3ed542f",
+			"88662223-1344-4ae3-afc3-6a70090142f8"
+		]
 	}
 ]

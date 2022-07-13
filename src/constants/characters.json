@@ -9204,5 +9204,163 @@
 		"affiliations": ["Uncanny X-Men", "X-Force"],
 		"baseSize": "35mm",
 		"portrait": "x23.png"
+	},
+	{
+		"characterName": "Heimdall, The All-Seeing",
+		"alterEgo": "Heimdall",
+		"healthySide": {
+			"healthyStamina": 6,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 3,
+			"healthyPhysicalDefense": 3,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 3
+		},
+		"injuredSide": {
+			"injuredStamina": 6,
+			"injuredSpeed": "M",
+			"injuredSize": 2,
+			"injuredThreat": 3,
+			"injuredPhysicalDefense": 3,
+			"injuredEnergyDefense": 3,
+			"injuredMysticalDefense": 3
+		},
+		"attacks": [
+			{
+				"name": "Strike",
+				"type": "Phys",
+				"range": "2",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt."
+			},
+			{
+				"name": "Horfund",
+				"type": "Phys",
+				"range": "2",
+				"strength": 7,
+				"cost": 3,
+				"specialRules": "- If this attack deals {DMG}, after this attack is resolved, this character may push the target character away {M}."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Guardian of the Bifrost",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "- Choose this character or another allied character within {RNG} 4 and place it within {RNG} 2 of its current position. A character can be placed by this superpower only once per turn."
+			}
+		],
+		"reactiveSuperPowers": [
+			{
+				"name": "All-Seeing Eyes",
+				"type": "Reactive",
+				"cost": 2,
+				"specialRules": "- When an allied character within {RNG} 3 is attacking, defending, or dodging, during the Modify Dice step, this character may use this superpower. The allied character may reroll up to 2 of its own dice<br/>\n - Alternatively, when an allied character withing {RNG} 3 rolls dice for a Crisis Card or Team Tactic card, this character may use this superpower. The allied character may reroll up to 2 of its own dice."
+			},
+			{
+				"name": "Forefend",
+				"type": "Reactive",
+				"cost": 2,
+				"specialRules": "- When an enemy character ends a movement within {RNG} 2 of this character, this character may use this superpower. Immediately make a Strike attack against the enemy character. This superpower can be used only once per turn."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Asguardian",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "- During the Power Phase, this character gains 1 additional {PWR}."
+			}
+		],
+		"cp": 102,
+		"cards": [
+			"heimdall_the_all_seeing_healthy.png",
+			"heimdall_the_all_seeing_injured.png"
+		],
+		"id": "1bf13639-e782-4a36-9242-824fb2a114ad",
+		"affiliations": ["Asgard"],
+		"baseSize": "35mm",
+		"portrait": "heimdall_the_all_seeing.png"
+	},
+	{
+		"characterName": "Skurge, The Executioner",
+		"alterEgo": "Skurge",
+		"healthySide": {
+			"healthyStamina": 6,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 3,
+			"healthyPhysicalDefense": 4,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 2
+		},
+		"injuredSide": {
+			"injuredStamina": 5,
+			"injuredSpeed": "M",
+			"injuredSize": 2,
+			"injuredThreat": 3,
+			"injuredPhysicalDefense": 3,
+			"injuredEnergyDefense": 3,
+			"injuredMysticalDefense": 3
+		},
+		"attacks": [
+			{
+				"name": "Battle-Axe",
+				"type": "Phys",
+				"range": "2",
+				"strength": 6,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains 1 {PWR}.\n - {WILD} Bleed: After this attack is resolved, the target character gains the Bleed speical condition."
+			},
+			{
+				"name": "The Executioner",
+				"type": "Phys",
+				"range": "3",
+				"strength": 8,
+				"cost": 4,
+				"specialRules": "- If the target character has the Bleed speical condition, you may reroll up to 2 attack dice during this attack.\n - {WILD} Bleed: After this attack is resolved, the target character gains the Bleed speical condition."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Storm Giant Strength",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "- Choose an interactive terrain feature Size 3 or less within {RNG} 2 and throw it {S}. This superpower can be used only once per turn."
+			}
+		],
+		"reactiveSuperPowers": [
+			{
+				"name": "Right-Hand Man",
+				"type": "Reactive",
+				"cost": 2,
+				"specialRules": "- When an enemy character within {RNG} 2 of this character targets another allied character with an attack, this character may use this superpower. This character becomes the target of the attack regardless of range and LOS."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Aggressive",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "- After an attack targeting this character is resolved, if this character suffered {DMG}, it may advance {S} toward the attacking character."
+			},
+			{
+				"name": "Asguardian",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "- During the Power Phase, this character gains 1 additional {PWR}."
+			}
+		],
+		"cp": 102,
+		"cards": [
+			"skurge_the_executioner_healthy.png",
+			"skurge_the_executioner_injured.png"
+		],
+		"id": "30dddbba-3a6c-4bde-adfa-86d3e3ed542f",
+		"affiliations": ["Asgard", "Cabal"],
+		"baseSize": "35mm",
+		"portrait": "skurge_the_executioner.png"
 	}
 ]
