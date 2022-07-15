@@ -9362,5 +9362,327 @@
 		"affiliations": ["Asgard", "Cabal"],
 		"baseSize": "35mm",
 		"portrait": "skurge_the_executioner.png"
+	},
+	{
+		"characterName": "Malekith The Accursed",
+		"alterEgo": "Malekith",
+		"healthySide": {
+			"healthyStamina": 10,
+			"healthySpeed": "M",
+			"healthySize": 4,
+			"healthyThreat": 7,
+			"healthyPhysicalDefense": 4,
+			"healthyEnergyDefense": 4,
+			"healthyMysticalDefense": 4
+		},
+		"injuredSide": {
+			"injuredStamina": 8,
+			"injuredSpeed": "M",
+			"injuredSize": 4,
+			"injuredThreat": 7,
+			"injuredPhysicalDefense": 4,
+			"injuredEnergyDefense": 4,
+			"injuredMysticalDefense": 4
+		},
+		"attacks": [
+			{
+				"name": "Blade of Midnight",
+				"type": "Enrg",
+				"range": "2",
+				"strength": 7,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - {WILD} Pierce: Change one of the defending character's {CRIT}, {WILD}, or {BLOCK} results to a blank."
+			},
+			{
+				"name": "Blood Boil",
+				"type": "Myst",
+				"range": "B4",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After each attack is resolved, this character gains 1 {PWR}. - {WILD} Poison: After each attack is resolved, the target character gains the Poison special condition."
+			},
+			{
+				"name": "Butcher of Thors",
+				"type": "Phys",
+				"range": "3",
+				"strength": 10,
+				"cost": 4,
+				"specialRules": "- After this attack is resolved, place the character within {RNG} 1 of the target character. - {WILD} Dark Curse: After this attack is resolved, for each {WILD} in the attack roll the defending character gains one of the following speical conditions: Bleed, Shock, Slow, or Stun."
+			}
+		],
+		"leadership": [
+			{
+				"name": "The Dark Council ( Cabal )",
+				"specialRules": "When this character or an allied character Dazes or KO's an enemy character, choose another non-Dazed allied character. After the effect is resolved, the chosen character may remove 1 {DMG}, may gain 1 {PWR}, and may advance {S}. A character can be affected by this leadership ability only once per round."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Ferocity",
+				"type": "Active",
+				"cost": 2,
+				"specialRules": "Action: This character immediately makes a move action followed by a Blade of Midnight attack action. If this attack deals damage, after the attack is resolved, this character may throw the target character {S}. This superpower can be used only once per turn."
+			}
+		],
+		"reactiveSuperPowers": [
+			{
+				"name": "Cloak of Shadows",
+				"type": "Reactive",
+				"cost": "X",
+				"specialRules": "After this character rolls attack, defense, or dodge dice but before the Resolve Criticals step, it may spend any amount of {PWR} to use this superpower. For each 1 {PWR} spent, choose one {FAIL} to treat as a {CRIT} for the remainder of the attack."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Conqueror of the Ten Realms",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "- During the Power Phase, this character gains 1 additional {PWR}. - Additionally, characters cannot modify their attack dice when targeting this character with attacks."
+			},
+			{
+				"name": "FLIGHT",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
+			},
+			{
+				"name": "IMMUNITY [HEX, STUN]",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "This character can't suffer the [Hex] or [STUN] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+			}
+		],
+		"cp": 93,
+		"cards": ["malekith_healthy.jpg", "malekith_injured.jpg"],
+		"id": "6e253cd0-ec09-40a8-ad88-9aae39198686",
+		"affiliations": ["Cabal"],
+		"baseSize": "65mm",
+		"portrait": "malekith.jpg"
+	},
+	{
+		"characterName": "Crimson Dynamo",
+		"alterEgo": "Dimitri Bukharin",
+		"healthySide": {
+			"healthyStamina": 6,
+			"healthySpeed": "S",
+			"healthySize": 3,
+			"healthyThreat": 4,
+			"healthyPhysicalDefense": 4,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 4
+		},
+		"injuredSide": {
+			"injuredStamina": 6,
+			"injuredSpeed": "S",
+			"injuredSize": 3,
+			"injuredThreat": 4,
+			"injuredPhysicalDefense": 4,
+			"injuredEnergyDefense": 3,
+			"injuredMysticalDefense": 4
+		},
+		"attacks": [
+			{
+				"name": "Electric Blast",
+				"type": "Enrg",
+				"range": "B4",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After each attack is resolved, this character gains 1 {PWR}. - {WILD} Shock: After each attack is resolved, the target character gains the Shock special condition."
+			},
+			{
+				"name": "Homing Rockets",
+				"type": "Phys",
+				"range": "5",
+				"strength": 5,
+				"cost": 2,
+				"specialRules": "- This attack ignores LOS, and the defending character does not benefit from cover. - {WILD} Explosive: Before {DMG} is dealt, other enemy characters within {RNG} 2 of the target character suffer 1 {DMG}."
+			}
+		],
+		"leadership": [
+			{
+				"name": "Unbreakable Red Line ( Winter Guard )",
+				"specialRules": "At the start of an allied character's activation it may remove 1 special condition. When an allied character is contesting a Secure objective and would be pushed, it may roll a die. On a {CRIT}, {WILD}, or {BLOCK} result, it is not pushed."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Overcharge Capacitors",
+				"type": "Active",
+				"cost": 0,
+				"specialRules": "Action: This character gains 2 {PWR}."
+			},
+			{
+				"name": "Propulsion Thrusters",
+				"type": "Active",
+				"cost": 2,
+				"specialRules": "Place this character within {RNG} 2 of its current position. This superpower can be used only once per turn."
+			}
+		],
+		"reactiveSuperPowers": [
+			{
+				"name": "Disruption Field",
+				"type": "Reactive",
+				"cost": 2,
+				"specialRules": "When this character or another allied character is targeted by an enemy attack and the enemy is within {RNG} 3 of this character it may use this superpower. This character may reroll up to 2 of the attacker's dice."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Carborundum Matrix Alloy",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "When this character would suffer {DMG} from an enemy effect, reduce the amount suffered by 1, to a minimum of 1."
+			},
+			{
+				"name": "FLIGHT",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
+			}
+		],
+		"cp": 88,
+		"cards": ["crimson_dynamo_healthy.png", "crimson_dynamo_injured.png"],
+		"id": "d9a4e2b1-2406-4ad9-85bc-b26759331057",
+		"affiliations": ["Winter Guard"],
+		"baseSize": "50mm",
+		"portrait": "crimson_dynamo.png"
+	},
+	{
+		"characterName": "Darkstar",
+		"alterEgo": "Laynia Petrovna",
+		"healthySide": {
+			"healthyStamina": 5,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 3,
+			"healthyPhysicalDefense": 3,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 4
+		},
+		"injuredSide": {
+			"injuredStamina": 5,
+			"injuredSpeed": "M",
+			"injuredSize": 2,
+			"injuredThreat": 3,
+			"injuredPhysicalDefense": 3,
+			"injuredEnergyDefense": 3,
+			"injuredMysticalDefense": 4
+		},
+		"attacks": [
+			{
+				"name": "Darkforce Strike",
+				"type": "Enrg",
+				"range": "4",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains 1 {PWR}. - This character may reroll all of the attack dice for this attack."
+			},
+			{
+				"name": "Rending Force",
+				"type": "Phys",
+				"range": "2",
+				"strength": 7,
+				"cost": 3,
+				"specialRules": "- Before choosing at target, this character chooses whether this attack's type is {PHYS} or {ENRG}. - {WILD} Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Dimensional Portal",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "Choose this character or another allied character within {RNG} 3 and place it within {RNG} 3 of its current position. A character can be placed by this superpower only once per turn."
+			}
+		],
+		"reactiveSuperPowers": [
+			{
+				"name": "Darkforce Barrier",
+				"type": "Reactive",
+				"cost": 3,
+				"specialRules": "When this character or an allied character within {RNG} 3 is targeted by a {PHYS} or {ENRG} attack, this character may use this superpower. Add 2 dice to the defense roll against this attack. This character or the allied character cannot be advanced, pushed, or placed by the effects of that attack."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "FLIGHT",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
+			}
+		],
+		"cp": 88,
+		"cards": ["darkstar_healthy.png", "darkstar_injured.png"],
+		"id": "711de42a-e6d8-428c-b1f3-e9b9613f66c5",
+		"affiliations": ["Winter Guard"],
+		"baseSize": "35mm",
+		"portrait": "darkstar.png"
+	},
+	{
+		"characterName": "Ursa Major",
+		"alterEgo": "Mikhail Ursus",
+		"healthySide": {
+			"healthyStamina": 7,
+			"healthySpeed": "S",
+			"healthySize": 3,
+			"healthyThreat": 4,
+			"healthyPhysicalDefense": 3,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 4
+		},
+		"injuredSide": {
+			"injuredStamina": 7,
+			"injuredSpeed": "S",
+			"injuredSize": 3,
+			"injuredThreat": 4,
+			"injuredPhysicalDefense": 3,
+			"injuredEnergyDefense": 3,
+			"injuredMysticalDefense": 4
+		},
+		"attacks": [
+			{
+				"name": "Bare-Handed Slap",
+				"type": "Phys",
+				"range": "2",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - {WILD} Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+			},
+			{
+				"name": "Bear-Armed Brawler",
+				"type": "Phys",
+				"range": "2",
+				"strength": 7,
+				"cost": 3,
+				"specialRules": "- Before {DMG} is dealt, if the target character is Size 4 or less, this character may throw the target character {S}. - After this attack is resolved, the target character gains the Stagger special condition."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Charge",
+				"type": "Active",
+				"cost": 2,
+				"specialRules": "Action: This character immediately makes a move action followed by an attack action. This superpower can be used only once per turn."
+			},
+			{
+				"name": "Ursine Temper",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "Choose an interactive terrain feature of Size 3 or less within {RNG} 2, and throw it {M}. This superpower can be used only once per turn."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Aggressive",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "After an attack against this character is resolved, if this character suffered {DMG}, it may advance {S} towards the attacking character."
+			}
+		],
+		"cp": 89,
+		"cards": ["ursa_major_healthy.png", "ursa_major_injured.png"],
+		"id": "07fdd1a7-b16b-44c9-8187-b97ab262456e",
+		"affiliations": ["Winter Guard"],
+		"baseSize": "50mm",
+		"portrait": "ursa_major.png"
 	}
 ]
