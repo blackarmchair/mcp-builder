@@ -32,7 +32,9 @@ const App = () => {
 
 	const handleAppUpgrade = () => {
 		setAppHasUpdates(false);
-		serviceWorkerRegistration.unregister().then(() => window.location.reload());
+		serviceWorkerRegistration
+			.unregister()
+			.then(() => window.location.reload(true)); // `true` argument tells browser to hard reload
 	};
 
 	return (
@@ -58,7 +60,7 @@ const App = () => {
 							<RosterProvider>
 								<Switch>{paths.map((path) => path.route)}</Switch>
 							</RosterProvider>
-							<Version version="1.0.3" />
+							<Version version="1.0.4" />
 						</RouterProvider>
 					</SearchProvider>
 				</ToastProvider>
