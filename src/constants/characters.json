@@ -513,7 +513,7 @@
 		"cp": 1,
 		"cards": ["baron_zemo_healthy.jpg", "baron_zemo_injured.jpg"],
 		"id": "b29cc627-6f56-4b74-a295-38d1ad3ac132",
-		"affiliations": ["Cabal"],
+		"affiliations": ["Hydra", "Cabal"],
 		"baseSize": "35mm",
 		"portrait": "baron_zemo.jpg"
 	},
@@ -1328,7 +1328,7 @@
 			"bob_agent_of_hydra_injured.png"
 		],
 		"id": "65417420-3fcc-494e-9501-b0315100c50e",
-		"affiliations": ["Cabal"],
+		"affiliations": ["Cabal", "Hydra"],
 		"baseSize": "35mm",
 		"portrait": "bob_agent_of_hydra.png"
 	},
@@ -2243,7 +2243,7 @@
 		"cp": 1,
 		"cards": ["crossbones_healthy.jpg", "crossbones_injured.jpg"],
 		"id": "e93e8dd2-f6b4-4f99-8917-fdc5393f24ff",
-		"affiliations": ["Cabal", "Criminal Syndicate"],
+		"affiliations": ["Cabal", "Criminal Syndicate", "Hydra"],
 		"baseSize": "35mm",
 		"portrait": "crossbones.jpg"
 	},
@@ -6753,7 +6753,7 @@
 		"cp": 1,
 		"cards": ["red_skull_healthy.png", "red_skull_injured.png"],
 		"id": "8b154877-c338-41cf-9b4b-552deb908bf5",
-		"affiliations": ["Cabal"],
+		"affiliations": ["Cabal", "Hydra"],
 		"baseSize": "35mm",
 		"portrait": "red_skull.png"
 	},
@@ -7554,7 +7554,7 @@
 		"cp": 61,
 		"cards": ["sin_healthy.png", "sin_injured.png"],
 		"id": "b6bfab62-39b8-44d3-a3d2-6974cf841a05",
-		"affiliations": ["Cabal", "Criminal Syndicate"],
+		"affiliations": ["Cabal", "Criminal Syndicate", "Hydra"],
 		"baseSize": "35mm",
 		"portrait": "sin.png"
 	},
@@ -8057,7 +8057,7 @@
 		"cp": 32,
 		"cards": ["taskmaster_healthy.jpg", "taskmaster_injured.jpg"],
 		"id": "64478286-e85e-4b77-a730-0bfc9d2e5542",
-		"affiliations": ["Criminal Syndicate", "S.H.I.E.L.D."],
+		"affiliations": ["Criminal Syndicate", "S.H.I.E.L.D.", "Hydra"],
 		"baseSize": "35mm",
 		"portrait": "taskmaster.jpg"
 	},
@@ -8634,7 +8634,7 @@
 		"cp": 61,
 		"cards": ["viper_healthy.png", "viper_injured.png"],
 		"id": "beeb9a97-3f46-4c5a-8ef9-cdd7180a4bc3",
-		"affiliations": ["Cabal"],
+		"affiliations": ["Cabal", "Hydra"],
 		"baseSize": "35mm",
 		"portrait": "viper.png"
 	},
@@ -9684,5 +9684,647 @@
 		"affiliations": ["Winter Guard"],
 		"baseSize": "50mm",
 		"portrait": "ursa_major.png"
+	},
+	{
+		"characterName": "Nick Fury and the Howling Commandos",
+		"alterEgo": "Nicholas Fury, SR., Timothy \"Dum Dum\" Dugan, Gabriel Jones",
+		"healthySide": {
+			"healthyStamina": 5,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 4,
+			"healthyPhysicalDefense": 3,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 3
+		},
+		"injuredSide": {
+			"injuredStamina": 6,
+			"injuredSpeed": "S",
+			"injuredSize": 2,
+			"injuredThreat": 4,
+			"injuredPhysicalDefense": 3,
+			"injuredEnergyDefense": 3,
+			"injuredMysticalDefense": 3
+		},
+		"attacks": [
+			{
+				"name": "Prototype Weapons",
+				"type": "Phys",
+				"range": "4",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this charcter gains 1 {PWR}. - {WILD} Pursuit: Before damage is dealt, this character may advance towards the target {S}."
+			},
+			{
+				"name": "Grenades!",
+				"type": "Enrg",
+				"range": "3",
+				"strength": 4,
+				"cost": 1,
+				"specialRules": "- After this attack is resolved, the target character gains the Incinerate special condition."
+			},
+			{
+				"name": "The Show's Over",
+				"type": "Phys",
+				"range": "3",
+				"strength": 6,
+				"cost": 3,
+				"specialRules": "- Before choosing a target, this character chooses whether this attack's type is {PHYS} or {ENRG}. - {WILD} Pour It On: After this attack is resolved, this character may make a Prototype Weapons attack."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Brothers In Arms",
+				"type": "Active",
+				"cost": 2,
+				"specialRules": "Choose another allied character within {RNG} 2 of this character. Place this character within {RNG} 1 of the chosen character or place the chosen character within {RNG} 1 of this character. A character can be placed by this superpower only once per turn."
+			}
+		],
+		"reactiveSuperPowers": [
+			{
+				"name": "Got Your Back",
+				"type": "Reactive",
+				"cost": 2,
+				"specialRules": "When an allied character is Dazed or KO'd by an enemy effect, after the effect is resolved, this character may use this superpower. This character makes a Prototype Weapons attack against the enemy character that caused the effect."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "STEALTH",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "Characters must be within {RNG} 3 of this character to target it with attacks."
+			}
+		],
+		"cp": 75,
+		"cards": [
+			"nick_fury_and_the_howling_commandos_healthy.png",
+			"nick_fury_and_the_howling_commandos_injured.png"
+		],
+		"id": "12468ce6-140f-4b96-a910-a005566c09e7",
+		"affiliations": ["S.H.I.E.L.D."],
+		"baseSize": "35mm",
+		"portrait": "nick_fury_and_the_howling_commandos.png"
+	},
+	{
+		"characterName": "Baron Strucker",
+		"alterEgo": "Wolfgang Von Strucker",
+		"healthySide": {
+			"healthyStamina": 5,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 3,
+			"healthyPhysicalDefense": 4,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 3
+		},
+		"injuredSide": {
+			"injuredStamina": 5,
+			"injuredSpeed": "M",
+			"injuredSize": 2,
+			"injuredThreat": 3,
+			"injuredPhysicalDefense": 4,
+			"injuredEnergyDefense": 3,
+			"injuredMysticalDefense": 3
+		},
+		"attacks": [
+			{
+				"name": "Plasma Burst",
+				"type": "Enrg",
+				"range": "3",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - {WILD} Incinerate: After this attack is resolved, the target character gains the Incinerate special condition."
+			},
+			{
+				"name": "The World Is Mine",
+				"type": "Phys",
+				"range": "2",
+				"strength": 7,
+				"cost": 4,
+				"specialRules": "- After this attack is resolved, this character removes 1 {DMG} from itself for each {DMG} dealt."
+			}
+		],
+		"leadership": [
+			{
+				"name": "Hydra High Council ( Hydra )",
+				"specialRules": "- Once per turn, after an attack is made by an allied character is resolved, if the attack dealt {DMG}, the allied character may use this leadership ability. Choose one special condition the allied character has. If the defending enemy character does not have the chosen special condition, it gains it and hten the allied attacking character loses that special condition. - Additionally, once per turn, when an emeny character gains a special condition, the allied character that caused the effect may remove 1 {DMG} from itself."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Deathspore Virus",
+				"type": "Active",
+				"cost": 2,
+				"specialRules": "- Other characters within {RNG} 3 of this character gain the Poison special condition."
+			}
+		],
+		"reactiveSuperpowers": [
+			{
+				"name": "Arrogance",
+				"type": "Reactive",
+				"cost": 1,
+				"specialRules": "- When this character is attacking, before rolling attack dice, you may use this superpower. During this attack, add {FAIL} in the attack roll to the total number of successes for the attack roll. During this attack, add {FAIL} in the defense roll to the total number of successes for the defense roll."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "STRATEGIC GENIUS",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "- This character and other characters within {RNG} 2 of it may reroll one die in their attack or defense rolls."
+			},
+			{
+				"name": "HEALING FACTOR [1]",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": ""
+			}
+		],
+		"cp": 76,
+		"cards": ["baron_strucker_healthy.png", "baron_strucker_injured.png"],
+		"id": "10f4c54c-e3d4-43dc-8fe2-d616e6cfb45b",
+		"affiliations": ["Hydra", "Cabal"],
+		"baseSize": "35mm",
+		"portrait": "baron_strucker.png"
+	},
+	{
+		"characterName": "Arnim Zola",
+		"alterEgo": "Arnim Zola",
+		"healthySide": {
+			"healthyStamina": 6,
+			"healthySpeed": "S",
+			"healthySize": 3,
+			"healthyThreat": 3,
+			"healthyPhysicalDefense": 2,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 4
+		},
+		"injuredSide": {
+			"injuredStamina": 6,
+			"injuredSpeed": "S",
+			"injuredSize": 3,
+			"injuredThreat": 3,
+			"injuredPhysicalDefense": 2,
+			"injuredEnergyDefense": 3,
+			"injuredMysticalDefense": 4
+		},
+		"attacks": [
+			{
+				"name": "Prototype Weapons",
+				"type": "Phys",
+				"range": "4",
+				"strength": 4,
+				"cost": 0,
+				"specialRules": "Before choosing a target, this character chooses whether this attack's type is {PHYS}, {ENRG}, or {MYST}. - After this attack is resolved, this character gains 1 {PWR}. - {WILD} Hydra Ingenuity: After this attack is resolved, for each {WILD} in the attack roll the defending character gains one of the following status conditions: Bleed, Shock, Slow, or Stun."
+			},
+			{
+				"name": "Focused ESP Box Blast",
+				"type": "Enrg",
+				"range": "3",
+				"strength": 6,
+				"cost": 2,
+				"specialRules": "- If this attack deals {DMG}, after this attack is resolved, this character may advance the target character {S}. - {WILD} Slow: After this attack is resolved, the target character gains the Slow special condition."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Experimental Enhancements",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "During the next attack made by this character this turn, add 2 dice to its attack roll. After this attack is resolved, if the attack roll contains any {FAIL} results, this character suffers 1 {DMG}."
+			}
+		],
+		"reactiveSuperPowers": [
+			{
+				"name": "Hydra Engineering",
+				"type": "Reactive",
+				"cost": "X",
+				"specialRules": "- While this character or another allied character within {RNG} 4 of this character is attacking or defending, during the Modify Dice step of the attack, this character may spend up to 3 {PWR} to use this superpower. For each 1 {PWR} spent, this character or the allied character may reroll 1 of their attack or defense dice. - After the attack is resolved, if the allied roll contained one or more {FAIL} results, the allied character gains the Bleed special condition."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "SCIENTIFIC HUBRIS",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "Whenever this character rolls dice, after the effect is resolved it gains 1 {PWR} if it rolled at least 1 {CRIT}."
+			},
+			{
+				"name": "IMMUNITY [BLEED, POISON]",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": ""
+			}
+		],
+		"cp": 76,
+		"cards": ["arnim_zola_healthy.png", "arnim_zola_injured.png"],
+		"id": "c6fc0445-c11d-49cf-9a56-25d48a9a7c72",
+		"affiliations": ["Hydra", "Cabal"],
+		"baseSize": "50mm",
+		"portrait": "arnim_zola.png"
+	},
+	{
+		"characterName": "The Original Human Torch",
+		"alterEgo": "Jim Hammond",
+		"healthySide": {
+			"healthyStamina": 5,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 3,
+			"healthyPhysicalDefense": 3,
+			"healthyEnergyDefense": 4,
+			"healthyMysticalDefense": 2
+		},
+		"injuredSide": {
+			"injuredStamina": 5,
+			"injuredSpeed": "M",
+			"injuredSize": 2,
+			"injuredThreat": 3,
+			"injuredPhysicalDefense": 3,
+			"injuredEnergyDefense": 4,
+			"injuredMysticalDefense": 2
+		},
+		"attacks": [
+			{
+				"name": "Burn Baby Burn",
+				"type": "Enrg",
+				"range": "B3",
+				"strength": 4,
+				"cost": 0,
+				"specialRules": "- After each attack is resolved, this character gains 1 {PWR}. - {WILD} Immolate: After each attack is resovled, the target character gains the Incinerate special condition."
+			},
+			{
+				"name": "Nova Burst",
+				"type": "Enrg",
+				"range": "B2",
+				"strength": 4,
+				"cost": 1,
+				"specialRules": "- When this attack is chosen, during the Pay {PWR} Cost step of the attack, this character may spend up to 7 additional {PWR}. Add one die to each attack made for each {PWR} spent in this way. - After each attack is resolved, the target character gains the Incinerate speical condition. - If this attack deals {DMG}, after each attack is resolved, this character suffers 1 {DMG}."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Hit and Run",
+				"type": "Active",
+				"cost": 2,
+				"specialRules": "- Action: This character immediately makes an attack action followed by a move action. This superpower can be used only once per turn."
+			},
+			{
+				"name": "Too Hot To Handle",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "- Choose an enemy character within {RNG} 2 of this character. The chosen character drops 1 Asset token it is holding."
+			}
+		],
+		"reactiveSuperPowers": [
+			{
+				"name": "Like Touching a Stovetop",
+				"type": "Reactive",
+				"cost": 2,
+				"specialRules": "- When an enemy character would push or throw this character, after the effect is resovled, this character may use this superpower. The character that caused this effect suffers 1 {DMG}."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Controlled Burn",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "- When this character ends an advance, it gains 1 {PWR} for each character within {RNG} 2 of it with the Incinerate special condition."
+			},
+			{
+				"name": "FLIGHT",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": ""
+			},
+			{
+				"name": "IMMUNITY [INCINERATE]",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": ""
+			}
+		],
+		"cp": 77,
+		"cards": [
+			"the_original_human_torch_healthy.png",
+			"the_original_human_torch_injured.png"
+		],
+		"id": "fcfa6f0d-7b4d-40be-b38b-42346a71319b",
+		"affiliations": ["S.H.I.E.L.D."],
+		"baseSize": "35mm",
+		"portrait": "the_original_human_torch.png"
+	},
+	{
+		"characterName": "Steve Rodgers, Captain America",
+		"alterEgo": "Steve Rodgers",
+		"healthySide": {
+			"healthyStamina": 6,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 4,
+			"healthyPhysicalDefense": 4,
+			"healthyEnergyDefense": 4,
+			"healthyMysticalDefense": 3
+		},
+		"injuredSide": {
+			"injuredStamina": 5,
+			"injuredSpeed": "M",
+			"injuredSize": 2,
+			"injuredThreat": 4,
+			"injuredPhysicalDefense": 4,
+			"injuredEnergyDefense": 4,
+			"injuredMysticalDefense": 3
+		},
+		"attacks": [
+			{
+				"name": "Stars and Stripes Strike",
+				"type": "Phys",
+				"range": "3",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - {WILD}{BLOCK} Flurry: After this attack is resolved, this character makes a Stars and Stripes Strike attack. This additional attack does not have the Flurry special rule."
+			},
+			{
+				"name": "I Don't Like Bullies",
+				"type": "Phys",
+				"range": "2",
+				"strength": 7,
+				"cost": 3,
+				"specialRules": "- {WILD} Throw: After this attack is resolved, if the target character is Size 3 or less, this character may throw the target character {M}. - {WILD}{HIT} Language!: After this attack is resolved, the target character gains the Stun and Slow special conditions."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "On Your Left",
+				"type": "Active",
+				"cost": 2,
+				"specialRules": "- If this character is not holding an objective token, it advances {M}. This superpower can be used only once per turn."
+			}
+		],
+		"reactiveSuperPowers": [
+			{
+				"name": "I've Knocked Out Tyrants Over 200 Times",
+				"type": "Reactive",
+				"cost": 3,
+				"specialRules": "- While this character is attacking, during the Modify Dice step of the attack, it may use this superpower. This character may reroll any number of its attack dice. This superpower may be used only once per turn."
+			},
+			{
+				"name": "VIBRANIUM SHIELD",
+				"type": "Reactive",
+				"cost": 2,
+				"specialRules": "- When this character is targeted by a {PHYS} or {ENRG} attack, it may use this superpower. Add two dice to this character's defense roll against that attack."
+			}
+		],
+		"innateSuperpowers": [],
+		"cp": 77,
+		"cards": [
+			"steve_rodgers_captain_america_healthy.png",
+			"steve_rodgers_captain_america_injured.png"
+		],
+		"id": "9bb611a0-223b-4dd4-90c9-bf3b9858aa77",
+		"affiliations": ["S.H.I.E.L.D."],
+		"baseSize": "35mm",
+		"portrait": "steve_rodgers_captain_america.png"
+	},
+	{
+		"characterName": "Sentinel Prime MK4",
+		"alterEgo": "Sentinel Prime MK4",
+		"healthySide": {
+			"healthyStamina": 10,
+			"healthySpeed": "S",
+			"healthySize": 5,
+			"healthyThreat": 5,
+			"healthyPhysicalDefense": 3,
+			"healthyEnergyDefense": 4,
+			"healthyMysticalDefense": 4
+		},
+		"injuredSide": {
+			"injuredStamina": 8,
+			"injuredSpeed": "S",
+			"injuredSize": 5,
+			"injuredThreat": 5,
+			"injuredPhysicalDefense": 3,
+			"injuredEnergyDefense": 4,
+			"injuredMysticalDefense": 4
+		},
+		"attacks": [
+			{
+				"name": "Plasma Blast MK 2",
+				"type": "Enrg",
+				"range": "3",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - When this attack is chosen, during the Pay {PWR} Cost step of the attack, this character may spend up to 3 additional {PWR}. Add one dieto the attack for each {PWR} spent this way."
+			},
+			{
+				"name": "Supression Protocols MK 2",
+				"type": "Phys",
+				"range": "3",
+				"strength": 9,
+				"cost": 4,
+				"specialRules": "- {WILD} Suppression: After this attack is resolved, for each {WILD} in the attack roll the defending character gains one of the following special conditions: Incinerate, Shock, or Slow."
+			}
+		],
+		"leadership": [
+			{
+				"name": "Mutant Hunters ( Sentinels )",
+				"specialRules": "- When an enemy character is Dazed, after the effect is resolved, choose a number of allied characters up to the Dazed character's Threat Value. Each chosen character gains 1 {PWR}. A character cannot gain more than 1 {PWR} as a result of this Leadership ability each turn."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Restraint Cables",
+				"type": "Active",
+				"cost": 2,
+				"specialRules": "- Choose an enemy character within {RNG} 4 and in LOS. The chosen character is pushed toward this character {S}. This superpower can be used only once per turn."
+			}
+		],
+		"reactiveSuperPowers": [
+			{
+				"name": "Pattern Analysis",
+				"type": "Reactive",
+				"cost": "X",
+				"specialRules": "- While this character or an allied character within {RNG} 4 is attacking or defending, during the Modify Dice step of the attack, this character may spend up to 3 {PWR} to use this superpower. For each 1 {PWR} spent, this character or the allied character may reroll 1 die."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Power Matrix",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "- At the end of this character's activationit gains 2 {PWR}."
+			},
+			{
+				"name": "Sentinel Programming",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "- This character cannot be advanced or pushed by {MYST} attacks or superpowers. When defending against {MYST} attacks, this character counts {WILD} results in the defense roll as 2 successes."
+			},
+			{
+				"name": "FLIGHT",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": ""
+			},
+			{
+				"name": "IMMUNITY [BLEED, POISON]",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": ""
+			}
+		],
+		"cp": 160,
+		"cards": [
+			"sentinel_prime_mk4_healthy.png",
+			"sentinel_prime_mk4_injured.png"
+		],
+		"id": "3ea73d54-cf44-4579-b845-12453190bea7",
+		"affiliations": ["Sentinels"],
+		"baseSize": "65mm",
+		"portrait": "sentinel_prime_mk4.png"
+	},
+	{
+		"characterName": "Hydra Troopers",
+		"alterEgo": "Hydra Troopers",
+		"healthySide": {
+			"healthyStamina": 3,
+			"healthySpeed": "S",
+			"healthySize": 2,
+			"healthyThreat": 0,
+			"healthyPhysicalDefense": 1,
+			"healthyEnergyDefense": 2,
+			"healthyMysticalDefense": 2
+		},
+		"injuredSide": {
+			"injuredStamina": 3,
+			"injuredSpeed": "S",
+			"injuredSize": 2,
+			"injuredThreat": 0,
+			"injuredPhysicalDefense": 1,
+			"injuredEnergyDefense": 2,
+			"injuredMysticalDefense": 2
+		},
+		"attacks": [
+			{
+				"name": "Hydra Energy Weapons",
+				"type": "Enrg",
+				"range": 4,
+				"strength": 4,
+				"cost": 0,
+				"specialRules": ""
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Hydra Assault",
+				"type": "Active",
+				"cost": 2,
+				"specialRules": "- Action: This character makes a move action. During its next action this turn, this character may reroll any number of attack dice. After the attack is resolved this charcter is KO'd."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Grunts [Red Skull, Master of Hydra]",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": ""
+			},
+			{
+				"name": "Occupation Force",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "This character cannot pickup, hold, or interact with Extract objective tokens. This character does not have to pay {PWR} to interact with Secure objective tokens."
+			}
+		],
+		"cp": 74,
+		"cards": ["hydra_troopers.png", "hydra_troopers.png"],
+		"id": "a6f86a3e-5a14-4644-928a-2759277fcdaa",
+		"affiliations": ["Hydra"],
+		"baseSize": "50mm",
+		"portrait": "hydra.png"
+	},
+	{
+		"characterName": "Red Skull, Master of Hydra",
+		"alterEgo": "Johann Schmidt",
+		"healthySide": {
+			"healthyStamina": 7,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 5,
+			"healthyPhysicalDefense": 4,
+			"healthyEnergyDefense": 2,
+			"healthyMysticalDefense": 2
+		},
+		"injuredSide": {
+			"injuredStamina": 6,
+			"injuredSpeed": "M",
+			"injuredSize": 2,
+			"injuredThreat": 5,
+			"injuredPhysicalDefense": 4,
+			"injuredEnergyDefense": 2,
+			"injuredMysticalDefense": 2
+		},
+		"attacks": [
+			{
+				"name": "Blitz Strike",
+				"type": "Phys",
+				"range": 3,
+				"strength": 6,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains 1 {PWR}. - {WILD}{HIT} Blitz: After this attack is resolved, this character may advance {S}. - {WILD}{BLOCK} Push: If the target character is Size 3 or less, before {DMG} is dealt, this character may push it away {S}."
+			},
+			{
+				"name": "Kneel Before Me",
+				"type": "Enrg",
+				"range": 2,
+				"strength": 9,
+				"cost": 5,
+				"specialRules": "- Before choosing a target, this character chooses whether this attack's type is {ENRG}, or {MYST}. - {WILD} Throw: After this attack is resolved, if the target character is Size 4 of less, this character may throw the target away {M}."
+			}
+		],
+		"leadership": [
+			{
+				"name": "World Domination ( Hydra )",
+				"specialRules": "- During the Power Phase, allied characters gain 1 {PWR} if they are holding or contesting an objective token."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Empowered Gauntlets",
+				"type": "Active",
+				"cost": 2,
+				"specialRules": "- During the next Blitz Strike attack this turn, this character adds blanks to its total successes."
+			},
+			{
+				"name": "All-Consuming Obsession",
+				"type": "Active",
+				"cost": 0,
+				"specialRules": "- This character suffers 1 {DMG} and gains 2 {PWR}. This superpower can be used only once per turn."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Leviathan Armor",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "- During the Power Phase, this character chooses a Shielding Type. The chosen benefits last until the start of the next Power Phase: - Dispersion Field: This character rolls 3 additional dice when defending against {ENRG} attacks and cannot be pushed or advanced by the effects of {MYST} attacks of enemy superpowers. - Null Field: This character rolls 3 additional dice when defending against {MYST} attacks and does not suffer collision damage."
+			},
+			{
+				"name": "Cut Off One Head...",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "- If an allied Hydra Troopers is not in play when this character is chosen to activate, place them into play within {RNG} 1 of this character. They gain a Stagger token and are part of your squad."
+			}
+		],
+		"cp": 74,
+		"cards": [
+			"red_skull_master_of_hydra_healthy.png",
+			"red_skull_master_of_hydra_injured.png"
+		],
+		"id": "5c0d02d8-5ed7-4b8f-b254-c2c509605947",
+		"affiliations": ["Hydra"],
+		"baseSize": "35mm",
+		"portrait": "red_skull_master_of_hydra.png"
 	}
 ]

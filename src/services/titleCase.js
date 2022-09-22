@@ -4,7 +4,7 @@ const toTitleCase = (str) => {
 	var smallWords =
 		/^(a|an|and|as|at|but|by|en|for|if|in|nor|of|on|or|per|the|to|v.?|vs.?|via)$/i;
 	var alphanumericPattern = /([A-Za-z0-9\u00C0-\u00FF])/;
-	var wordSeparators = /([ :–—-])/;
+	var wordSeparators = /([ .:–—-])/;
 
 	return str
 		.split(wordSeparators)

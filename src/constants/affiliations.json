@@ -19,5 +19,7 @@
 	{ "name": "Spider-Foes", "logo": "spider_foes.jpg" },
 	{ "name": "Defenders", "logo": "defenders.jpg" },
 	{ "name": "Wakanda", "logo": "wakanda.jpg" },
-	{ "name": "Winter Guard", "logo": "winter_guard.jpg" }
+	{ "name": "Winter Guard", "logo": "winter_guard.jpg" },
+	{ "name": "Sentinels", "logo": "sentinel.jpg" },
+	{ "name": "Hydra", "logo": "hydra.png" }
 ]
