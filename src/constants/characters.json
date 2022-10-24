@@ -1918,7 +1918,7 @@
     "cp": 53,
     "cards": ["cassandra_nova_healthy.png", "cassandra_nova_injured.png"],
     "id": "d1d383fa-c53a-431a-9966-87386ca344e6",
-    "affiliations": ["Cabal"],
+    "affiliations": ["Cabal", "Sentinels"],
     "baseSize": "35mm",
     "portrait": "cassandra_nova.png"
   },
@@ -10268,7 +10268,7 @@
     "id": "3ea73d54-cf44-4579-b845-12453190bef3",
     "affiliations": ["Sentinels"],
     "baseSize": "65mm",
-    "portrait": "sentinel_mk4.png"
+    "portrait": "sentinel_prime_mk4.png"
   },
   {
     "characterName": "Sentinel MK4 [B]",
@@ -10354,7 +10354,7 @@
     "id": "3ea73d54-cf44-4579-b845-12453190bew0",
     "affiliations": ["Sentinels"],
     "baseSize": "65mm",
-    "portrait": "sentinel_mk4.png"
+    "portrait": "sentinel_prime_mk4.png"
   },
   {
     "characterName": "Hydra Troopers",
