@@ -1,6 +1,7 @@
 import React from 'react';
 import { Stack, Grid } from '@mui/material';
 import { useRouter } from '../../contexts/RouterContext';
+import { useMediaContext } from '../../contexts/MediaContext';
 import PageTile from '../../components/PageTile';
 
 import ListAltIcon from '@mui/icons-material/ListAlt';
@@ -11,6 +12,7 @@ import CollectionsBookmarkIcon from '@mui/icons-material/CollectionsBookmark';
 
 const Home = () => {
 	const { navigate } = useRouter();
+	const { screen } = useMediaContext();
 
 	return (
 		<Stack
@@ -22,7 +24,11 @@ const Home = () => {
 			<Grid
 				container
 				spacing={2}
-				style={{ paddingLeft: '5vw', paddingRight: '5vw' }}
+				style={{
+					paddingLeft: '5vw',
+					paddingRight: '5vw',
+					maxWidth: 750,
+				}}
 			>
 				<PageTile
 					label="Rosters"

@@ -5,10 +5,13 @@ import {
 	ListItemText,
 	ListItemAvatar,
 	Divider,
+	IconButton,
 } from '@mui/material';
+import InfoIcon from '@mui/icons-material/Info';
 import { useSearch } from '../../contexts/SearchContext';
 import { useRouter } from '../../contexts/RouterContext';
 import CharacterAvatar from '../CharacterAvatar';
+import CharacterImage from '../CharacterImage';
 import AffiliationLogo from '../AffiliationLogo';
 import toTitleCase from '../../services/titleCase';
 import THEME from '../../theme';
@@ -18,6 +21,9 @@ const CharacterList = ({ clickDisposition, handleSelection, preclude }) => {
 	const { characters, lastAccessedCharacter, handleSetLastAccessedCharacter } =
 		useSearch();
 	const { navigate } = useRouter();
+
+	const [showSelectedCharacterCard, setShowSelectedCharacterCard] =
+		React.useState(false);
 
 	React.useEffect(() => {
 		document
@@ -31,6 +37,13 @@ const CharacterList = ({ clickDisposition, handleSelection, preclude }) => {
 		else {
 			handleSetLastAccessedCharacter(character.id);
 			navigate(`/card-reference/${character.id}`);
+		}
+	};
+	const handleViewCharacter = (character) => {
+		if (clickDisposition === 'select') handleSelection(character);
+		else {
+			handleSetLastAccessedCharacter(character.id);
+			setShowSelectedCharacterCard(true);
 		}
 	};
 
@@ -55,7 +68,7 @@ const CharacterList = ({ clickDisposition, handleSelection, preclude }) => {
 					return (
 						<div
 							key={`${character.id}`}
-							onClick={() => handleSelect(character)}
+							onClick={() => handleViewCharacter(character)}
 							style={{ cursor: 'pointer' }}
 						>
 							<ListItem
@@ -64,6 +77,13 @@ const CharacterList = ({ clickDisposition, handleSelection, preclude }) => {
 									mb: 1,
 								}}
 								id={character.id}
+								secondaryAction={
+									clickDisposition !== 'select' && (
+										<IconButton onClick={() => handleSelect(character)}>
+											<InfoIcon color="primary" />
+										</IconButton>
+									)
+								}
 							>
 								<ListItemAvatar sx={{ mr: 2 }}>
 									<CharacterAvatar character={character} />
@@ -77,6 +97,13 @@ const CharacterList = ({ clickDisposition, handleSelection, preclude }) => {
 						</div>
 					);
 				})}
+			<CharacterImage
+				open={showSelectedCharacterCard}
+				toggle={() => setShowSelectedCharacterCard(false)}
+				character={characters.find(
+					(character) => character.id === lastAccessedCharacter
+				)}
+			/>
 		</List>
 	);
 };

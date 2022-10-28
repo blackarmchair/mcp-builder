@@ -42,7 +42,9 @@ const ChipFilter = ({ label, name, filterOptions, handleFilter }) => {
 		(term) => !term[0].localeCompare(name)
 	)?.[1];
 	const currentFilterLabel =
-		typeof currentFilter === 'string' ? currentFilter : currentFilter?.label;
+		typeof currentFilter === 'string' || typeof currentFilter === 'number'
+			? currentFilter
+			: currentFilter?.label;
 
 	return (
 		<>

@@ -9,7 +9,13 @@ const Tile = styled(Stack)(({ theme }) => ({
 
 const PageTile = ({ handleClick, icon, label }) => {
 	return (
-		<Grid item xs={6} onClick={handleClick} style={{ cursor: 'pointer' }}>
+		<Grid
+			item
+			sm={6}
+			xs={12}
+			onClick={handleClick}
+			style={{ cursor: 'pointer' }}
+		>
 			<Tile direction="column" p={1} alignItems="center" spacing={1}>
 				{icon}
 				<Typography>{label}</Typography>

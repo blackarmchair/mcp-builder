@@ -17,7 +17,6 @@ const StyledTextField = styled(TextField)(({ theme }) => ({
 }));
 
 const searchFields = [
-	// { name: 'rules', label: 'Card Text' },
 	{
 		name: 'affiliation',
 		label: 'Affiliation',
@@ -45,7 +44,8 @@ const searchFields = [
 		label: 'Legality',
 		cmpt: 'Select',
 		options: [
-			{ label: 'Unrestricted', value: 'legal' },
+			{ label: 'Standard Legal', value: 'legal' },
+			{ label: 'Extended Only', value: 'rotated' },
 			{ label: 'Restricted', value: 'restricted' },
 			{ label: 'Banned', value: 'banned' },
 		],
