@@ -837,7 +837,7 @@
     "id": "bb8e2492-7df2-4492-a26f-d01e9d603b54",
     "cp": 1,
     "image": "follow_me.jpg",
-    "standardStatus": "legal",
+    "standardStatus": "restricted",
     "extendedStatus": "legal",
     "associatedCharacters": []
   },
