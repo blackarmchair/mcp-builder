@@ -175,92 +175,112 @@ const AddCharacters = () => {
 	return (
 		<Panel>
 			<List>
-				{selectedRoster.characters.map((characterEntry) => {
-					const id = Array.isArray(characterEntry)
-						? characterEntry[0]
-						: characterEntry;
-					const character = allCharacters.find((c) => !c.id.localeCompare(id));
-					const gems = isGemBearer(character) ? availableGems(character) : [];
-					const extraGemThreat = Array.isArray(characterEntry)
-						? characterEntry[1].length
-						: 0;
-					const threat = character.healthySide.healthyThreat + extraGemThreat;
-					const logos = characterAffiliationLogos(character.affiliations);
-					return (
-						<div key={`${character.id}`} style={{ cursor: 'pointer' }}>
-							<ListItem
-								sx={{
-									backgroundColor: 'transparent',
-									margin: { xs: 0, md: 12 },
-									pt: { xs: 0, md: 12 },
-									pb: { xs: 0, md: 12 },
-									pl: { xs: 0, md: 12 },
-									mb: { xs: 0, md: 1 },
-								}}
-								onClick={() => handleSelectCharacter(character)}
-								secondaryAction={
-									<IconButton
-										edge="end"
-										color="white"
-										onClick={(e) => handleRemoveCharacter(e, character)}
-									>
-										<CloseIcon />
-									</IconButton>
-								}
-							>
-								<ListItemAvatar sx={{ mr: 2 }}>
-									<CharacterAvatar character={character} />
-								</ListItemAvatar>
-								<ListItemText
-									primary={
-										<Stack
-											direction="row"
-											spacing={1}
-											justifyContent="space-between"
+				{selectedRoster.characters
+					.sort((a, b) => {
+						const ids = [a, b].map((entry) =>
+							Array.isArray(entry) ? entry[0] : entry
+						);
+						const characters = ids.map((id) =>
+							allCharacters.find((c) => !c.id.localeCompare(id))
+						);
+						if (characters[0].hasOwnProperty('leadership')) return -1;
+						if (characters[1].hasOwnProperty('leadership')) return 1;
+						return (
+							characters[1].healthySide.healthyThreat -
+							characters[0].healthySide.healthyThreat
+						);
+					})
+					.map((characterEntry) => {
+						const id = Array.isArray(characterEntry)
+							? characterEntry[0]
+							: characterEntry;
+						const character = allCharacters.find(
+							(c) => !c.id.localeCompare(id)
+						);
+						const gems = isGemBearer(character) ? availableGems(character) : [];
+						const extraGemThreat = Array.isArray(characterEntry)
+							? characterEntry[1].length
+							: 0;
+						const threat = character.healthySide.healthyThreat + extraGemThreat;
+						const logos = characterAffiliationLogos(character.affiliations);
+						return (
+							<div key={`${character.id}`} style={{ cursor: 'pointer' }}>
+								<ListItem
+									sx={{
+										backgroundColor: 'transparent',
+										margin: { xs: 0, md: 12 },
+										pt: { xs: 0, md: 12 },
+										pb: { xs: 0, md: 12 },
+										pl: { xs: 0, md: 12 },
+										mb: { xs: 0, md: 1 },
+									}}
+									onClick={() => handleSelectCharacter(character)}
+									secondaryAction={
+										<IconButton
+											edge="end"
+											color="white"
+											onClick={(e) => handleRemoveCharacter(e, character)}
 										>
-											<Typography
-												sx={{
-													...truncate.sx,
-													width: { xs: '100%', md: '50%' },
-												}}
-											>
-												{toTitleCase(character.characterName)}
-											</Typography>
+											<CloseIcon />
+										</IconButton>
+									}
+								>
+									<ListItemAvatar sx={{ mr: 2 }}>
+										<CharacterAvatar
+											character={character}
+											highlight={character.hasOwnProperty('leadership')}
+										/>
+									</ListItemAvatar>
+									<ListItemText
+										primary={
 											<Stack
 												direction="row"
-												justifyContent="flex-end"
-												spacing={2}
-												sx={{ display: { xs: 'none', md: 'block' } }}
+												spacing={1}
+												justifyContent="space-between"
 											>
-												<span>{logos}</span>
-												<span>{getThreatLogo(threat)}</span>
+												<Typography
+													sx={{
+														...truncate.sx,
+														width: { xs: '100%', md: '50%' },
+													}}
+												>
+													{toTitleCase(character.characterName)}
+												</Typography>
+												<Stack
+													direction="row"
+													justifyContent="flex-end"
+													spacing={2}
+													sx={{ display: { xs: 'none', md: 'block' } }}
+												>
+													<span>{logos}</span>
+													<span>{getThreatLogo(threat)}</span>
+												</Stack>
 											</Stack>
-										</Stack>
-									}
-									secondary={
-										<Stack
-											direction="row"
-											spacing={2}
-											sx={{ display: { xs: 'block', md: 'none' } }}
-										>
-											{getThreatLogo(threat)} <span>{logos}</span>
-										</Stack>
-									}
-								/>
-							</ListItem>
-							{gems.length && (
-								<GemPicker
-									character={character}
-									gems={gems}
-									defaultSelectedGems={
-										Array.isArray(characterEntry) ? characterEntry[1] : []
-									}
-									handleSelectGem={handleSelectGem}
-								/>
-							)}
-						</div>
-					);
-				})}
+										}
+										secondary={
+											<Stack
+												direction="row"
+												spacing={2}
+												sx={{ display: { xs: 'block', md: 'none' } }}
+											>
+												{getThreatLogo(threat)} <span>{logos}</span>
+											</Stack>
+										}
+									/>
+								</ListItem>
+								{gems.length && (
+									<GemPicker
+										character={character}
+										gems={gems}
+										defaultSelectedGems={
+											Array.isArray(characterEntry) ? characterEntry[1] : []
+										}
+										handleSelectGem={handleSelectGem}
+									/>
+								)}
+							</div>
+						);
+					})}
 				{Array(ROSTER_CHARACTER_LIMIT - selectedRoster?.characters?.length)
 					.fill('')
 					.map((slot, idx) => (

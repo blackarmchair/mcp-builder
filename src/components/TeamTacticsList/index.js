@@ -2,6 +2,7 @@ import React from 'react';
 import { List, ListItem, ListItemText, Divider } from '@mui/material';
 import TeamTacticsCardDetail from '../TeamTacticsDetail';
 import { useSearch } from '../../contexts/SearchContext';
+import toTitleCase from '../../services/titleCase';
 import THEME from '../../theme';
 
 const TeamTacticsList = ({ clickDisposition, handleSelection, preclude }) => {
@@ -42,7 +43,7 @@ const TeamTacticsList = ({ clickDisposition, handleSelection, preclude }) => {
 								}}
 							>
 								<ListItemText
-									primary={tactic.name.toUpperCase()}
+									primary={toTitleCase(tactic.name)}
 									secondary={tactic.affiliation}
 									primaryTypographyProps={{
 										color:

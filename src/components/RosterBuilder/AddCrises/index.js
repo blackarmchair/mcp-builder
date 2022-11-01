@@ -22,6 +22,7 @@ import { useRosters } from '../../../contexts/RosterContext';
 import { useSearch } from '../../../contexts/SearchContext';
 import THEME from '../../../theme';
 import truncate from '../../../services/truncate';
+import toTitleCase from '../../../services/titleCase';
 
 const Panel = styled(Paper)(({ theme }) => ({
 	backgroundColor: theme.palette.overlay.main,
@@ -152,7 +153,7 @@ const AddCrises = () => {
 									</Avatar>
 								</ListItemAvatar>
 								<ListItemText
-									primary={crisis.name}
+									primary={toTitleCase(crisis.name)}
 									secondary={`Threat Level: ${crisis.threat} | Map: ${crisis.map}`}
 									primaryTypographyProps={{
 										color: crisis.banned

@@ -25,27 +25,37 @@ const GemList = () => {
 	return (
 		<>
 			<List>
-				{GEMS.map((gem) => (
-					<div
-						key={gem.id}
-						style={{ cursor: 'pointer' }}
-						onClick={() => handleSelectGem(gem)}
-					>
-						<ListItem
-							sx={{
-								backgroundColor: THEME.palette.overlay.main,
-								mb: 1,
-							}}
-							id={gem.id}
+				{GEMS.map((gem) => {
+					const restricted = gem.standardStatus === 'restricted';
+					return (
+						<div
+							key={gem.id}
+							style={{ cursor: 'pointer' }}
+							onClick={() => handleSelectGem(gem)}
 						>
-							<ListItemAvatar>
-								<GemAvatar gem={gem} />
-							</ListItemAvatar>
-							<ListItemText primary={gem.characterName} />
-						</ListItem>
-						<Divider />
-					</div>
-				))}
+							<ListItem
+								sx={{
+									backgroundColor: THEME.palette.overlay.main,
+									mb: 1,
+								}}
+								id={gem.id}
+							>
+								<ListItemAvatar>
+									<GemAvatar gem={gem} />
+								</ListItemAvatar>
+								<ListItemText
+									primary={gem.characterName}
+									primaryTypographyProps={{
+										color: restricted
+											? THEME.palette.enrg.main
+											: THEME.palette.white.main,
+									}}
+								/>
+							</ListItem>
+							<Divider />
+						</div>
+					);
+				})}
 			</List>
 			<GemDetail
 				open={detailModal}

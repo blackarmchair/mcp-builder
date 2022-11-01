@@ -145,7 +145,7 @@ const AddTeamTactics = () => {
 								}
 							>
 								<ListItemText
-									primary={teamTactic.name}
+									primary={toTitleCase(teamTactic.name)}
 									secondary={toTitleCase(teamTactic.affiliation)}
 									primaryTypographyProps={{
 										color:

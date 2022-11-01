@@ -16,7 +16,7 @@ const ENTRIES = [
 	},
 	{
 		label: 'FAQ & Errata',
-		link: 'https://www.atomicmassgames.com/s/OP_CrisisProtocol_FAQ_060622.pdf',
+		link: 'https://www.atomicmassgames.com/s/OP_CrisisProtocol_FAQ_101422.pdf',
 	},
 	{
 		label: 'Crisis Event Rules',
@@ -24,15 +24,15 @@ const ENTRIES = [
 	},
 	{
 		label: 'Base Size Reference',
-		link: 'https://www.atomicmassgames.com/s/OP_CrisisProtocol_BaseSizes_060622.pdf',
+		link: 'https://www.atomicmassgames.com/s/OP_CrisisProtocol_BaseSizes_101422.pdf',
 	},
 	{
 		label: 'Affiliation Reference',
-		link: 'https://www.atomicmassgames.com/s/OP_CrisisProtocol_Affiliation_List_060622.pdf',
+		link: 'https://www.atomicmassgames.com/s/OP_CrisisProtocol_Affiliation_List_101422.pdf',
 	},
 	{
 		label: 'Banned & Restricted List',
-		link: 'https://www.atomicmassgames.com/s/OP_CrisisProtocol_BNR_063022.pdf',
+		link: 'https://www.atomicmassgames.com/s/OP_CrisisProtocol_BNR_090922.pdf',
 	},
 ];
 
