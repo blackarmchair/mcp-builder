@@ -7,7 +7,7 @@
 	{ "name": "Unaffiliated", "logo": "Unaffiliated.jpg" },
 	{ "name": "A-Force", "logo": "a_force.jpg" },
 	{ "name": "Criminal Syndicate", "logo": "criminal_syndicate.jpg" },
-	{ "name": "Web Warriors", "logo": "web_Warriors.jpg" },
+	{ "name": "Web Warriors", "logo": "web_warriors.jpg" },
 	{ "name": "Brotherhood", "logo": "brotherhood_of_mutants.jpg" },
 	{ "name": "Convocation", "logo": "convocation.jpg" },
 	{ "name": "Inhumans", "logo": "inhumans.jpg" },
@@ -21,5 +21,6 @@
 	{ "name": "Wakanda", "logo": "wakanda.jpg" },
 	{ "name": "Winter Guard", "logo": "winter_guard.jpg" },
 	{ "name": "Sentinels", "logo": "sentinel.jpg" },
-	{ "name": "Hydra", "logo": "hydra.png" }
+	{ "name": "Hydra", "logo": "hydra.png" },
+	{ "name": "Weapon X", "logo": "weapon_x.png" }
 ]

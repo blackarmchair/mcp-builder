@@ -682,7 +682,7 @@
 				"name": "IMMUNITY [POISON]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 34,
@@ -1480,7 +1480,7 @@
 				"name": "IMMUNITY [POISON]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 47,
@@ -1735,7 +1735,7 @@
 				"name": "IMMUNITY [INCINERATE, POISON]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [INCINERATE] or [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [INCINERATE] or [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 1,
@@ -1913,7 +1913,7 @@
 				"name": "HEALING FACTOR [1]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "At the end of each of this character’s activations it may remove [1] damage from itself."
+				"specialRules": "At the end of each of this character's activations it may remove [1] damage from itself."
 			}
 		],
 		"cp": 53,
@@ -1987,7 +1987,7 @@
 				"name": "IMMUNITY [INCINERATE]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [INCINERATE] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [INCINERATE] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 67,
@@ -2077,7 +2077,7 @@
 				"name": "IMMUNITY [BLEED]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [BLEED] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [BLEED] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 57,
@@ -2334,7 +2334,7 @@
 				"name": "IMMUNITY [POISON]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 35,
@@ -2594,7 +2594,7 @@
 				"name": "HEALING FACTOR [2]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "At the end of each of this character’s activations it may remove [2] damage from itself."
+				"specialRules": "At the end of each of this character's activations it may remove [2] damage from itself."
 			}
 		],
 		"cp": 45,
@@ -2936,7 +2936,7 @@
 				"name": "IMMUNITY [HEX, INCINERATE]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [HEX] or [INCINERATE] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [HEX] or [INCINERATE] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 65,
@@ -3095,7 +3095,7 @@
 				"name": "IMMUNITY [BLEED, INCINERATE, STAGGER]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [BLEED], [INCINERATE], or [STAGGER] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [BLEED], [INCINERATE], or [STAGGER] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 33,
@@ -3660,7 +3660,7 @@
 				"name": "IMMUNITY [BLEED, HEX, INCINERATE, POISON]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [BLEED], [HEX], [INCINERATE], or [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [BLEED], [HEX], [INCINERATE], or [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 27,
@@ -4202,7 +4202,7 @@
 				"name": "HEALING FACTOR [1]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "At the end of each of this character’s activations it may remove [1] damage from itself."
+				"specialRules": "At the end of each of this character's activations it may remove [1] damage from itself."
 			}
 		],
 		"cp": 71,
@@ -4402,7 +4402,7 @@
 				"name": "IMMUNITY [POISON, STUN]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [POISON] or [STUN] special conditions. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [POISON] or [STUN] special conditions. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 4,
@@ -4844,7 +4844,7 @@
 				"name": "IMMUNITY [STUN]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [STUN] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [STUN] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 56,
@@ -5141,7 +5141,7 @@
 				"name": "HEALING FACTOR [1]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "At the end of each of this character’s activations it may remove [1] damage from itself."
+				"specialRules": "At the end of each of this character's activations it may remove [1] damage from itself."
 			},
 			{
 				"name": "WALL CRAWLER",
@@ -5225,7 +5225,7 @@
 				"name": "IMMUNITY [POISON]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 35,
@@ -5397,7 +5397,7 @@
 				"name": "IMMUNITY [BLEED]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [BLEED] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [BLEED] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 49,
@@ -5707,7 +5707,7 @@
 				"name": "IMMUNITY [POISON]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 34,
@@ -5971,7 +5971,7 @@
 				"name": "IMMUNITY [POSION]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 62,
@@ -6206,7 +6206,7 @@
 				"name": "IMMUNITY [BLEED, POISON, STUN]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [BLEED], [POISON], or [STUN] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [BLEED], [POISON], or [STUN] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 16,
@@ -6439,7 +6439,7 @@
 				"name": "IMMUNITY [POISON]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 54,
@@ -6908,7 +6908,7 @@
 				"name": "IMMUNITY [POISON]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 60,
@@ -6990,7 +6990,7 @@
 				"name": "IMMUNITY [POISON]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 20,
@@ -7066,7 +7066,7 @@
 				"name": "HEALING FACTOR [1]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "At the end of each of this character’s activations it may remove [1] damage from itself."
+				"specialRules": "At the end of each of this character's activations it may remove [1] damage from itself."
 			}
 		],
 		"cp": 40,
@@ -7340,7 +7340,7 @@
 				"name": "IMMUNITY [POISON]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 39,
@@ -7888,7 +7888,7 @@
 				"name": "IMMUNITY [SHOCK]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [SHOCK] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [SHOCK] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 41,
@@ -8142,7 +8142,7 @@
 				"name": "IMMUNITY [STUN]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [STUN] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [STUN] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 25,
@@ -8395,7 +8395,7 @@
 				"name": "IMMUNITY [BLEED, POISON]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [BLEED] or [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [BLEED] or [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 1,
@@ -8717,7 +8717,7 @@
 				"name": "IMMUNITY [BLEED, POISON]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [BLEED] or [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [BLEED] or [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 13,
@@ -9044,13 +9044,13 @@
 				"name": "HEALING FACTOR [2]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "At the end of each of this character’s activations it may remove [2] damage from itself."
+				"specialRules": "At the end of each of this character's activations it may remove [2] damage from itself."
 			},
 			{
 				"name": "IMMUNITY [STAGGER, STUN]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "This character can’t suffer the [STAGGER] or [STUN] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+				"specialRules": "This character can't suffer the [STAGGER] or [STUN] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
 			}
 		],
 		"cp": 40,
@@ -9196,7 +9196,7 @@
 				"name": "HEALING FACTOR [2]",
 				"type": "Innate",
 				"cost": 0,
-				"specialRules": "At the end of each of this character’s activations it may remove [2] damage from itself."
+				"specialRules": "At the end of each of this character's activations it may remove [2] damage from itself."
 			}
 		],
 		"cp": 71,
@@ -10720,5 +10720,171 @@
 		"affiliations": ["Brotherhood"],
 		"baseSize": "35mm",
 		"portrait": "the_blob.png"
+	},
+	{
+		"characterName": "Logan, the Wolverine",
+		"alterEgo": "James Logan Howlett",
+		"healthySide": {
+			"healthyStamina": 6,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 4,
+			"healthyPhysicalDefense": 4,
+			"healthyEnergyDefense": 4,
+			"healthyMysticalDefense": 2
+		},
+		"injuredSide": {
+			"injuredStamina": 6,
+			"injuredSpeed": "M",
+			"injuredSize": 2,
+			"injuredThreat": 4,
+			"injuredPhysicalDefense": 4,
+			"injuredEnergyDefense": 4,
+			"injuredMysticalDefense": 2
+		},
+		"attacks": [
+			{
+				"name": "X-Slash",
+				"type": "Phys",
+				"range": 3,
+				"strength": 4,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - After this attack is resolved, Place this character within {RNG} 1 of the target character. - {WILD} Pierce: Change one of the defending character's {CRIT}, {WILD}, or {BLOCK} results to a Blank."
+			},
+			{
+				"name": "Tornado Claw",
+				"type": "Phys",
+				"range": "B3",
+				"strength": 7,
+				"cost": 4,
+				"specialRules": "- After all attacks generated by this attack have been resolved, Place this character within {RNG} 1 of the last character targeted by this attack. - {WILD} Pierce: Change one of the defending character's {CRIT}, {WILD}, or {BLOCK} results to a Blank. - {WILD} Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "What I Do Isn't Very Nice",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "- Action: This character immediately makes an X-Slash attack action. After the attack is resolved, if the target character is Size 3 or less, this character may Throw the target character {S}. This superpower may only be used once per turn."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": " ADAMANTIUM SKELETON",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "When determining if this character can be thrown or pushed by an effect or special rule or when it is colliding with another character or a terrain feature, this character counts as Size 3."
+			},
+			{
+				"name": "Get Out of My Head!",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "- The first time this character is damaged by an enemy {MYST} attack each turn, after the attack is resolved, other allied characters within {RNG} 3 of this character suffer 1 {DMG}. Characters that suffer {DMG} this way gain 1 {PWR}."
+			},
+			{
+				"name": "On The Hunt",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "- When this character makes an attack, if there are no allied characters within {RNG} 3 of it, this character may reroll up to 2 of its attack dice."
+			},
+			{
+				"name": "HEALING FACTOR [2]",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "At the end of each of this character's activations it may remove [2] damage from itself."
+			},
+			{
+				"name": "IMMUNITY [STUN]",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "This character can't suffer the [STUN] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+			}
+		],
+		"cp": "E03",
+		"cards": [
+			"logan_the_wolverine_healthy.png",
+			"logan_the_wolverine_injured.png"
+		],
+		"id": "d1e70d12-342a-413d-a862-981eb1b25604",
+		"affiliations": ["Weapon X"],
+		"baseSize": "35mm",
+		"portrait": "logan_the_wolverine.png"
+	},
+	{
+		"characterName": "Sabretooth, Apex Predator",
+		"alterEgo": "Victor Creed",
+		"healthySide": {
+			"healthyStamina": 7,
+			"healthySpeed": "M",
+			"healthySize": 3,
+			"healthyThreat": 4,
+			"healthyPhysicalDefense": 4,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 4
+		},
+		"injuredSide": {
+			"injuredStamina": 6,
+			"injuredSpeed": "M",
+			"injuredSize": 3,
+			"injuredThreat": 4,
+			"injuredPhysicalDefense": 4,
+			"injuredEnergyDefense": 3,
+			"injuredMysticalDefense": 4
+		},
+		"attacks": [
+			{
+				"name": "CLAW SLASH",
+				"type": "Phys",
+				"range": "2",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - {WILD} Pierce: Change one of the defending character's {CRIT}, {WILD}, or {BLOCK} results to a Blank. - {WILD} Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+			},
+			{
+				"name": "Bloodthirsty Onslaught",
+				"type": "Phys",
+				"range": 3,
+				"strength": 6,
+				"cost": 2,
+				"specialRules": "- After this attack is resolved, Place this character within {RNG} 1 of the target character. - {WILD} Pierce: Change one of the defending character's {CRIT}, {WILD}, or {BLOCK} results to a Blank. - {WILD} Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Catch, Runt!",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "Choose an enemy character of Size 3 or less and within {RNG} 3 and Throw it {M}. This superpower can be used only once per turn."
+			},
+			{
+				"name": "Primal Pounce",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "This character is thrown {M}. It does not suffer damage if it collides with another character or terrain feature. This superpower may be used only once per turn."
+			},
+			{
+				"name": "Stop Squealing and Die",
+				"type": "Active",
+				"cost": 4,
+				"specialRules": "The next Claw Slash or Bloodthirsty Onslaught attack made by this character this turn adds 3 dice to its attack roll."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "HEALING FACTOR [1]",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "At the end of each of this character's activations it may remove [1] damage from itself."
+			}
+		],
+		"cp": "E03",
+		"cards": [
+			"sabertooth_apex_predator_healthy.png",
+			"sabertooth_apex_predator_injured.png"
+		],
+		"id": "ab95edfc-1e13-468c-88c8-6c282a4cec7d",
+		"affiliations": ["Weapon X"],
+		"baseSize": "35mm",
+		"portrait": "sabertooth_apex_predator.png"
 	}
 ]
