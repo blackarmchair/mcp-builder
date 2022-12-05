@@ -2600,7 +2600,7 @@
 		"cp": 45,
 		"cards": ["deadpool_healthy.png", "deadpool_injured.png"],
 		"id": "f7f25f9b-1452-419a-b4c2-9793c29fc93e",
-		"affiliations": ["Avengers", "X-Force"],
+		"affiliations": ["Avengers", "X-Force", "Weapon X"],
 		"baseSize": "35mm",
 		"portrait": "deadpool.png"
 	},
@@ -3012,7 +3012,7 @@
 		"cp": 47,
 		"cards": ["domino_healthy.png", "domino_injured.png"],
 		"id": "2af940e1-d0d2-4097-916e-38bca5c302af",
-		"affiliations": ["A-Force", "X-Force", "Uncanny X-Men"],
+		"affiliations": ["A-Force", "X-Force", "Uncanny X-Men", "Weapon X"],
 		"baseSize": "35mm",
 		"portrait": "domino.png"
 	},
@@ -4208,7 +4208,7 @@
 		"cp": 71,
 		"cards": ["honey_badger_healthy.png", "honey_badger_injured.png"],
 		"id": "6b234e6c-536f-4b57-8d04-069158744898",
-		"affiliations": ["Uncanny X-Men", "X-Force"],
+		"affiliations": ["Uncanny X-Men", "X-Force", "Weapon X"],
 		"baseSize": "35mm",
 		"portrait": "honey_badger.png"
 	},
@@ -9202,7 +9202,7 @@
 		"cp": 71,
 		"cards": ["x23_healthy.png", "x23_injured.png"],
 		"id": "ae79510d-0c9b-429c-a89c-00b57089f1b0",
-		"affiliations": ["Uncanny X-Men", "X-Force"],
+		"affiliations": ["Uncanny X-Men", "X-Force", "Weapon X"],
 		"baseSize": "35mm",
 		"portrait": "x23.png"
 	},
@@ -10806,7 +10806,7 @@
 			"logan_the_wolverine_injured.png"
 		],
 		"id": "d1e70d12-342a-413d-a862-981eb1b25604",
-		"affiliations": ["Weapon X"],
+		"affiliations": ["Weapon X", "Uncanny X-Men"],
 		"baseSize": "35mm",
 		"portrait": "logan_the_wolverine.png"
 	},
@@ -10883,7 +10883,7 @@
 			"sabertooth_apex_predator_injured.png"
 		],
 		"id": "ab95edfc-1e13-468c-88c8-6c282a4cec7d",
-		"affiliations": ["Weapon X"],
+		"affiliations": ["Weapon X", "Brotherhood"],
 		"baseSize": "35mm",
 		"portrait": "sabertooth_apex_predator.png"
 	}

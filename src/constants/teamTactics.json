@@ -2811,5 +2811,32 @@
 			"d1e70d12-342a-413d-a862-981eb1b25604",
 			"bd634937-4457-4351-bfca-15a0365a263e"
 		]
+	},
+	{
+		"name": "Leapfrog",
+		"affiliation": "Unaffiliated",
+		"type": "Reactive",
+		"rules": "After an allied Toad deals {DMG} with an attack, an allied The Blob and Toad may each spend 1 {PWR} to play this card.\nThe Blob may advance {S} and make a Strike attack.",
+		"id": "8809f400-77bd-45a9-a9f1-395ce7784a56",
+		"cp": 82,
+		"image": "leapfrog.png",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"10d9dd64-2fb7-494e-bcc8-b4ed7a3ed303",
+			"578660e0-534e-11ed-bdc3-0242ac120002"
+		]
+	},
+	{
+		"name": "Pyrotechnics",
+		"affiliation": "Unaffiliated",
+		"type": "Active",
+		"rules": "Pyro may spend X {PWR} to play this card.\nFor each {PWR} spent, choose an enemy character with the Incinerate speical condition and within {RNG} 3 of Pyro. Each chosen character drops 1 objective token it is holding and is pushed {S} away from Pyro.",
+		"id": "33e0df00-79f1-497c-ac12-57b21de2bf44",
+		"cp": 82,
+		"image": "pyrotechnics.png",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": []
 	}
 ]
