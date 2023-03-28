@@ -69,7 +69,7 @@
 				"specialRules": "This character may reroll any number of its defense or dodge dice."
 			},
 			{
-				"name": "WALL CRAWLER",
+				"name": "WALLCRAWLER",
 				"type": "Innate",
 				"cost": 0,
 				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
@@ -581,7 +581,7 @@
 				"specialRules": "Whenever this character rolls dice, after the effect is resolved it gains 1 {PWR} if it rolled at least one {FAIL}."
 			},
 			{
-				"name": "WALL CRAWLER",
+				"name": "WALLCRAWLER",
 				"type": "Innate",
 				"cost": 0,
 				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
@@ -1814,7 +1814,7 @@
 				"specialRules": "When this character is attacking, the defending character does not add dice to its defense roll for {CRIT} results."
 			},
 			{
-				"name": "WALL CRAWLER",
+				"name": "WALLCRAWLER",
 				"type": "Innate",
 				"cost": 0,
 				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
@@ -2492,7 +2492,7 @@
 				"specialRules": "When defending against {PHYS} or {ENRG} attacks, this character adds blanks in its defense roll to its total successes."
 			},
 			{
-				"name": "WALL CRAWLER",
+				"name": "WALLCRAWLER",
 				"type": "Innate",
 				"cost": 0,
 				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
@@ -2659,7 +2659,7 @@
 				"specialRules": "Whenever this character rolls dice, after the effect is resolved it gains 1 {PWR} if it rolled at least one {CRIT}."
 			},
 			{
-				"name": "WALL CRAWLER",
+				"name": "WALLCRAWLER",
 				"type": "Innate",
 				"cost": 0,
 				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
@@ -3735,7 +3735,7 @@
 		],
 		"innateSuperpowers": [
 			{
-				"name": "WALL CRAWLER",
+				"name": "WALLCRAWLER",
 				"type": "Innate",
 				"cost": 0,
 				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
@@ -5059,7 +5059,7 @@
 				"name": "CORNER THE BEAST",
 				"type": "Active",
 				"cost": 2,
-				"specialRules": "Choose an enemy character within {RNG} 3 of this character. Until the end of its next activation, each time the chosen character advances or climbs, it suffers 1 {DMG}. If the chosen character has the Wall Crawler {INNATE} superpower, it loses the Wall Crawler {INNATE} superpower until the end of its next activation."
+				"specialRules": "Choose an enemy character within {RNG} 3 of this character. Until the end of its next activation, each time the chosen character advances or climbs, it suffers 1 {DMG}. If the chosen character has the WALLCRAWLER {INNATE} superpower, it loses the WALLCRAWLER {INNATE} superpower until the end of its next activation."
 			},
 			{
 				"name": "EXPERT TRACKER",
@@ -5144,7 +5144,7 @@
 				"specialRules": "At the end of each of this character's activations it may remove [1] damage from itself."
 			},
 			{
-				"name": "WALL CRAWLER",
+				"name": "WALLCRAWLER",
 				"type": "Innate",
 				"cost": 0,
 				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
@@ -5882,7 +5882,7 @@
 				"specialRules": "Characters must be within {RNG} 3 of this character to target it with attacks."
 			},
 			{
-				"name": "WALL CRAWLER",
+				"name": "WALLCRAWLER",
 				"type": "Innate",
 				"cost": 0,
 				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
@@ -6662,7 +6662,7 @@
 				"specialRules": "When this character is defending against an {PHYS} or {ENRG} attack or making a dodge roll, it may reroll up to 2 of its defense or dodge dice."
 			},
 			{
-				"name": "WALL CRAWLER",
+				"name": "WALLCRAWLER",
 				"type": "Innate",
 				"cost": 0,
 				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
@@ -7245,7 +7245,7 @@
 				"specialRules": "Characters must be within {RNG} 3 of this character to target it with attacks."
 			},
 			{
-				"name": "WALL CRAWLER",
+				"name": "WALLCRAWLER",
 				"type": "Innate",
 				"cost": 0,
 				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
@@ -7627,7 +7627,7 @@
 				"specialRules": "Characters must be within {RNG} 3 of this character to target it with attacks."
 			},
 			{
-				"name": "WALL CRAWLER",
+				"name": "WALLCRAWLER",
 				"type": "Innate",
 				"cost": 0,
 				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
@@ -7709,7 +7709,7 @@
 				"specialRules": "When this character is defending against an {PHYS} or {ENRG} attack or making a dodge roll, it may reroll two of its defense or dodge dice."
 			},
 			{
-				"name": "WALL CRAWLER",
+				"name": "WALLCRAWLER",
 				"type": "Innate",
 				"cost": 0,
 				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
@@ -8548,7 +8548,7 @@
 				"specialRules": "When this character is attacking, the defending character cannot modify their defense dice."
 			},
 			{
-				"name": "WALL CRAWLER",
+				"name": "WALLCRAWLER",
 				"type": "Innate",
 				"cost": 0,
 				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
@@ -10886,5 +10886,842 @@
 		"affiliations": ["Weapon X", "Brotherhood"],
 		"baseSize": "35mm",
 		"portrait": "sabertooth_apex_predator.png"
+	},
+	{
+		"characterName": "Agent Venom",
+		"alterEgo": "Flash Thompson",
+		"healthySide": {
+			"healthyStamina": 6,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 4,
+			"healthyPhysicalDefense": 4,
+			"healthyEnergyDefense": 2,
+			"healthyMysticalDefense": 3
+		},
+		"injuredSide": {
+			"injuredStamina": 6,
+			"injuredSpeed": "M",
+			"injuredSize": 2,
+			"injuredThreat": 4,
+			"injuredPhysicalDefense": 4,
+			"injuredEnergyDefense": 2,
+			"injuredMysticalDefense": 3
+		},
+		"attacks": [
+			{
+				"name": "Klyntar Firepower",
+				"type": "Phys",
+				"range": "4",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - {WILD} Bleed: After this attack is resolved, the target character gains the Bleed special condition."
+			},
+			{
+				"name": "Incendiary Grenade",
+				"type": "Enrg",
+				"range": "3",
+				"strength": 5,
+				"cost": 1,
+				"specialRules": "- After this attack is resolved, the target character gains the Incinerate special condition."
+			},
+			{
+				"name": "Symbiote Special Forces",
+				"type": "Phys",
+				"range": "B3",
+				"strength": 7,
+				"cost": 4,
+				"specialRules": "- {WILD}, {HIT} Lashing Tendrils: After each attack is resolved, deal 1 {DMG} to each other enemy character within {RNG} 2 of this character."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Symbiote Web Swing",
+				"type": "Active",
+				"cost": 2,
+				"specialRules": "Place this character within {RNG} 3 of its current position. This superpower can be used only once per turn."
+			},
+			{
+				"name": "Project Rebirth 2.0",
+				"type": "Active",
+				"cost": 1,
+				"specialRules": "Remove 1 special condition from this character."
+			},
+			{
+				"name": "All-Star Quarterback",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "Choose an interactive terrain feature or an enemy character, both of Size 3 of less and within {RNG} 2, and Throw it {S}. This superpower can be used only once per turn."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "SYMBIOTIC INSTINCTS",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "While this character is attacking, the defending character cannot modify its defense dice."
+			},
+			{
+				"name": "WALLCRAWLER",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
+			}
+		],
+		"cp": "100",
+		"cards": ["agent_venom_healthy.png", "agent_venom_injured.png"],
+		"id": "a4424c69-3507-4471-b1e0-66b3f8689eff",
+		"affiliations": ["Guardians of the Galaxy", "S.H.I.E.L.D.", "Web Warriors"],
+		"baseSize": "35mm",
+		"portrait": "agent_venom.png"
+	},
+	{
+		"characterName": "Beta Ray Bill",
+		"alterEgo": "Bill",
+		"healthySide": {
+			"healthyStamina": 6,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 4,
+			"healthyPhysicalDefense": 4,
+			"healthyEnergyDefense": 4,
+			"healthyMysticalDefense": 3
+		},
+		"injuredSide": {
+			"injuredStamina": 5,
+			"injuredSpeed": "M",
+			"injuredSize": 3,
+			"injuredThreat": 4,
+			"injuredPhysicalDefense": 4,
+			"injuredEnergyDefense": 4,
+			"injuredMysticalDefense": 3
+		},
+		"attacks": [
+			{
+				"name": "Stormbreaker",
+				"type": "Phys",
+				"range": "2",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - {WILD} Stun: After this attack is resolved, the target character gains the Stun special condition."
+			},
+			{
+				"name": "Summon The Storm",
+				"type": "Enrg",
+				"range": "4",
+				"strength": 6,
+				"cost": 2,
+				"specialRules": "- If the target character has the Flight {Innate} superpower, this character may reroll up to two of its attack dice, including {FAIL} results. - {WILD} Shock: After this attack is resolved, the target character gains the Shock special condition."
+			},
+			{
+				"name": "Godhunter",
+				"type": "Enrg",
+				"range": "2",
+				"strength": 5,
+				"cost": 3,
+				"specialRules": "- Add dice to the attack roll equal to the target character's Size. - {CRIT}, {WILD}, {HIT} Hurl: After this attack is resolved, Throw the target character {M}."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Immeasureable Strength",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "Choose an interactive terrain feature or enemy character, both of Size 4 of less and within {RNG} 2, and Throw it {M}. This superpower can be used only once per turn."
+			}
+		],
+		"reactiveSuperPowers": [
+			{
+				"name": "Korbinite Cybernetics",
+				"type": "Reactive",
+				"cost": 1,
+				"specialRules": "If this character would suffer {DMG}, it may use this superpower. Reduce the amount of {DMG} suffered by 1."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Honorbound",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "After an attack targeting this character is resolved, if this character suffered {DMG}, it may Advance {S} Toward the attacking character."
+			},
+			{
+				"name": "Blessed By The All-Father",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "During the Power Phase this character gains 1 additional {PWR}."
+			},
+			{
+				"name": "FLIGHT",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
+			},
+			{
+				"name": "IMMUNITY [BLEED, INCINERATE, POISON]",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "This character can't suffer the Bleed, Incinerate, or Poison special conditions. If it has one of these special conditions and gains Immunity to it, the character removes the special condition."
+			}
+		],
+		"cp": "130",
+		"cards": ["beta_ray_bill_healthy.png", "beta_ray_bill_injured.png"],
+		"id": "29c1bafd-4ad1-4ad5-a147-55e5c796c6db",
+		"affiliations": ["Asgard", "Guardians of the Galaxy"],
+		"baseSize": "35mm",
+		"portrait": "beta_ray_bill.png"
+	},
+	{
+		"characterName": "Emma Frost (Diamond)",
+		"alterEgo": "Emma Frost",
+		"healthySide": {
+			"healthyStamina": 6,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 4,
+			"healthyPhysicalDefense": 4,
+			"healthyEnergyDefense": 4,
+			"healthyMysticalDefense": 4
+		},
+		"injuredSide": {
+			"injuredStamina": 6,
+			"injuredSpeed": "M",
+			"injuredSize": 2,
+			"injuredThreat": 4,
+			"injuredPhysicalDefense": 4,
+			"injuredEnergyDefense": 4,
+			"injuredMysticalDefense": 4
+		},
+		"attacks": [
+			{
+				"name": "Diamond Strike",
+				"type": "Phys",
+				"range": "2",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - {WILD} Stun: After this attack is resolved, the target character gains the Sun special condition. - {CRIT} Pierce: Change 1 of the defending character's {CRIT}, {WILD}, or {BLOCK} results to a Blank."
+			},
+			{
+				"name": "Shatter",
+				"type": "Phys",
+				"range": "A2",
+				"strength": 7,
+				"cost": 6,
+				"specialRules": "- {CRIT} Pierce: Change 1 of the defending character's {CRIT}, {WILD}, or {BLOCK} results to a Blank. - After all attacks are resolved, this character may transform into Emma Frost (Normal)."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Sometimes one must get their hands dirty",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "Choose an interactive terrain feature of Size 3 or less and within {RNG} 2 and Throw it {M}. This superpower can be used only once per turn."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Diamond Mind",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "This character cannot play Team Tactic Cards."
+			},
+			{
+				"name": "Far From My Best Look",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "If this character begins its Activation as Emma Frost (Diamond), at the end of that Activation, it transforms into Emma Frost (Normal)."
+			},
+			{
+				"name": "Psychic Immunity",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "This character cannot be Pushed or Advanced as a result of enemy {MYST} attacks or superpowers. Additionally, when defending against {MYST} attacks, this character counts Blank results in its defense roll as successes."
+			},
+			{
+				"name": "IMMUNITY [BLEED, INCINERATE, POISON, Stun]",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "This character can't suffer the Bleed, Incinerate, Poison, or Stun special conditions. If it has one of these special conditions and gains Immunity to it, the character removes the special condition."
+			}
+		],
+		"cp": "103",
+		"cards": [
+			"emma_frost_diamond_healthy.png",
+			"emma_frost_diamond_injured.png"
+		],
+		"id": "fd20d1fd-6007-4502-be27-fdaf3a487f78",
+		"affiliations": ["Brotherhood", "Hellfire Club", "Uncanny X-Men"],
+		"baseSize": "35mm",
+		"portrait": "emma_frost_diamond.png"
+	},
+	{
+		"characterName": "Emma Frost (Normal)",
+		"alterEgo": "",
+		"healthySide": {
+			"healthyStamina": 6,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 4,
+			"healthyPhysicalDefense": 2,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 5
+		},
+		"injuredSide": {
+			"injuredStamina": 6,
+			"injuredSpeed": "M",
+			"injuredSize": 2,
+			"injuredThreat": 4,
+			"injuredPhysicalDefense": 2,
+			"injuredEnergyDefense": 3,
+			"injuredMysticalDefense": 5
+		},
+		"attacks": [
+			{
+				"name": "Psychic Strike",
+				"type": "Myst",
+				"range": "4",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - {WILD} {HIT} Bend Will: After this attack is resolved, this character may Advance the target character {S}."
+			},
+			{
+				"name": "Hands Off",
+				"type": "Myst",
+				"range": "3",
+				"strength": 8,
+				"cost": 4,
+				"specialRules": "{WILD} Defenestrate: Before {DMG} is dealt, if the target character is Size 4 or less, this character may Throw the target character away {S}."
+			}
+		],
+		"reactiveSuperPowers": [
+			{
+				"name": "Diamond Form",
+				"type": "Reactive",
+				"cost": 1,
+				"specialRules": "When this character is targeted by an attack, it may use this superpower. This character transforms into Emma Frost (Diamond)."
+			},
+			{
+				"name": "Shield Mind",
+				"type": "Reactive",
+				"cost": 2,
+				"specialRules": "When this character or an allied character within {RNG} 4 of it would be Advanced, Placed, or Pushed by the effects of an enemy {MYST} attack or enemy superpower, you may use this superpower. The allied character is not Advanced, Placed, or Pushed."
+			},
+			{
+				"name": "Telekinetic Deflection",
+				"type": "Reactive",
+				"cost": 2,
+				"specialRules": "If this character would suffer a collision, it may use this superpower. This character does not suffer {DMG} from this collision."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Power Inhibition",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "During this character's Activation, enemy characters cannot use {REACTIVE} superpowers or Reactive Team Tactic Cards."
+			}
+		],
+		"cp": "103",
+		"cards": ["emma_frost_healthy.png", "emma_frost_injured.png"],
+		"id": "3fac7b0a-12c1-436f-a301-9f83e663a1a7",
+		"affiliations": ["Brotherhood", "Hellfire Club", "Uncanny X-Men"],
+		"baseSize": "35mm",
+		"portrait": "emma_frost.png"
+	},
+	{
+		"characterName": "M.O.D.O.K. Scientist Supreme",
+		"alterEgo": "George Tarleton",
+		"healthySide": {
+			"healthyStamina": 7,
+			"healthySpeed": "S",
+			"healthySize": 3,
+			"healthyThreat": 4,
+			"healthyPhysicalDefense": 3,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 5
+		},
+		"injuredSide": {
+			"injuredStamina": 5,
+			"injuredSpeed": "S",
+			"injuredSize": 3,
+			"injuredThreat": 4,
+			"injuredPhysicalDefense": 3,
+			"injuredEnergyDefense": 3,
+			"injuredMysticalDefense": 5
+		},
+		"attacks": [
+			{
+				"name": "Doomsday Chair Arsenal",
+				"type": "Phys",
+				"range": "4",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- Before choosing a target, this character chooses whether the attack type is {PHYS} or {ENRG}. - After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - {WILD} Incinerate: After this attack is resolved, the target character gains the Incinerate special condition."
+			},
+			{
+				"name": "Psionic Assault",
+				"type": "Myst",
+				"range": "3",
+				"strength": 7,
+				"cost": 4,
+				"specialRules": "- Before {DMG} is dealt, this character may Advance the target character {S}. - {WILD} Disorient: Before {DMG} is dealt, the target character gains the Stun special condition."
+			}
+		],
+		"leadership": [
+			{
+				"name": "Advanced Idea Mechanics ( Criminal Syndicate )",
+				"specialRules": "Once per turn, when an allied character is attacking or defending, if it is holding or contesting an objective token and has 1 or more {WILD} results in its roll, it may change 1 of its dice to a {HIT} or {BLOCK}.",
+				"affiliation": "Criminal Syndicate"
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "By My Calculations, You'll Be Dead In Seconds!",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "Choose an interatice terrain feature of Size 4 or less within {RNG} 3 and Throw it {S}. This superpower can be used only once per turn."
+			}
+		],
+		"reactiveSuperPowers": [
+			{
+				"name": "All In This World Are Beneath Me!",
+				"type": "Reactive",
+				"cost": "X",
+				"specialRules": "While this character is attacking, during the Modify Dice step of the attack, if there is another allied character within {RNG} 3 of it, this character may use this superpower. The allied character may spend up to 3 {PWR}. For each {PWR} spent this way, this character may reroll 1 attack dice."
+			},
+			{
+				"name": "Genius Requires Sacrifice: YOUR Sacrifice to be Precise!",
+				"type": "Reactive",
+				"cost": 2,
+				"specialRules": "When this character is targeted by an enemy attack, it may use this superpower. Choose another allied character within {RNG} 2. The chosen character becomes the target of the attack regardless of Range and LOS."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "I Am M.O.D.O.K., Master of the Metal Arts!",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "While this character is defending against a {MYST} attack, it adds Blanks in its roll to its total successes. Additionally, this character cannot be Pushed or Advanced by effects of enemy {MYST} attacks or enemy superpowers."
+			}
+		],
+		"cp": "145",
+		"cards": [
+			"modok_scientist_supreme_healthy.png",
+			"modok_scientist_supreme_injured.png"
+		],
+		"id": "07fddde5-44c8-4057-bd11-25ef9bf46210",
+		"affiliations": ["Cabal", "Criminal Syndicate"],
+		"baseSize": "50mm",
+		"portrait": "modok_scientist_supreme.png"
+	},
+	{
+		"characterName": "Psylocke",
+		"alterEgo": "Elizabeth Braddock",
+		"healthySide": {
+			"healthyStamina": 6,
+			"healthySpeed": "M",
+			"healthySize": 2,
+			"healthyThreat": 4,
+			"healthyPhysicalDefense": 3,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 4
+		},
+		"injuredSide": {
+			"injuredStamina": 5,
+			"injuredSpeed": "M",
+			"injuredSize": 2,
+			"injuredThreat": 4,
+			"injuredPhysicalDefense": 3,
+			"injuredEnergyDefense": 3,
+			"injuredMysticalDefense": 4
+		},
+		"attacks": [
+			{
+				"name": "Telekinetic Katana",
+				"type": "Enrg",
+				"range": "2",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- Before choosing a target, this character chooses whether this attack's type is {ENRG}, or {MYST}. - After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - {WILD} Neural Disruptor: Before {DMG} is dealt, for each {WILD} in the attack roll, the target character loses 1 {PWR}."
+			},
+			{
+				"name": "Psi-Bow",
+				"type": "Myst",
+				"range": "4",
+				"strength": 4,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains 1 {PWR}. - {HIT} Pursuit: Before {DMG} is dealt, this character may Advance Toward the target character {S}."
+			},
+			{
+				"name": "Psionic Assault",
+				"type": "Myst",
+				"range": "3",
+				"strength": 7,
+				"cost": 3,
+				"specialRules": "Before {DMG} is dealt, the target character gains the Stun special condition."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Telekinetic Combat Enhancement",
+				"type": "Active",
+				"cost": 2,
+				"specialRules": "This character may immediately Advance {S}. The next time it makes a Telekinetic Katana attack this turn, add 2 dice to the attack roll. This superpower can be used only once per turn."
+			}
+		],
+		"reactiveSuperPowers": [
+			{
+				"name": "Telepathic Precognition",
+				"type": "Reactive",
+				"cost": "X",
+				"specialRules": "While this character is attacking or defending, during the Modify Dice step of the attack, it may spend any amount of {PWR} to use this superpower. For each 1 {PWR} spent, this character may reroll one of its attack or defense dice. This superpower can be used only once per turn."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "MARTIAL ARTIST",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "When this character is defending against a {PHYS} or {ENRG} attack targeting it from within {RNG} 2, this character adds blanks in its defense roll to its total successes."
+			},
+			{
+				"name": "STEALTH",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "Characters must be within {RNG} 3 of this character to target it with attacks."
+			}
+		],
+		"cp": "103",
+		"cards": ["psylocke_healthy.png", "psylocke_injured.png"],
+		"id": "7c215be5-6634-465e-acc8-9f9fcc4da604",
+		"affiliations": ["X-Force", "Uncanny X-Men"],
+		"baseSize": "35mm",
+		"portrait": "psylocke.png"
+	},
+	{
+		"characterName": "Rhino",
+		"alterEgo": "Aleksei Sytsevich",
+		"healthySide": {
+			"healthyStamina": 7,
+			"healthySpeed": "S",
+			"healthySize": 4,
+			"healthyThreat": 4,
+			"healthyPhysicalDefense": 3,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 2
+		},
+		"injuredSide": {
+			"injuredStamina": 6,
+			"injuredSpeed": "S",
+			"injuredSize": 4,
+			"injuredThreat": 4,
+			"injuredPhysicalDefense": 3,
+			"injuredEnergyDefense": 3,
+			"injuredMysticalDefense": 2
+		},
+		"attacks": [
+			{
+				"name": "Gore",
+				"type": "Phys",
+				"range": "3",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - Before {DMG} is dealt, Place this character within {RNG} 1 of the target character."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Stampede",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "This character is pushed {M}. It does not stop its movement if it contacts a Size 2 or smaller interactive terrain feature. Instead, the contacted terrain feature is destroyed, then this character continues being Pushed. The next time it makes a Gore attack this turn, add 2 dice to the attack roll. This superpower can be used only once per turn."
+			},
+			{
+				"name": "Nobody Ever Accused The Rhino Of Good Manners",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "Choose an interactive terrain feature of Size 4 or less and within {RNG} 2 and Throw it {M}. This superpower can be used only once per turn."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "AGGRESSIVE",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "After an attack targeting this character is resolved, if this character suffered {DMG}, it may advance {S} toward the attacking character."
+			},
+			{
+				"name": "Ornery",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "When this character is damaged by an enemy or allied effect, after the effect is resolved, if it is not Dazed, it gains 1 {PWR}."
+			},
+			{
+				"name": "Rhino Hide",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "When this character would suffer {DMG} from an enemy effect, reduce the amount suffered by 1, to a minimum of 1."
+			}
+		],
+		"cp": "98",
+		"cards": ["rhino_healthy.png", "rhino_injured.png"],
+		"id": "1ecd572b-69cd-4d89-8d2b-9cefabd4ea0a",
+		"affiliations": ["Criminal Syndicate", "Spider-Foes"],
+		"baseSize": "50mm",
+		"portrait": "rhino.png"
+	},
+	{
+		"characterName": "Spider-Woman",
+		"alterEgo": "Jessica Drew",
+		"healthySide": {
+			"healthyStamina": 6,
+			"healthySpeed": "L",
+			"healthySize": 2,
+			"healthyThreat": 4,
+			"healthyPhysicalDefense": 4,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 3
+		},
+		"injuredSide": {
+			"injuredStamina": 5,
+			"injuredSpeed": "L",
+			"injuredSize": 2,
+			"injuredThreat": 4,
+			"injuredPhysicalDefense": 4,
+			"injuredEnergyDefense": 3,
+			"injuredMysticalDefense": 3
+		},
+		"attacks": [
+			{
+				"name": "Bio-Electric Strike",
+				"type": "Enrg",
+				"range": "3",
+				"strength": 5,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - {WILD} Neuro-Disruption: Before {DMG} is dealt, for each {WILD} in the attack roll, the defending character gains one of the following special conditions: Poison, Shock, Stun."
+			},
+			{
+				"name": "Intoxicating Blast",
+				"type": "Enrg",
+				"range": "2",
+				"strength": 7,
+				"cost": 3,
+				"specialRules": "- {WILD} Sensory Overload: If the target character has the Poison special condition, before {DMG} is dealt, this character may Advance the target character {S}. - After this attack is resolved, the target character drops all objective tokens it is holding."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "I Don't Fly, I Glide",
+				"type": "Active",
+				"cost": 2,
+				"specialRules": "Place this character within {RNG} 2 of its current position. This superpower can be used only once per turn."
+			}
+		],
+		"reactiveSuperPowers": [
+			{
+				"name": "Interrogate",
+				"type": "Reactive",
+				"cost": 3,
+				"specialRules": "At the start of the Cleanup Phase, if this character is within {RNG} 2 of one or more Dazed enemy characters, it may use this superpower. Its controlling player increases the amount of VPs they score from Crisis cards during this Cleanup Phase by 1."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "MARTIAL ARTIST",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "When this character is defending against a {PHYS} or {ENRG} attack targeting it from within {RNG} 2, this character adds blanks in its defense roll to its total successes."
+			},
+			{
+				"name": "STEALTH",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "Characters must be within {RNG} 3 of this character to target it with attacks."
+			},
+			{
+				"name": "IMMUNITY [POISON]",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "This character can't suffer the [POISON] special condition. If it has the special condition and gains Immunity to it, the character removes the special condition."
+			},
+			{
+				"name": "WALLCRAWLER",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "When placing the movement tool during an advance, this character counts as Size 5."
+			}
+		],
+		"cp": "100",
+		"cards": ["spider_woman_healthy.png", "spider_woman_injured.png"],
+		"id": "ffe18df1-3754-4258-b829-4651c52a06ee",
+		"affiliations": [
+			"A-Force",
+			"Avengers",
+			"Hydra",
+			"S.H.I.E.L.D.",
+			"Web Warriors"
+		],
+		"baseSize": "35mm",
+		"portrait": "spider_woman.png"
+	},
+	{
+		"characterName": "The Immortal Hulk",
+		"alterEgo": "Bruce Banner",
+		"healthySide": {
+			"healthyStamina": 15,
+			"healthySpeed": "S",
+			"healthySize": 4,
+			"healthyThreat": 7,
+			"healthyPhysicalDefense": 4,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 5
+		},
+		"injuredSide": {
+			"injuredStamina": 0,
+			"injuredSpeed": "",
+			"injuredSize": 0,
+			"injuredThreat": 0,
+			"injuredPhysicalDefense": 0,
+			"injuredEnergyDefense": 0,
+			"injuredMysticalDefense": 0
+		},
+		"attacks": [
+			{
+				"name": "Smash",
+				"type": "Phys",
+				"range": "2",
+				"strength": 7,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - {WILD} Throw: After this attack is resolved, if the target character is Size 4 or less, this character may Throw the target character {S}."
+			},
+			{
+				"name": "Gamma Blast",
+				"type": "Phys",
+				"range": "3",
+				"strength": 10,
+				"cost": 5,
+				"specialRules": "- Before {DMG} is dealt, this character may Throw the target character {S}. - The target character does not gain {PWR} for {DMG} dealt by this attack."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "GAMMA LEAP",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "Place this character within {RNG} 2 of its current position. This superpower can be used only once per turn."
+			},
+			{
+				"name": "Leave Hulk ALONE!!!",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "Choose an interactive terrain feature or an enemy character, both of Size 4 or less and within {RNG} 2, and Throw it {M}. This superpower can be used only once per turn."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Endless Rage",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "During the Power Phase, this character gains 2 additional {PWR}."
+			},
+			{
+				"name": "Immortality",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "- During the Cleanup Phase, if this character has a Dazed token and an Immortality token, it is KO'd. - Otherwise, during the Cleanup Phase, while this character is Dazed, if this character does not have an Immortality token, it removes all special conditions and all {PWR} from itself. For each {PWR} removed this way, it removes 1 {DMG} from itself. It then removes its Dazed token and gains an Immortality token."
+			},
+			{
+				"name": "The Green Door",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "At the end of each turn, if this character has an Immortality token, it may remove 1 {DMG} from itself. If this character ever has no {DMG}, it removes its Immortality token."
+			},
+			{
+				"name": "IMMUNITY [HEX, POISON, STUN]",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "This character can't suffer the Hex, Poison, or Stun special conditions. If it has one of the special conditions and gains Immunity to it, the character removes the special condition."
+			}
+		],
+		"cp": "144",
+		"cards": ["the_immortal_hulk_healthy.png", "the_immortal_hulk_injured.png"],
+		"id": "ced19696-cdca-4946-812b-dea8bd9964b6",
+		"affiliations": [],
+		"baseSize": "50mm",
+		"portrait": "the_immortal_hulk.png"
+	},
+	{
+		"characterName": "Ulik",
+		"alterEgo": "Ulik",
+		"healthySide": {
+			"healthyStamina": 7,
+			"healthySpeed": "M",
+			"healthySize": 3,
+			"healthyThreat": 5,
+			"healthyPhysicalDefense": 4,
+			"healthyEnergyDefense": 3,
+			"healthyMysticalDefense": 4
+		},
+		"injuredSide": {
+			"injuredStamina": 7,
+			"injuredSpeed": "M",
+			"injuredSize": 3,
+			"injuredThreat": 5,
+			"injuredPhysicalDefense": 4,
+			"injuredEnergyDefense": 3,
+			"injuredMysticalDefense": 4
+		},
+		"attacks": [
+			{
+				"name": "Pounders",
+				"type": "Phys",
+				"range": "2",
+				"strength": 6,
+				"cost": 0,
+				"specialRules": "- After this attack is resolved, this character gains {PWR} equal to the {DMG} dealt. - {WILD} Push: After this attack is resolved, if the target character is Size 4 or less, this character may Push it {S}."
+			},
+			{
+				"name": "Shatter Mountains, Shatter Bones",
+				"type": "Phys",
+				"range": "2",
+				"strength": 9,
+				"cost": 5,
+				"specialRules": "- After this attack is resolved, the target character gains the Stagger special condition. - {CRIT}, {WILD}, {HIT}, {FAIL} Shatter: After this attack is resolved, instead of inflicting the Stagger special condition, if the target character does not have an Activated token, you may give it an Activated token."
+			}
+		],
+		"activeSuperPowers": [
+			{
+				"name": "Bad Manners",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "Choose an interactive terrain feature of Size 4 or less within {RNG} 2, and throw it {M}. This superpower can be used only once per turn."
+			},
+			{
+				"name": "Crushing Leap",
+				"type": "Active",
+				"cost": 3,
+				"specialRules": "Action: This character makes a {S} Advance. Then this character is Placed within {RNG} 2 of itself. Then this character may then make a Pounders attack."
+			}
+		],
+		"innateSuperpowers": [
+			{
+				"name": "Trollish Temper",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "During the Power Phase this character gains 1 additional {PWR}."
+			},
+			{
+				"name": "Trollhide",
+				"type": "Innate",
+				"cost": 0,
+				"specialRules": "When this character would suffer {DMG}, reduce the amount suffered by 1, to a minimum of 1."
+			}
+		],
+		"cp": 130,
+		"cards": ["ulik_healthy.png", "ulik_injured.png"],
+		"id": "8aa26236-52b0-4091-9cef-d6b266baebf7",
+		"affiliations": ["Cabal", "Criminal Syndicate"],
+		"baseSize": "35mm",
+		"portrait": "ulik.png"
 	}
 ]

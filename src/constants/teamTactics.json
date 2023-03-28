@@ -2838,5 +2838,226 @@
 		"standardStatus": "legal",
 		"extendedStatus": "legal",
 		"associatedCharacters": []
+	},
+	{
+		"name": "Brothers In Arms",
+		"affiliation": "Unaffiliated",
+		"type": "Active",
+		"rules": "Thor Odinson and Beta Ray Bill may spend 1 {PWR} each to play this card. While within {RNG} 2 of each other this Round, the characters that played this card gain the superpower shown below. The Worthy: This character may not be Advanced, Thrown, or Placed by enemy effects. Additionally, this character adds 3 dice to all {ENRG} attacks it makes.",
+		"id": "e4c19f10-df1b-48e2-9e93-24fe9c277e55",
+		"cp": 130,
+		"image": "brothers_in_arms.jpg",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"ba8861c3-2cdf-42be-84e0-5c23af8d7683",
+			"29c1bafd-4ad1-4ad5-a147-55e5c796c6db"
+		]
+	},
+	{
+		"name": "Clean Up",
+		"affiliation": "Unaffiliated",
+		"type": "Reactive",
+		"rules": "An allied Agent Venom and allied Peter Parker may each spend 1 {PWR} to play this card during the Power Phase. Agent Venom gains the Spider-Sense superpower until the end of the round. Peter Parker gains the Symbiotic Instincts superpower until the end of the round. Spider-Sense: When this character is defending against a {PWR} or {ENRG} attack or making a dodge roll, it may reroll up to 2 of its defense or dodge dice.",
+		"id": "2065b6ac-457a-491e-a207-c17bc0de6b83",
+		"cp": 100,
+		"image": "clean_up.jpg",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"5647b077-4e2e-493b-bdfa-f44b8651c432",
+			"ea294a42-9e74-440c-a36c-a4534dd37369",
+			"a4424c69-3507-4471-b1e0-66b3f8689eff"
+		]
+	},
+	{
+		"name": "Crimson Dawn",
+		"affiliation": "Unaffiliated",
+		"type": "Reactive",
+		"rules": "When an allied Psylocke flips her Stat Card to its Injured side, she may spend 3 {PWR} to play this card. Psylocke gains the superpower shown below.\n\n{INNATE} Mark of the Crimson Dawn: At the beginning of this character's Activation and after each of its actions, this character may Place itself within {RNG} 1. Additionally, this character gains Healing Factor [1].",
+		"id": "1c0de24b-5a5c-4da9-a550-eba0301a2e07",
+		"cp": 103,
+		"image": "crimson_dawn.jpg",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": ["7c215be5-6634-465e-acc8-9f9fcc4da604"]
+	},
+	{
+		"name": "Double Agent",
+		"affiliation": "Unaffiliated",
+		"type": "Reactive",
+		"rules": "At the start of the Activation Phase, an allied Spider-Woman may spend 2 {PWR} to play this card. Choose an enemy character. The next time the chosen character gains an Activated token, remove an Activated token from Spider-Woman.",
+		"id": "50666cdc-4b8d-409d-9606-0d75bf6e7d55",
+		"cp": 100,
+		"image": "double_agent.jpg",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": ["ffe18df1-3754-4258-b829-4651c52a06ee"]
+	},
+	{
+		"name": "Foreign Assignment",
+		"affiliation": "Guardians of the Galaxy",
+		"type": "Active",
+		"rules": "During Agent Venom's Activation, Agent Venom may spend any amount of {PWR} to play this card. Choose an option from the list below for each 2 {PWR} spent. Resolve each option completely before choosing the next. - If Agent Venom is within {RNG} 2 of an allied Gamora, Agent Venom is Thrown {M}. - If Agent Venom is within {RNG} 2 of an allied Groot, Agent Venom may remove up to 3 {DMG}. - If Agent Venom is within {RNG} 2 of an allied Star-Lord, Agent Venom may immediately make a Full-Auto attack listed on Star-Lord's Stat Card without paying the {PWR} cost. After the attack is resolved, Agent Venom may Advance {S}. - If Agent Venom is within {RNG} 2 of an allied Rocket Raccoon and has already made an attack this Activation, Agent Venom may immediately make an attack action. Agent Venom then Advances {S}. - If Agent Venom is within {RNG} 2 of an allied Drax the Destroyer, Agent Venom is Thrown {S} and counts as Size 3 during this collission.",
+		"id": "9575a465-ffb0-4f31-ae80-21f0d77697b8",
+		"cp": 100,
+		"image": "foreign_assignment.jpg",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"a4424c69-3507-4471-b1e0-66b3f8689eff",
+			"68d20110-2875-4b17-9b18-de674ba390f1",
+			"eb09140d-018a-4724-8275-57fdff589111",
+			"cac91044-0930-43d5-9e96-8ba3722be3be",
+			"cd67ecbb-f683-4e08-9e60-c93978c99a25",
+			"93da41c2-3d60-4fb9-9a30-5b6e5df84bc7"
+		]
+	},
+	{
+		"name": "Gamma Drain",
+		"affiliation": "Unaffiliated",
+		"type": "Active",
+		"rules": "During the Immortal Hulk's Activation, it may play this card.\nChoose an enemy character within {RNG} 2. The chosen character gains a Gamma Drain token. The Immortal Hulk places this token on an {ACTIVE} or {REACTIVE} superpower of the chosen character.\nWhen a superpower marked with the Gamma Drain token is used, after the effect is resolved, The Immortal Hulk gains {PWR} equal to the {PWR} spent to use the superpower.",
+		"id": "6db819f7-3b9a-469a-b386-61af35ed0b6a",
+		"cp": 144,
+		"image": "gamma_drain.jpg",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": ["ced19696-cdca-4946-812b-dea8bd9964b6"]
+	},
+	{
+		"name": "Headmistress",
+		"affiliation": "Uncanny X-Men",
+		"type": "Active",
+		"rules": "During Emma Frost's Activation, she may spend X {PWR} to play this card. For each {PWR} spent, an allied Uncanny X-Men character that is not holding an objective token may Advance {M}.",
+		"id": "715644e7-cd48-48ab-848a-2827b0cc4ce9",
+		"cp": 103,
+		"image": "headmistress.png",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"fd20d1fd-6007-4502-be27-fdaf3a487f78",
+			"3fac7b0a-12c1-436f-a301-9f83e663a1a7"
+		]
+	},
+	{
+		"name": "Mind Transfer",
+		"affiliation": "Unaffiliated",
+		"type": "Active",
+		"rules": "During Emma Frost's Activation, she may spend 4 {PWR} to play this card.\nChoose an enemy character with an Activated token within {RNG} 3 of Emma Frost. Move an Activated token from the chosen character to another enemy character that does not have an Activated token within {RNG} 2 of the chosen character.",
+		"id": "91a23178-36b1-4dce-ab8e-7c2fc7b7537d",
+		"cp": 103,
+		"image": "mind_transfer.png",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"fd20d1fd-6007-4502-be27-fdaf3a487f78",
+			"3fac7b0a-12c1-436f-a301-9f83e663a1a7"
+		]
+	},
+	{
+		"name": "My Hellfire Club",
+		"affiliation": "Unaffiliated",
+		"type": "Reactive",
+		"rules": "When this card is included in your Squad, if your Squad is Unaffiliated and inclides Emma Frost and this card, you may play this card.\nYour Squad is now using the Hellfire Club affiliation regardless of other affiliated characters. Emma Frost gains the following Leadership ability. It is your active Leadership.\n{LEADERSHIP} White Queen's Pawns ( Hellfire Club ): Once per Round, at the end of an allied character's Activation, Emma Frost may use this Leadership ability. When she does, all other allied characters contesting or holding objective tokens gain 1 {PWR} and remove 1 {DMG}. All other allied characters not contesting or holding an objective token lose 1 {PWR} and suffer 1 {DMG}. Emma Frost gains 1 {PWR} for each {PWR} lost in this way and may remove 1 {DMG} for each {DMG} suffered in this way.",
+		"id": "f0047069-0f4b-4c87-942c-dcc79c605ef0",
+		"cp": 103,
+		"image": "my_hellfire_club.png",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"fd20d1fd-6007-4502-be27-fdaf3a487f78",
+			"3fac7b0a-12c1-436f-a301-9f83e663a1a7"
+		]
+	},
+	{
+		"name": "On Patrol",
+		"affiliation": "Unaffiliated",
+		"type": "Reactive",
+		"rules": "An allied Spider-Woman or allied Carol Danvers may spend 2 {PWR} to play this card during the Power Phase.\nThis Round, whenever an enemy character Interacts with or picks up an objective token, both Carol Danvers and Spider-Woman may Advance {S}.",
+		"id": "2ca60000-7e70-42e5-b6f2-af7d6a3871c4",
+		"cp": 100,
+		"image": "on_patrol.jpg",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"30f6914c-ccb4-4d97-95cc-3cc7b40b513f",
+			"ffe18df1-3754-4258-b829-4651c52a06ee"
+		]
+	},
+	{
+		"name": "One Below All",
+		"affiliation": "Unaffiliated",
+		"type": "Active",
+		"rules": "During The Immortal Hulk's Activation, it may spend 2 {PWR} to play this card.\nIf it has an Immortality token, it may remove up to two special conditions from itself.\nIf it does not have an Immortality token, it may Place itself within {RNG} 2 of its current position.",
+		"id": "3fb11ebb-e77a-46c6-925a-a1d39e1dc434",
+		"cp": 144,
+		"image": "one_below_all.jpg",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": ["ced19696-cdca-4946-812b-dea8bd9964b6"]
+	},
+	{
+		"name": "Psionic Constructs",
+		"affiliation": "Unaffiliated",
+		"type": "Reactive",
+		"rules": "When an allied character within {RNG} 3 of an allied Psylocke targets an enemy character with an attack, Psylocke may spend 2 {PWR} to play this card.\nThe attack's type is now {MYST}. The allied character may reroll any number of dice during this attack.",
+		"id": "ab4e0ec7-ccc1-4583-b827-a3e4939437a5",
+		"cp": 103,
+		"image": "psionic_constructs.jpg",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": ["7c215be5-6634-465e-acc8-9f9fcc4da604"]
+	},
+	{
+		"name": "Rhino In A China Shop",
+		"affiliation": "Unaffiliated",
+		"type": "Active",
+		"rules": "Rhino may play this card at the beginning of his Activation.\nThe next attack Rhino makes this Activation adds dice equal to the combined Size of all terrain features destroyed this Activation.\nAt the end of this Activation, Rhino suffers 2 {DMG}.",
+		"id": "5460871b-4457-4d53-8e4e-4e50664e193a",
+		"cp": 98,
+		"image": "rhino_in_a_china_shop.jpg",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": ["1ecd572b-69cd-4d89-8d2b-9cefabd4ea0a"]
+	},
+	{
+		"name": "Rock and Troll",
+		"affiliation": "Unaffiliated",
+		"type": "Active",
+		"rules": "Ulik may spend 3 {PWR} to play this card.\nUlik drops all objective tokens he is holding. Then Place Ulik within {RNG} 5 of his current position.",
+		"id": "6e236735-4230-4602-bbf8-16609e0cce4e",
+		"cp": 130,
+		"image": "rock_and_troll.jpg",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": ["ab95edfc-1e13-468c-88c8-6c282a4cec7d"]
+	},
+	{
+		"name": "Skuttlebutt, on Me!",
+		"affiliation": "Unaffiliated",
+		"type": "Reactive",
+		"rules": "{ENRG} Tech Support - {RNG} 5 - {STR} 2 - {PWR} 0\n - This attack ignores LOS, and the defending character does not benefit from Cover. - Add attack dice to the attack roll equal to the {PWR} spent to play this card. - After this attack is resolved, if it dealt {DMG}, the character that played this card may Throw the target character {S}.\n When an allied Beta Ray Bill or an allied Skurge, The Executioner makes an attack during their Activation, after the attack is resolved, the attacking character may spend any amount of {PWR} to play this card.\nThe attacking character immediately performs the attack listed above targeting the original target character.",
+		"id": "5dcad65f-1176-4d3f-b904-71a9160e9230",
+		"cp": 130,
+		"image": "skuttlebutt_on_me.jpg",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"29c1bafd-4ad1-4ad5-a147-55e5c796c6db",
+			"30dddbba-3a6c-4bde-adfa-86d3e3ed542f"
+		]
+	},
+	{
+		"name": "This is a Robbery",
+		"affiliation": "Unaffiliated",
+		"type": "Active",
+		"rules": "If it is Rhino's Activation, he may spend 2 {PWR} to play this card.\nChoose an enemy character within {RNG} 1 that is holding an objective token. The chosen character drops any objective tokens it is holding. Rhino then Throws the chosen character {M}.",
+		"id": "2658be02-a871-401e-82a8-ee3272866add",
+		"cp": 98,
+		"image": "this_is_a_robbery.png",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": ["1ecd572b-69cd-4d89-8d2b-9cefabd4ea0a"]
 	}
 ]
