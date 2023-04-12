@@ -3059,5 +3059,35 @@
 		"standardStatus": "legal",
 		"extendedStatus": "legal",
 		"associatedCharacters": ["1ecd572b-69cd-4d89-8d2b-9cefabd4ea0a"]
+	},
+	{
+		"name": "Mind Games",
+		"affiliation": "Unaffiliated",
+		"type": "Active",
+		"rules": "If George Tarleton is within {RNG} 2 of an enemy character, he may spend 3 {PWR} to play this card.\nChoose an enemy character within {RNG} 2 of George Tarleton. Divide the Experiment tokens into 2 piles. Each pile must contain at least one Experiment token. Flip all Experiment tokens to their M.O.D.O.K. side and present both piles to the opposing player.\nThe opposing player must choose one of the two piles and reveal all tokens within it. For each Zap ({DMG}) revealed, the chosen enemy character suffers 1 {DMG}. For each Sap ({PWR}) revealed, the chosen enemy character loses 1 {PWR} and George Tarleton gains 1 {PWR}. If the Reward is revealed, the opposing player gains 1 VP.\nIf the Reward is not revealed you gain 2 VPs.",
+		"id": "aa2d9ee5-63c9-46f7-a032-3040ea0690b8",
+		"cp": 145,
+		"image": "mind_games.png",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"07fddde5-44c8-4057-bd11-25ef9bf46210",
+			"e954c2c1-fdd3-4013-b165-8a709cee19a9"
+		]
+	},
+	{
+		"name": "Simpleton! I'll Do It Myself!",
+		"affiliation": "Unaffiliated",
+		"type": "Active",
+		"rules": "If you have fewer VPs than your opponent, George Tarleton may spend 2 {PWR} to play this card.\nChoose an allied character within {RNG} 3 of George Tarleton that is holding or contesting an objective token. If the chosen character was holding an objective token, George Tarleton is now holding that token. If the chosen character was contesting an objective token, place George Tarleton within {RNG} 1 of that objective token. Then the chosen character is KO'd. You immediately score 1 VP. This card does not allow a character to hold more tokens than the Crisis specifies.",
+		"id": "6a4916bc-5911-4baf-98b2-2b63c9686603",
+		"cp": 145,
+		"image": "simpleton_ill_do_it_myself.png",
+		"standardStatus": "legal",
+		"extendedStatus": "legal",
+		"associatedCharacters": [
+			"07fddde5-44c8-4057-bd11-25ef9bf46210",
+			"e954c2c1-fdd3-4013-b165-8a709cee19a9"
+		]
 	}
 ]
